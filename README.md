@@ -1,0 +1,443 @@
+﻿# ITAGMKT v4.2.6
+
+**INEMA Time de Agentes de Marketing** â€” sistema de automacao de conteudo para marketing digital usando agentes de IA coordenados por um bot Telegram.
+
+O sistema pesquisa, cria narrativa, gera imagens, produz videos, adapta copy para cada plataforma e publica â€” tudo automatizado com aprovacoes humanas em cada etapa.
+
+> Documentacao tecnica completa em [`CLAUDE.md`](CLAUDE.md)
+
+---
+
+## Pipeline â€” 5 Estagios
+
+```
+Usuario define campanha no Telegram
+    |
+    v
+[Stage 1] Estrategia & Narrativa
+    Research Agent -> Diretor Criativo -> Copywriter
+    >>> aprovacao 1 (brief + narrativa)
+    |
+    v
+[Stage 2] Imagens
+    Ad Creative Designer
+    >>> aprovacao 2 (imagens estaticas)
+    |
+    v
+[Stage 3] Video
+    Video Quick (default, 10-20s) + Video Pro (sob demanda, 30-60s) â€” independentes, podem rodar juntos
+    >>> aprovacao 3 (video + selecao de plataformas)
+    |
+    v
+[Stage 4] Plataformas
+    Instagram + YouTube + TikTok + Facebook + Threads + LinkedIn
+    (so rodam as plataformas selecionadas)
+    >>> aprovacao 4 (copy nativo por plataforma)
+    |
+    v
+[Stage 5] Distribuicao
+    Upload Supabase -> Agendar -> Publicar
+    >>> aprovacao 5 (publicar)
+```
+
+---
+
+## Agentes
+
+| # | Agente | Funcao | Stage |
+|---|---|---|---|
+| 1 | Research Agent | Pesquisa tendencias, concorrentes, audiencia via Tavily | 1 |
+| 2 | Diretor Criativo | Define angulo estrategico + direcao visual | 1 |
+| 3 | Copywriter | Cria narrativa central da campanha | 1 |
+| 4 | Ad Creative Designer | Cria imagens estaticas (HTML -> PNG via Playwright) | 2 |
+| 5 | Video Quick | Slideshow rapido com imagens do Designer (10-20s) | 3 |
+| 6 | Video Pro | Producao profissional: rascunho -> aprovacao -> final (30-60s) | 3 |
+| 7 | Instagram Agent | Carousel + stories + reels + captions | 4 |
+| 8 | YouTube Agent | Titulo SEO + descricao + tags + shorts | 4 |
+| 9 | TikTok Agent | Video curto 9:16 + caption + hook 2s | 4 |
+| 10 | Facebook Agent | Feed + stories + reels + video 16:9 | 4 |
+| 11 | Threads Agent | Posts conversacionais (max 500 chars) | 4 |
+| 12 | LinkedIn Agent | Post profissional + carousel PDF | 4 |
+| 13 | Distribution Agent | Guardar + agendar + publicar | 5 |
+
+---
+
+## Como Funciona
+
+| Componente | Papel |
+|---|---|
+| **Bot Telegram** (`telegram/bot.js`) | Controlador â€” recebe instrucoes, gerencia aprovacoes, avanca etapas |
+| **Orchestrator** (`pipeline/orchestrator.js`) | Enfileira jobs no BullMQ por etapa |
+| **Worker** (`pipeline/worker.js`) | Executa agentes via Claude CLI |
+| **Agentes** | Especialistas â€” cada um le seu SKILL.md + knowledge files |
+| **Agente Revisor** | Aprovador automatico (modo "agente") |
+
+Cada agente roda como subprocess Claude (`claude -p <prompt> --dangerously-skip-permissions`). O bot spawna o worker, escuta sinais no stdout e avanca o pipeline.
+
+---
+
+## Modos de Aprovacao
+
+Cada etapa pode ter um modo independente:
+
+| Modo | Comportamento |
+|---|---|
+| `humano` | Pausa e espera resposta no Telegram **(padrao)** |
+| `agente` | Agente Revisor avalia e decide automaticamente |
+| `auto` | Avanca sem interacao |
+
+```
+Pipeline rapido      -> todas "auto", notificacoes: false
+Pipeline monitorado  -> todas "agente", notificacoes: true
+Distribuicao segura  -> stages 1-4 "auto", stage 5 "humano"
+```
+
+Configurar via `/modos <etapa> <modo>` no Telegram ou no payload.
+
+---
+
+## Fontes de Imagem
+
+| Valor | Alias | Comportamento |
+|---|---|---|
+| `api` | â€” | Provider de IA do .env (IMAGE_PROVIDER) ou do payload |
+| `free` | `gratis` | Banco de imagens gratis (FREE_IMAGE_PROVIDER: pexels, unsplash, pixabay) |
+| `brand` | `marca` | Imagens de assets/ e imgs/ do projeto |
+| `folder` | `pasta` | Pasta especifica via image_folder no payload |
+
+Classificacao automatica:
+- **banner** â€” imagem com texto/logo (nunca recorta, so letterbox)
+- **clip** â€” arquivo de video (usa direto como fonte)
+- **raw** â€” foto limpa (aplica Ken Burns: zoom, pan, drift)
+
+---
+
+## Video Quick vs Pro
+
+| | Quick (default) | Pro (sob demanda) |
+|---|---|---|
+| Relacao | Independentes â€” podem rodar juntos na mesma campanha | Independentes â€” podem rodar juntos na mesma campanha |
+| Trigger | Sempre roda (skip_video para pular) | `video_mode: 'pro'` no payload |
+| Duracao | 10-20s | 30-60s |
+| Imagens | Usa PNGs do Designer (ads/) | Gera proprias (API/brand/free) |
+| Narracao | Opcional | Obrigatoria |
+| Musica | Opcional | Sim |
+| Fluxo | Direto | Rascunho -> aprovacao -> final |
+
+---
+
+## Plataformas
+
+Agentes de plataforma (Stage 4) adaptam a narrativa para cada rede. So rodam as plataformas em `platform_targets`.
+
+| Plataforma | Imagem | Video | Texto |
+|---|---|---|---|
+| Instagram | carousel 1:1 + stories 9:16 | reels 9:16 | caption + hashtags |
+| YouTube | thumbnail 16:9 | video 16:9 + shorts 9:16 | titulo + descricao + tags |
+| TikTok | â€” | video 9:16 | caption curto |
+| Facebook | feed 1:1/16:9 + stories 9:16 | video 16:9 + reels 9:16 | post longo |
+| Threads | opcional | â€” | post 500 chars |
+| LinkedIn | 1200x627 | â€” | post profissional |
+
+Cada agente pode pedir retrabalho (`rework_needed`, `video_format_request`) se o formato visual nao atende.
+
+---
+
+## Distribuicao (Stage 5)
+
+O Distribution Agent tem 3 responsabilidades:
+
+1. **Guardar** â€” upload midia para Supabase, gera `media_urls.json`
+2. **Agendar** â€” monta calendario unificado, gera Publish MD
+3. **Publicar** â€” detecta APIs no .env, publica ou marca como manual
+
+A publicacao so executa quando o usuario referencia o Publish MD pelo nome.
+
+| Plataforma | API | Status |
+|---|---|---|
+| Instagram | Graph API | Implementado |
+| YouTube | Data API (OAuth) | Implementado |
+| Threads | graph.threads.net | Implementado |
+| Facebook | Graph API | Placeholder |
+| TikTok | Content Posting API | Placeholder |
+| LinkedIn | Marketing API | Placeholder |
+
+---
+
+## Providers de Midia
+
+O sistema escolhe automaticamente baseado nas API keys configuradas.
+
+### Imagens
+
+| Provider | Custo | Tipo |
+|---|---|---|
+| **Kie.ai Z-Image** | ~$0.004/img | Geracao por IA (padrao) |
+| **Pollinations.ai** | Gratis | Geracao por IA (FLUX Schnell) |
+| DALL-E 3 | ~$0.04/img | Geracao por IA |
+| Stability AI | ~$0.003/img | Geracao por IA |
+| **Pexels** | Gratis | Fotos stock |
+| Unsplash | Gratis | Fotos stock |
+| Pixabay | Gratis | Fotos + audio + musica |
+
+### Narracao (TTS)
+
+| Provider | Custo | Qualidade |
+|---|---|---|
+| **ElevenLabs** | $0.30/1k chars | Excelente |
+| OpenAI TTS | $0.015/1k chars | Alta |
+| MiniMax | ~$0.01/1k chars | Alta |
+| **Piper (local)** | Gratis | Boa |
+
+### Selecao automatica
+
+```
+Imagem -> Kie.ai -> Pollinations -> DALL-E -> Pexels (fallback gratis)
+Voz    -> ElevenLabs -> OpenAI TTS -> MiniMax -> Piper (fallback local)
+Musica -> Pixabay (gratis) ou Suno/ElevenLabs (pago)
+```
+
+Verificar: `npm run media:status`
+
+---
+
+## Efeitos de Video
+
+### Camera
+
+| Efeito | Uso automatico |
+|---|---|
+| `push-in` | Hooks, impacto |
+| `pull-out` | Revelacoes |
+| `ken-burns-in` / `out` | Produto, flashbacks |
+| `pan-left` / `right` / `up` / `down` | Narrativa |
+| `drift` | Emocional |
+| `parallax-zoom` | Dinamico |
+| `breathe` | CTAs |
+
+### Texto
+
+| Animacao | Uso automatico |
+|---|---|
+| `blur-in` | Hooks |
+| `slide-up` / `down` | Produto |
+| `per-word` | Conexao |
+| `punch-in` | Reveals |
+| `typewriter` | Flashbacks |
+| `bounce-in` | CTAs |
+
+---
+
+## Regras de Texto sobre Imagens
+
+1. **Analisar a imagem antes** de posicionar texto
+2. **Nunca cobrir rostos** â€” texto so em areas livres
+3. **Texto deve caber no frame** â€” padding 40px, overflow hidden
+4. **Gradientes localizados** â€” so na zona do texto, opacidade 0.4-0.7
+
+| Imagem com... | Onde colocar texto |
+|---|---|
+| Pessoas no centro | Rodape ou topo |
+| Pessoas na esquerda | Direita |
+| Produto no centro | Topo ou rodape |
+| Texto ja na imagem | Nao duplicar |
+
+---
+
+## Supabase
+
+Usado **apenas como Storage** para hospedar midia das campanhas. Sem tabelas no banco.
+
+```
+Upload (ads/*.png + video/*.mp4) -> Supabase Storage -> media_urls.json -> APIs de publicacao
+```
+
+Configuracao:
+1. Criar bucket `campaign-uploads` marcado como publico
+2. No `.env`: `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`
+
+---
+
+## Estrutura do Projeto
+
+```
+itagmkt/
+â”œâ”€â”€ prj/                             # Projetos (um por cliente/marca)
+â”‚   â””â”€â”€ <projeto>/
+â”‚       â”œâ”€â”€ assets/                  # Fotos e midia da marca
+â”‚       â”œâ”€â”€ imgs/                    # Imagens de campanha
+â”‚       â”‚   â””â”€â”€ banners/             # Banners (nunca recortados)
+â”‚       â”œâ”€â”€ knowledge/               # brand_identity.md, product_campaign.md, platform_guidelines.md
+â”‚       â””â”€â”€ outputs/
+â”‚           â””â”€â”€ <campanha>/
+â”‚               â”œâ”€â”€ creative/        # creative_brief.json/.md
+â”‚               â”œâ”€â”€ copy/            # narrative.json/.md
+â”‚               â”œâ”€â”€ ads/             # layout.json, HTMLs, PNGs
+â”‚               â”œâ”€â”€ video/           # scene plans, MP4s
+â”‚               â”œâ”€â”€ platforms/       # instagram.json, youtube.json, etc.
+â”‚               â”œâ”€â”€ audio/           # narracoes geradas
+â”‚               â”œâ”€â”€ imgs/            # imagens geradas via API
+â”‚               â”œâ”€â”€ logs/            # log por agente
+â”‚               â”œâ”€â”€ media_urls.json  # URLs publicas do Supabase
+â”‚               â””â”€â”€ Publish *.md     # guia de publicacao
+â”‚
+â”œâ”€â”€ pipeline/
+â”‚   â”œâ”€â”€ orchestrator.js              # Enfileira jobs no BullMQ (5 stages)
+â”‚   â”œâ”€â”€ worker.js                    # Executa agentes via Claude CLI
+â”‚   â”œâ”€â”€ render-video-ffmpeg.js       # Renderiza video com ffmpeg
+â”‚   â”œâ”€â”€ render-video.js              # Renderiza video com Remotion (qualidade profissional)
+â”‚   â”œâ”€â”€ generate-image-kie.js        # Geracao de imagens via KIE API
+â”‚   â”œâ”€â”€ generate-image-pollinations.js # Geracao de imagens via Pollinations
+â”‚   â”œâ”€â”€ generate-audio.js            # Narracao via ElevenLabs
+â”‚   â”œâ”€â”€ supabase-upload.js           # Upload para Supabase Storage
+â”‚   â”œâ”€â”€ publish_now.js               # Publicacao generica em todas as plataformas
+â”‚   â”œâ”€â”€ queues.js / redis.js         # Configuracao BullMQ + Redis
+â”‚   â””â”€â”€ payloads/                    # JSONs de campanha de exemplo
+â”‚
+â”œâ”€â”€ telegram/
+â”‚   â”œâ”€â”€ bot.js                       # Comandos, fluxo, aprovacoes
+â”‚   â”œâ”€â”€ session.js                   # Sessao por chat
+â”‚   â”œâ”€â”€ formatter.js                 # Formatacao de mensagens
+â”‚   â”œâ”€â”€ media.js                     # Envio de midia
+â”‚   â””â”€â”€ config.js                    # Configuracao
+â”‚
+â”œâ”€â”€ skills/                          # Specs dos agentes (SKILL.md cada)
+â”œâ”€â”€ media/                           # Modulo multi-provider
+â”œâ”€â”€ remotion-ad/                     # Projeto Remotion
+â”œâ”€â”€ doc/                             # Documentacao
+â”œâ”€â”€ .env.example                     # Template de variaveis
+â””â”€â”€ CLAUDE.md                        # Documentacao tecnica da arquitetura
+```
+
+---
+
+## Comandos do Bot
+
+| Comando | Funcao |
+|---|---|
+| `/campanha <nome>` | Inicia pipeline completo |
+| `/projetos` | Lista projetos |
+| `/projeto <nome>` | Seleciona projeto ativo |
+| `/status` | Status do pipeline |
+| `/outputs` | Lista campanhas geradas |
+| `/relatorio <campanha>` | Resumo + inventario de arquivos |
+| `/enviar <campanha> [tipo]` | Recebe arquivos (imagens, videos, audio, copy, tudo) |
+| `/modos [etapa] [humano\|agente\|auto]` | Configura modos de aprovacao |
+| `/rerun <campanha> [stage]` | Reprocessa stages de campanhas existentes |
+| `/aprovar` | Re-verifica aprovacoes pendentes |
+
+---
+
+## Comecando do Zero
+
+### 1. Instalar
+
+```bash
+npm install
+cd remotion-ad && npm install && cd ..
+npx playwright install chromium
+```
+
+### 2. Redis
+
+```bash
+docker run -d --name redis -p 6379:6379 redis:alpine
+```
+
+### 3. Configurar .env
+
+```bash
+cp .env.example .env
+```
+
+Minimo:
+```
+TAVILY_API_KEY=
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+```
+
+Recomendados:
+```
+IMAGE_PROVIDER=kie         # ou pollinations (gratis)
+KIE_API_KEY=               # se IMAGE_PROVIDER=kie
+PEXELS_API_KEY=            # fotos stock gratis
+ELEVENLABS_API_KEY=        # narracao de video
+```
+
+Publicacao:
+```
+INSTAGRAM_ACCOUNT_ID=
+INSTAGRAM_ACCESS_TOKEN=
+YOUTUBE_CLIENT_ID=
+YOUTUBE_CLIENT_SECRET=
+YOUTUBE_REFRESH_TOKEN=
+THREADS_USER_ID=
+THREADS_ACCESS_TOKEN=
+```
+
+### 4. Rodar o bot
+
+```bash
+node telegram/bot.js
+```
+
+Depois no Telegram: `/campanha minha_campanha`
+
+### 5. Rodar pipeline manualmente
+
+```bash
+# Terminal 1 â€” worker
+node pipeline/worker.js
+
+# Terminal 2 â€” enfileirar
+node pipeline/orchestrator.js --file pipeline/payloads/coldbrew_demo.json
+```
+
+### 6. Publicar manualmente
+
+```bash
+# Dry run (sem publicar de verdade)
+node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20 --dry-run
+
+# Publicar
+node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20
+```
+
+### 7. Ver providers ativos
+
+```bash
+npm run media:status
+```
+
+---
+
+## Problemas Comuns
+
+| Problema | Solucao |
+|---|---|
+| `npm install` falha | Instalar Node.js v18+ |
+| Playwright nao renderiza | `npx playwright install chromium` |
+| Redis nao conecta | `docker run -d --name redis -p 6379:6379 redis:alpine` |
+| Remotion falha | `cd remotion-ad && npm install` |
+| ElevenLabs 401 | Verificar key e permissoes em elevenlabs.io |
+| Video sai igual ao template | Passar scene_plan.json como argumento no render-video.js |
+| Texto sobre rosto | Seguir regras de posicionamento (analisar imagem antes) |
+| Instagram token expirado | Renovar a cada 60 dias |
+
+---
+
+## Documentacao
+
+| Documento | Conteudo |
+|---|---|
+| [CLAUDE.md](CLAUDE.md) | Arquitetura tecnica completa |
+| [doc/resumo-projeto.md](doc/resumo-projeto.md) | Resumo do projeto |
+| [doc/pipeline-aprovacoes.md](doc/pipeline-aprovacoes.md) | Pipeline e fluxo de aprovacoes |
+| [doc/agentes-criacao.md](doc/agentes-criacao.md) | Agentes de criacao (stages 1-3) |
+| [doc/agentes-distribuicao.md](doc/agentes-distribuicao.md) | Agentes de plataforma e distribuicao (stages 4-5) |
+| [skills/video-art-direction/SKILL.md](skills/video-art-direction/SKILL.md) | Video Art Direction â€” 12 presets de estilo visual |
+
+---
+
+Projeto adaptado da comunidade INEMA TDS - Marca Arckhe

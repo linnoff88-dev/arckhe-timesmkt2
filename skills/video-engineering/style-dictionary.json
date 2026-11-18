@@ -1,0 +1,298 @@
+{
+  "styles": {
+    "01_hero_film": {
+      "label": "Cinematográfico de Marca (Hero Film)",
+      "remotion": {
+        "easing": "Easing.inOut(Easing.quad)",
+        "spring": { "mass": 1, "stiffness": 40, "damping": 20 },
+        "zoom": { "start": 1.0, "end": 1.1, "progression": "logarithmic" }
+      },
+      "ffmpeg": "curves=vintage,format=yuv422p10le,noise=alls=3:allf=t+u",
+      "color": { "gamma": 1.05, "saturate": 1.1, "contrast": 1.05, "hueRotate": 0 },
+      "motion_blur": "none",
+      "grain": 0.02,
+      "speed_ramp": "key_moments_only",
+      "camera_shake": "minimal",
+      "cut_rhythm": "slow_to_climax",
+      "fps": 24,
+      "bitrate": "-crf 17",
+      "letterbox": "2.35:1",
+      "transitions": ["clean_cut", "subtle_fade", "light_whip_pan"],
+      "mood": "desire, sophistication, premium",
+      "pro_secret": "Add Letterbox 2.35:1; 10-bit color; grain"
+    },
+    "02_product_demo": {
+      "label": "Product Demo",
+      "remotion": {
+        "easing": "Easing.out(Easing.quad)",
+        "spring": { "mass": 1, "stiffness": 50, "damping": 20 },
+        "zoom": { "start": 1.0, "end": 1.08, "progression": "linear" }
+      },
+      "ffmpeg": "unsharp=luma_msize_x=7:luma_msize_y=7:luma_amount=0.8",
+      "color": { "gamma": 1.0, "saturate": 1.0, "contrast": 1.05, "hueRotate": 0 },
+      "motion_blur": "none",
+      "grain": 0,
+      "speed_ramp": "optional",
+      "camera_shake": "none",
+      "cut_rhythm": "medium_sync_product",
+      "fps": 30,
+      "bitrate": "-crf 20",
+      "transitions": ["clean_cut"],
+      "mood": "clarity, confidence",
+      "pro_secret": "Rim light simulation; sharp focus on product"
+    },
+    "03_explainer": {
+      "label": "Explainer Video",
+      "remotion": {
+        "easing": "Easing.bezier(0.25, 0.1, 0.25, 1)",
+        "spring": { "mass": 1, "stiffness": 80, "damping": 18 },
+        "zoom": { "start": 1.0, "end": 1.05, "progression": "linear" }
+      },
+      "ffmpeg": "scale=1920:-2,fps=30",
+      "color": { "gamma": 1.0, "saturate": 1.0, "contrast": 1.0, "hueRotate": 0 },
+      "motion_blur": "none",
+      "grain": 0,
+      "speed_ramp": "none",
+      "camera_shake": "none",
+      "cut_rhythm": "constant_didactic",
+      "fps": 30,
+      "bitrate": "-crf 22",
+      "transitions": ["smooth_predictable"],
+      "mood": "comprehension, simplicity",
+      "pro_secret": "drawbox opacity 0.5 for text legibility; 30fps"
+    },
+    "10_problem_solution": {
+      "label": "Problema e Solução",
+      "remotion": {
+        "easing_problem": "Easing.linear",
+        "easing_solution": "Easing.out(Easing.back)",
+        "spring": { "mass": 0.8, "stiffness": 200, "damping": 12 },
+        "zoom": { "start": 1.0, "end": 1.15, "progression": "exponential" }
+      },
+      "ffmpeg": "split[a][b];[a]curves...",
+      "color_problem": { "gamma": 1.0, "saturate": 0.8, "contrast": 1.0, "hueRotate": 0 },
+      "color_solution": { "gamma": 1.1, "saturate": 1.3, "contrast": 1.1, "hueRotate": 0 },
+      "motion_blur": "shutter_120",
+      "grain": 0.01,
+      "speed_ramp": "on_transition",
+      "camera_shake": "light_problem_none_solution",
+      "cut_rhythm": "increasing",
+      "fps": 30,
+      "bitrate": "-crf 20",
+      "transitions": ["dry_cut", "dynamic_transition", "whip_pan"],
+      "mood": "relief, resolution",
+      "pro_secret": "Grayscale→Color transition; Mono/lowpass audio (problem) → Stereo (solution)"
+    },
+    "13_kinetic_typography": {
+      "label": "Kinetic Typography",
+      "remotion": {
+        "easing": "Easing.backOut",
+        "spring": { "mass": 0.5, "stiffness": 250, "damping": 8 },
+        "zoom": { "start": 1.0, "end": 1.15, "progression": "exponential" }
+      },
+      "ffmpeg": "drawtext=fontfile=bold.ttf...alpha='if(lt(t,0.5),t/0.5,1)'",
+      "color": { "gamma": 1.05, "saturate": 1.1, "contrast": 1.2, "hueRotate": 0 },
+      "motion_blur": "none",
+      "grain": 0,
+      "speed_ramp": "none",
+      "camera_shake": "none",
+      "cut_rhythm": "sync_audio_transients",
+      "fps": 30,
+      "bitrate": "-crf 20",
+      "transitions": ["rhythmic_cuts", "typographic_animation"],
+      "mood": "impact, memorization",
+      "pro_secret": "Text appears 1 frame BEFORE audio transient; high contrast fonts"
+    },
+    "14_short_vertical": {
+      "label": "Short Vertical (Reels/TikTok/Shorts)",
+      "remotion": {
+        "easing": "Easing.out(Easing.expo)",
+        "spring": { "mass": 0.5, "stiffness": 300, "damping": 10 },
+        "zoom": { "start": 1.0, "end": 1.2, "progression": "exponential" }
+      },
+      "ffmpeg": "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920",
+      "color": { "gamma": 1.1, "saturate": 1.2, "contrast": 1.15, "hueRotate": 0 },
+      "motion_blur": "shutter_180",
+      "grain": 0,
+      "speed_ramp": "frequent",
+      "camera_shake": "light",
+      "cut_rhythm": "very_fast",
+      "fps": 30,
+      "bitrate": "-crf 23",
+      "safe_zone": { "top": "20%", "bottom": "20%", "content": "60% center" },
+      "max_clip_duration": 2.5,
+      "transitions": ["quick_cuts", "sharp_cuts", "punch_zoom"],
+      "mood": "retention, addictive",
+      "pro_secret": "Change angle/zoom every 2.5s; safe zone 60% center"
+    },
+    "20_performance_ad": {
+      "label": "Performance Ad (Venda Direta)",
+      "remotion": {
+        "easing": "Easing.out(Easing.back)",
+        "spring": { "mass": 0.5, "stiffness": 300, "damping": 10 },
+        "zoom": { "start": 1.0, "end": 1.2, "progression": "exponential" },
+        "speed_ramp_stages": [0, 0.8, 0.2, 1.0]
+      },
+      "ffmpeg": "setpts=0.5*PTS,tblend=all_mode=average",
+      "color": { "gamma": 1.1, "saturate": 1.2, "contrast": 1.15, "hueRotate": 0 },
+      "motion_blur": "shutter_180",
+      "grain": 0,
+      "speed_ramp": "frequent",
+      "camera_shake": "light",
+      "cut_rhythm": "aggressive",
+      "fps": 30,
+      "bitrate": "-crf 23",
+      "transitions": ["dry_cut", "zoom_cut", "whip_pan", "urgency_text"],
+      "mood": "urgency, conversion",
+      "pro_secret": "Directional motion blur in fast transitions; speed ramp at proof/CTA"
+    },
+    "inema_hightech": {
+      "label": "INEMA High-Tech Marketing (default)",
+      "description": "Mix dos Modelos 11 (Motion Graphics), 13 (Kinetic Typography), 14 (Short Vertical) e 20 (Performance Ad). Foco em informação + estímulo visual, não em movimento de câmera física.",
+      "base_models": ["11_motion_graphics", "13_kinetic_typography", "14_short_vertical", "20_performance_ad"],
+
+      "remotion": {
+        "image_zoom": {
+          "comment": "Ken Burns infinito — TODA imagem deve ter zoom constante, nunca estática",
+          "easing": "Easing.out(Easing.sine)",
+          "zoom_start": 1.0,
+          "zoom_end": 1.08,
+          "apply_to": "all_scenes"
+        },
+        "text_spring": {
+          "comment": "Tipografia magnética — texto entra com 'quique' (bounce)",
+          "config": { "mass": 0.5, "stiffness": 200, "damping": 10 },
+          "effect": "scale_spring"
+        },
+        "cta_glow": {
+          "comment": "CTA final com pulso de brilho constante",
+          "type": "opacity_pulse",
+          "min_opacity": 0.85,
+          "max_opacity": 1.0,
+          "frequency_frames": 30
+        },
+        "digital_overlay": {
+          "comment": "Grade digital ou código passando — tema IA",
+          "type": "grid_or_code",
+          "opacity": 0.08,
+          "color": "#0099FF"
+        },
+        "speed_ramp_stages": [0, 0.8, 0.2, 1.0]
+      },
+
+      "ffmpeg_post": {
+        "color_unification": "colorbalance=rs=0.1:bs=0.1:rm=0.05:gm=-0.05",
+        "sharpness": "unsharp=3:3:1.2:3:3:0.0",
+        "vignette": "vignette=pi/4",
+        "comment": "Teal & Orange Digital — sombras azuladas, realces nítidos"
+      },
+
+      "color": { "gamma": 1.05, "saturate": 1.1, "contrast": 1.15, "hueRotate": 10 },
+      "palette": { "primary": "#0099FF", "secondary": "#00FF88", "accent": "#FFD700", "bg": "#0D0D0D", "text": "#FFFFFF" },
+
+      "motion_blur": "shutter_120",
+      "grain": 0.01,
+      "speed_ramp": "on_each_reveal",
+      "camera_shake": "none",
+      "cut_rhythm": "syncopated",
+      "fps": 30,
+      "bitrate": "-crf 19",
+
+      "transitions": {
+        "between_sections": "whip_pan_5frames_with_blur",
+        "within_section": "cut_or_crossfade",
+        "reveal_moments": "punch_zoom",
+        "never": "100_percent_plain_cuts"
+      },
+
+      "safe_zones": {
+        "format": "1080x1920",
+        "top_margin": "20%",
+        "bottom_margin": "30%",
+        "content_zone": "20%-70%",
+        "cta_price_zone": "50%-65%"
+      },
+
+      "sound_design": {
+        "on_reveal": "digital_beep",
+        "on_transition": "swoosh",
+        "on_data": "keyboard_type",
+        "background": "subtle_tech_ambient"
+      },
+
+      "typography": {
+        "headline": { "font": "Oswald", "weight": 900, "size_range": "96-140px", "animation": "spring_scale" },
+        "body": { "font": "Montserrat", "weight": 500, "size_range": "60-80px", "animation": "fade" },
+        "accent": { "font": "Poppins", "weight": 700, "size_range": "72-96px", "animation": "per_word" },
+        "data": { "font": "Space Grotesk", "weight": 700, "size_range": "80-120px", "animation": "typewriter" },
+        "cta": { "font": "Oswald", "weight": 900, "size_range": "88-120px", "animation": "glow_pulse" }
+      },
+
+      "editing_rules": {
+        "max_clip_static": "0s — NUNCA imagem sem zoom",
+        "angle_change_every": "2.5s",
+        "whip_pan_on_section_change": true,
+        "text_hierarchy": "headline 3-4x bigger than body",
+        "image_filter": "rejeitar armas, violência, conteúdo impróprio; contexto brasileiro",
+        "color_grading_unified": true
+      },
+
+      "hud_protocol": {
+        "enabled": true,
+        "comment": "Protocolo HUD — espectador sente que está dentro de interface de IA",
+
+        "unity_layer": {
+          "grain": 0.03,
+          "grain_type": "monochromatic",
+          "vignette": "pi/3.5",
+          "chromatic_aberration": 1.5,
+          "force_dark": "brightness=-0.1, saturation=0.8 em imagens claras",
+          "ffmpeg": "colorlevels=rimin=0.05:gimin=0.05:bimin=0.05,noise=alls=7:allf=t+u,vignette=pi/3.5"
+        },
+
+        "interface_elements": {
+          "brackets": "Todo título importante entre [ COLCHETES ] animados",
+          "scanning_line": { "opacity": 0.05, "speed": "30 frames full cycle", "color": "cyan" },
+          "data_points": { "opacity": 0.2, "content": "binary/hex codes", "position": "corners", "font": "monospace 10px" },
+          "coordinates": "Coordenadas X/Y sutis nos cantos"
+        },
+
+        "camera_breathing": {
+          "comment": "Pulso orgânico — substitui zoom linear mecânico",
+          "scale_noise": { "type": "perlin", "amplitude": 0.02, "frequency": "low" },
+          "rotation_noise": { "amplitude": 0.1, "unit": "degrees" },
+          "effect": "sensação de bastidores/cinema, mesmo em imagens estáticas"
+        },
+
+        "glitch_transitions": {
+          "comment": "Rupturas de dados entre cenas — NÃO crossfade",
+          "duration_frames": 3,
+          "effects": ["rgb_split", "chromatic_aberration", "zoom_10percent"],
+          "ffmpeg": "lutrgb=r='val*1.2':g='val*0.8':b='val*1.1',zoompan=z='zoom+0.1':d=3",
+          "when": "entre TODAS as cenas, não só entre seções"
+        },
+
+        "lighting": {
+          "shadows": "pesadas, escuras",
+          "highlights": "neon (azul #0099FF ou verde #00FF88)",
+          "never": "flat, clean, corporate — SEMPRE dramático"
+        }
+      },
+
+      "mood": "high-tech, innovation, empowerment, urgency, conversion",
+
+      "prompt_instruction": "Protocolo HUD ativo. UNIDADE: granulado 3% + vinheta em todas as cenas. INTERFACE: texto com colchetes, scan line, dados binários nos cantos. MOVIMENTO: Camera Breathing (Perlin noise na escala 1.0-1.02). TRANSIÇÃO: Chromatic Aberration + RGB Shift nos cortes (glitch de dados, 3 frames). ILUMINAÇÃO: sombras pesadas + highlights neon azul/verde. TIPOGRAFIA: Oswald/Montserrat com spring scale, fontes mono para dados. CTA: glow pulse."
+    }
+  },
+  "universal_rules": {
+    "safe_zones_vertical": { "top_margin": "20%", "bottom_margin": "30%", "safe_content": "20%-70%" },
+    "text_appears_before_audio": 1,
+    "cut_before_audio_transient": 2,
+    "min_font_size_1080p": 60,
+    "max_words_overlay": 6,
+    "never_100_percent_cuts": true,
+    "crossfade_between_sections": true,
+    "min_zoom_intensity": 1.06,
+    "color_grading_unified": true
+  }
+}

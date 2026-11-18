@@ -1,0 +1,28 @@
+{
+  "name": "itagmkt",
+  "version": "4.3.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "render-ad": "node scripts/render-ad.js",
+    "pipeline:worker": "node pipeline/worker.js",
+    "pipeline:run": "node pipeline/orchestrator.js --file pipeline/payloads/coldbrew_demo.json",
+    "pipeline:run:payload": "node pipeline/orchestrator.js --payload",
+    "media:status": "node -e \"require('./media/providers').printStatus()\"",
+    "bot": "node telegram/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.1",
+    "@tavily/core": "^0.7.2",
+    "bullmq": "^5.71.0",
+    "dotenv": "^17.3.1",
+    "grammy": "^1.41.1",
+    "ioredis": "^5.10.0",
+    "playwright": "^1.58.2"
+  }
+}
