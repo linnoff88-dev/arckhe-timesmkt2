@@ -1,7 +1,7 @@
-# Video Art Direction — Guia de Direção de Arte para Vídeo
+# Video Art Direction — Guia de Direçêo de Arte para Vídeo
 
-> Referência completa de direção de arte visual para o Video Pro agent.
-> Leia este arquivo ANTES de criar qualquer scene plan. Ele define estilos visuais, paletas, tipografia, transições, composição e regras de sincronização audiovisual.
+> Referência completa de direçêo de arte visual para o Video Pro agent.
+> Leia este arquivo ANTES de criar qualquer scene plan. Ele define estilos visuais, paletas, tipografia, transições, composiçêo e regras de sincronizaçêo audiovisual.
 
 ---
 
@@ -13,7 +13,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 ### 1.1 Neon Futurista
 
-**Quando usar:** Tecnologia, IA, inovação, startups, cursos de tech, lançamentos digitais.
+**Quando usar:** Tecnologia, IA, inovaçêo, startups, cursos de tech, lançamentos digitais.
 
 | Parâmetro | Valor |
 |---|---|
@@ -59,7 +59,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Audio mood** | Piano solo, ambient orquestral, 60-80 BPM, silêncios intencionais |
 | **Marcas referência** | Cartier, Rolex, Aesop, Apple product reveals |
 
-**Regra:** Máximo 15 cortes por minuto. Cada corte dura 4-6s. Respiração visual obrigatória.
+**Regra:** Máximo 15 cortes por minuto. Cada corte dura 4-6s. Respiraçêo visual obrigatória.
 
 ---
 
@@ -70,7 +70,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | Parâmetro | Valor |
 |---|---|
 | **Paleta primária** | `#FF4500` (laranja-vermelho), `#FFD700` (amarelo vibrante) |
-| **Paleta secundária** | `#00FF88` (verde energético), `#FF1744` (vermelho ação) |
+| **Paleta secundária** | `#00FF88` (verde energético), `#FF1744` (vermelho açêo) |
 | **Paleta de acento** | `#FFFFFF` (texto), `#000000` (contraste) |
 | **Background** | `#111111` (escuro alto contraste) ou gradiente vibrante |
 | **Tipografia principal** | Oswald 800 ou Impact, ALL CAPS obrigatório |
@@ -91,7 +91,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 ### 1.4 Emocional Cinematic
 
-**Quando usar:** Família, saúde, causas sociais, datas comemorativas (Dia das Mães, Natal), storytelling humano.
+**Quando usar:** Família, saúde, causas sociais, datas comemorativas (Dia das Mêes, Natal), storytelling humano.
 
 | Parâmetro | Valor |
 |---|---|
@@ -99,7 +99,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Paleta secundária** | `#D4956A` (terra quente), `#8B6F47` (caramelo) |
 | **Paleta de acento** | `#E8B84B` (dourado quente), `#FFFFFF` (texto) |
 | **Background** | `#1A1209` (marrom-preto quente), gradiente warm |
-| **Tipografia principal** | Lora 700 ou Georgia Bold (serifada = emoção) |
+| **Tipografia principal** | Lora 700 ou Georgia Bold (serifada = emoçêo) |
 | **Tipografia suporte** | Inter 400, peso leve para sentimento de delicadeza |
 | **Tamanho headline** | 72-88px |
 | **Efeitos de texto** | Sombra difusa suave `0 4px 12px rgba(0,0,0,0.25)`, sem glow |
@@ -111,7 +111,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Audio mood** | Piano + cordas, folk acústico, 70-90 BPM, crescendo emocional no climax |
 | **Marcas referência** | Dove, Johnson & Johnson, Hallmark, Airbnb "Belong Anywhere" |
 
-**Regra:** Máximo 16 cortes por minuto. Crossfades longos. Tempo para absorver emoção. Sem pressa.
+**Regra:** Máximo 16 cortes por minuto. Crossfades longos. Tempo para absorver emoçêo. Sem pressa.
 
 ---
 
@@ -137,7 +137,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Audio mood** | Ambient corporativo, 80-100 BPM, melodia repetitiva e discreta |
 | **Marcas referência** | Salesforce, HubSpot, Stripe, Notion, Slack |
 
-**Regra:** Sem efeitos decorativos. Cada frame comunica 1 informação. Dados > emoção.
+**Regra:** Sem efeitos decorativos. Cada frame comunica 1 informaçêo. Dados > emoçêo.
 
 ---
 
@@ -154,22 +154,22 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Tipografia principal** | Archivo Black 900 ou Druk Wide Bold, ALL CAPS |
 | **Tipografia suporte** | Roboto Condensed 700 |
 | **Tamanho headline** | 88-108px, condensado e alto |
-| **Efeitos de texto** | Stroke grosso 4px, distorção glitch, rotação ±3 graus, outline neon |
+| **Efeitos de texto** | Stroke grosso 4px, distorçêo glitch, rotaçêo ±3 graus, outline neon |
 | **Camera motion** | `push-in` aggressive, `zoom_in` aggressive, movimentos abruptos |
 | **Text animations** | `punch-in` rápido, `scale-up` com bounce, `glitch-in` |
 | **Transições** | `cut` (85%+), `glitch` como accent, `zoom_blur` |
-| **Overlay** | Textura de ruído/grain, scanlines, distorção RGB |
+| **Overlay** | Textura de ruído/grain, scanlines, distorçêo RGB |
 | **Partículas/efeitos** | Grain de filme (film noise), RGB split, scanlines, halftone dots |
 | **Audio mood** | Trap, drill, lo-fi beat pesado, 130-150 BPM, bass 808 |
 | **Marcas referência** | Supreme, Off-White, Nike SNKRS, Balenciaga, Palace |
 
-**Regra:** Mínimo 35 cortes por minuto. Texto pode sair da safe zone intencionalmente. Imperfeição = autenticidade.
+**Regra:** Mínimo 35 cortes por minuto. Texto pode sair da safe zone intencionalmente. Imperfeiçêo = autenticidade.
 
 ---
 
 ### 1.7 Nature Organic
 
-**Quando usar:** Sustentabilidade, wellness, alimentação natural, cosméticos orgânicos, yoga, saúde holística.
+**Quando usar:** Sustentabilidade, wellness, alimentaçêo natural, cosméticos orgânicos, yoga, saúde holística.
 
 | Parâmetro | Valor |
 |---|---|
@@ -186,7 +186,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Transições** | `crossfade` 0.5-0.7s (dominante), `fade_black` raro |
 | **Overlay** | Gradiente warm/green sutil, opacidade 0.30-0.45 |
 | **Partículas/efeitos** | Floating leaves, dust motes dourados, raios de sol (god rays), bokeh verde |
-| **Audio mood** | Acústico, folk suave, sons da natureza, 70-90 BPM, violão, flauta |
+| **Audio mood** | Acústico, folk suave, sons da natureza, 70-90 BPM, violêo, flauta |
 | **Marcas referência** | Aesop, Whole Foods, Lush, The Body Shop, Natura |
 
 **Regra:** Paleta máxima de 4 cores por frame. Zero elementos artificiais (sem grid, sem partículas digitais).
@@ -232,16 +232,16 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Tipografia principal** | Montserrat 900 Black, ALL CAPS obrigatório |
 | **Tipografia suporte** | Poppins 700 |
 | **Tamanho headline** | 88-108px |
-| **Efeitos de texto** | Stroke preto 4px, sombra dura, rotação ±5 graus, escala exagerada |
+| **Efeitos de texto** | Stroke preto 4px, sombra dura, rotaçêo ±5 graus, escala exagerada |
 | **Camera motion** | `push-in` moderate, `zoom_in` moderate, `breathe` para CTA |
 | **Text animations** | `bounce-in`, `scale-up` exagerado, `punch-in` |
 | **Transições** | `cut` (75%), `slide_horizontal`, `spin` para reveals |
 | **Overlay** | Pattern geométrico (listras, dots), opacidade 0.20-0.35 |
 | **Partículas/efeitos** | Confetti, explosões de cor, starburst, tag de preço animado |
-| **Audio mood** | Pop comercial, jingle, 100-120 BPM, percussão alegre |
+| **Audio mood** | Pop comercial, jingle, 100-120 BPM, percussêo alegre |
 | **Marcas referência** | McDonald's, SHEIN, Amazon Prime Day, Magazine Luiza |
 
-**Regra:** Cada cena pode ter fundo de cor diferente. Máxima saturação. Sem sutileza.
+**Regra:** Cada cena pode ter fundo de cor diferente. Máxima saturaçêo. Sem sutileza.
 
 ---
 
@@ -264,7 +264,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Transições** | `fade_black` 0.6-1.0s (dominante), `crossfade` lento |
 | **Overlay** | Vignette pesada (0.70-0.85), gradiente radial escuro |
 | **Partículas/efeitos** | Fumaça sutil, fog, sparks mínimos, reflexos metálicos |
-| **Audio mood** | Drone/ambient escuro, percussão tribal, 60-80 BPM, silêncios dramáticos |
+| **Audio mood** | Drone/ambient escuro, percussêo tribal, 60-80 BPM, silêncios dramáticos |
 | **Marcas referência** | Hennessy, Tom Ford, Dior Sauvage, Game of Thrones, The Batman |
 
 **Regra:** 70%+ do frame deve ser escuro. Luz pontual no sujeito. Menos é mais. Máximo 12 cortes/minuto.
@@ -273,7 +273,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 ### 1.11 Playful Colorful
 
-**Quando usar:** Infantil, educação lúdica, games casual, apps de família, brinquedos, pet brands.
+**Quando usar:** Infantil, educaçêo lúdica, games casual, apps de família, brinquedos, pet brands.
 
 | Parâmetro | Valor |
 |---|---|
@@ -284,7 +284,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Tipografia principal** | Fredoka One 400 ou Baloo 2 800 (arredondada, divertida) |
 | **Tipografia suporte** | Nunito 600-700 |
 | **Tamanho headline** | 80-96px |
-| **Efeitos de texto** | Stroke branco 3px, sombra colorida suave, rotação ±3 graus lúdica |
+| **Efeitos de texto** | Stroke branco 3px, sombra colorida suave, rotaçêo ±3 graus lúdica |
 | **Camera motion** | `zoom_in` moderate, `bounce` (custom: spring com overshoot), `breathe` |
 | **Text animations** | `bounce-in` (dominante), `scale-up` com overshoot, `per-word` rápido |
 | **Transições** | `slide_horizontal` (dominante), `spin`, `crossfade` 0.3s |
@@ -299,7 +299,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 ### 1.12 Editorial Documentary
 
-**Quando usar:** Jornalismo, documentário, educação séria, conteúdo informativo, pesquisa, cases de estudo.
+**Quando usar:** Jornalismo, documentário, educaçêo séria, conteúdo informativo, pesquisa, cases de estudo.
 
 | Parâmetro | Valor |
 |---|---|
@@ -312,28 +312,28 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Tamanho headline** | 64-80px |
 | **Efeitos de texto** | Nenhum. Linha vermelha de destaque abaixo do headline (underline editorial) |
 | **Camera motion** | `ken-burns-in` moderate, `pan_right` moderate, `zoom_in` subtle |
-| **Text animations** | `fade` 400ms, `slide-up` padrão, `typewriter` para dados |
+| **Text animations** | `fade` 400ms, `slide-up` padrêo, `typewriter` para dados |
 | **Transições** | `crossfade` 0.4s (dominante), `fade_black` entre seções, `cut` para impacto |
 | **Overlay** | Lower third sólido (barra inferior com nome/título), gradiente mínimo |
 | **Partículas/efeitos** | Nenhum efeito decorativo. Gráficos de dados se relevante. Mapas, timelines |
 | **Audio mood** | Ambient discreto, piano minimal, 70-90 BPM, silêncio como recurso |
 | **Marcas referência** | The New York Times, Bloomberg, Netflix documentários, VICE, TED |
 
-**Regra:** Informação > decoração. Lower thirds obrigatórios em entrevistas/depoimentos. Dados sempre com fonte citada.
+**Regra:** Informaçêo > decoraçêo. Lower thirds obrigatórios em entrevistas/depoimentos. Dados sempre com fonte citada.
 
 ---
 
 ## 2. Regras de Color Grading
 
-### 2.1 Temperatura de Cor por Seção Narrativa
+### 2.1 Temperatura de Cor por Seçêo Narrativa
 
-| Seção | Temperatura | Efeito emocional | Implementação |
+| Seçêo | Temperatura | Efeito emocional | Implementaçêo |
 |---|---|---|---|
-| **Hook** | Fria (4500-5500K) | Tensão, desconforto, atenção | `filter: hue-rotate(-10deg) saturate(0.9)` |
-| **Problema** | Fria/desaturada | Dor, frustração, identificação | `filter: saturate(0.7) brightness(0.85)` |
-| **Solução** | Transição fria→quente | Alívio, esperança, mudança | Graduar de frio para quente ao longo da seção |
-| **Benefit/Prova** | Quente (6500-7500K) | Confiança, resultado, satisfação | `filter: sepia(0.08) saturate(1.1) brightness(1.05)` |
-| **CTA** | Cor da marca | Associação, identidade, ação | Aplicar cor primária da marca como dominante |
+| **Hook** | Fria (4500-5500K) | Tensêo, desconforto, atençêo | `filter: hue-rotate(-10deg) saturate(0.9)` |
+| **Problema** | Fria/desaturada | Dor, frustraçêo, identificaçêo | `filter: saturate(0.7) brightness(0.85)` |
+| **Soluçêo** | Transiçêo fria→quente | Alívio, esperança, mudança | Graduar de frio para quente ao longo da seçêo |
+| **Benefit/Prova** | Quente (6500-7500K) | Confiança, resultado, satisfaçêo | `filter: sepia(0.08) saturate(1.1) brightness(1.05)` |
+| **CTA** | Cor da marca | Associaçêo, identidade, açêo | Aplicar cor primária da marca como dominante |
 
 ### 2.2 Combinações de Overlay por Mood
 
@@ -347,19 +347,19 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 ### 2.3 Quando Usar Filtros Especiais
 
-| Filtro | Quando usar | Quando NÃO usar |
+| Filtro | Quando usar | Quando NêO usar |
 |---|---|---|
 | **Sepia** | Nostalgia, flashback, heritage brands, before state | Tech, futurista, energético |
-| **Desaturação parcial** (0.6-0.8) | Problema/dor, antes da solução, tom sério | CTA, benefit, celebração |
-| **Desaturação total** (B&W) | Apenas em contraste before/after ou como estética editorial | Nunca no vídeo inteiro |
+| **Desaturaçêo parcial** (0.6-0.8) | Problema/dor, antes da soluçêo, tom sério | CTA, benefit, celebraçêo |
+| **Desaturaçêo total** (B&W) | Apenas em contraste before/after ou como estética editorial | Nunca no vídeo inteiro |
 | **Alto contraste** | Hook, energético, streetwear, impacto | Emocional, premium, nature |
-| **Alto saturação** (1.2-1.4) | Promoções, pop, playful, celebration | Corporate, editorial, premium |
+| **Alto saturaçêo** (1.2-1.4) | Promoções, pop, playful, celebration | Corporate, editorial, premium |
 
-### 2.4 Integração com Cor da Marca
+### 2.4 Integraçêo com Cor da Marca
 
 **Regra obrigatória:** A cor primária da marca DEVE aparecer em pelo menos 3 momentos do vídeo:
 
-1. **Texto do CTA** — cor da marca no texto ou no fundo do botão/caixa
+1. **Texto do CTA** — cor da marca no texto ou no fundo do botêo/caixa
 2. **Acento visual** — elemento gráfico, borda, underline, ou partícula na cor da marca
 3. **Último frame** — logo ou elemento de marca com cor primária dominante
 
@@ -388,23 +388,23 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 **Regra:** Nunca usar mais de 2 fontes no mesmo vídeo. 3 fontes apenas se o estilo exigir accent monospace (tech/editorial).
 
-### 3.2 Animação de Texto por Intenção Emocional
+### 3.2 Animaçêo de Texto por Intençêo Emocional
 
-| Intenção emocional | Animação recomendada | Duração | Exemplo de uso |
+| Intençêo emocional | Animaçêo recomendada | Duraçêo | Exemplo de uso |
 |---|---|---|---|
-| **Impacto/urgência** | `punch-in` | 150-250ms | Hook, revelação de problema |
-| **Emoção/reflexão** | `per-word` (delay 200-300ms) | 600-1200ms total | Storytelling, benefit emocional |
-| **Revelação/mistério** | `blur-in` | 400-600ms | Reveal de produto, nome de marca |
-| **Informação/dados** | `typewriter` | 40-60ms/char | Estatísticas, números, provas |
-| **Celebração/resultado** | `bounce-in` | 300-400ms | CTA, resultado positivo, prova social |
+| **Impacto/urgência** | `punch-in` | 150-250ms | Hook, revelaçêo de problema |
+| **Emoçêo/reflexêo** | `per-word` (delay 200-300ms) | 600-1200ms total | Storytelling, benefit emocional |
+| **Revelaçêo/mistério** | `blur-in` | 400-600ms | Reveal de produto, nome de marca |
+| **Informaçêo/dados** | `typewriter` | 40-60ms/char | Estatísticas, números, provas |
+| **Celebraçêo/resultado** | `bounce-in` | 300-400ms | CTA, resultado positivo, prova social |
 | **Profissionalismo/clareza** | `fade` | 300-500ms | Corporate, editorial, B2B |
-| **Progressão/lista** | `split-lines` | 200ms/linha | Múltiplos benefícios, bullet points |
+| **Progressêo/lista** | `split-lines` | 200ms/linha | Múltiplos benefícios, bullet points |
 | **Autoridade/peso** | `scale-up` | 250-350ms | Headline principal, dado impactante |
-| **Fluidez/continuidade** | `slide-up` | 300-400ms | Padrão para body text, legenda |
+| **Fluidez/continuidade** | `slide-up` | 300-400ms | Padrêo para body text, legenda |
 
-### 3.3 Lower Thirds (Barra Inferior de Identificação)
+### 3.3 Lower Thirds (Barra Inferior de Identificaçêo)
 
-Padrão para identificação de pessoas, lugares ou dados:
+Padrêo para identificaçêo de pessoas, lugares ou dados:
 
 ```
 ┌──────────────────────────────────────┐
@@ -418,17 +418,17 @@ Padrão para identificação de pessoas, lugares ou dados:
 └──────────────────────────────────────┘
 ```
 
-| Campo | Especificação |
+| Campo | Especificaçêo |
 |---|---|
-| **Posição** | Bottom-left, safe margin 80px inferior, 60px lateral |
+| **Posiçêo** | Bottom-left, safe margin 80px inferior, 60px lateral |
 | **Background** | Caixa semi-transparente `rgba(0,0,0,0.75)`, border-radius 8px |
 | **Linha de acento** | Borda esquerda 4px na cor da marca |
-| **Duração** | 3-5s com fade in 300ms / fade out 200ms |
-| **Quando usar** | Depoimentos, citações, identificação de fonte/dado |
+| **Duraçêo** | 3-5s com fade in 300ms / fade out 200ms |
+| **Quando usar** | Depoimentos, citações, identificaçêo de fonte/dado |
 
 ### 3.4 Subtítulos/Captions para Social Media
 
-| Plataforma | Tamanho | Posição | Estilo |
+| Plataforma | Tamanho | Posiçêo | Estilo |
 |---|---|---|---|
 | Reels/TikTok 9:16 | 42-52px | Center ou bottom (acima da UI: 180px do rodapé) | Bold, outline 2px preto, fundo opcional |
 | Stories 9:16 | 38-48px | Center | Bold, caixa semi-transparente |
@@ -458,7 +458,7 @@ REELS / TIKTOK (9:16 = 1080x1920):
 │    │  para texto   │      │
 │    └──────────────┘      │
 │                          │
-│ ░░ ZONA DE RISCO ░░░░░░ │ ← 1600-1740px: botões de interação
+│ ░░ ZONA DE RISCO ░░░░░░ │ ← 1600-1740px: botões de interaçêo
 │ ░░░░░ ZONA MORTA ░░░░░░ │ ← 1740-1920px: caption, nome de usuário
 └──────────────────────────┘
 Margens laterais: 60px cada lado
@@ -493,24 +493,24 @@ FEED QUADRADO (1:1 = 1080x1080):
 
 ## 4. Gramática de Transições
 
-### 4.1 Significado Narrativo de Cada Transição
+### 4.1 Significado Narrativo de Cada Transiçêo
 
-| Transição | O que comunica | Duração padrão | Quando usar | Quando NÃO usar |
+| Transiçêo | O que comunica | Duraçêo padrêo | Quando usar | Quando NêO usar |
 |---|---|---|---|---|
 | **cut** (corte seco) | Energia, ritmo, continuidade temporal | 0s | Entre cortes do mesmo momento, hook, mudança rápida | Mudança emocional lenta, premium |
-| **crossfade** (dissolve) | Passagem de tempo, conexão, suavidade | 0.3-0.8s | Mesmo bloco narrativo, emoção, reflexão | Momento de impacto, urgência |
-| **fade_black** | Separação, pausa, fim de capítulo | 0.4-1.0s | Entre blocos narrativos, reset emocional | Dentro do mesmo bloco (quebra ritmo) |
-| **fade_white** | Revelação positiva, aspiração, sonho | 0.3-0.5s | Before→After, revelação de produto, esperança | Problema, tensão, escuro |
-| **wipe** (horizontal/vertical) | Progressão, comparação lado a lado | 0.3-0.5s | Before/After, comparação, carrossel de features | Storytelling emocional |
-| **zoom_blur** (smash cut) | Impacto extremo, revelação dramática | 0.1-0.2s | Revelação de número, hook de segundo nível | Mais de 1x por vídeo |
-| **glitch** | Disrupção, erro, digital, tech | 0.08-0.15s | Tech brands, transição de problema, streetwear | Premium, emocional, nature |
+| **crossfade** (dissolve) | Passagem de tempo, conexêo, suavidade | 0.3-0.8s | Mesmo bloco narrativo, emoçêo, reflexêo | Momento de impacto, urgência |
+| **fade_black** | Separaçêo, pausa, fim de capítulo | 0.4-1.0s | Entre blocos narrativos, reset emocional | Dentro do mesmo bloco (quebra ritmo) |
+| **fade_white** | Revelaçêo positiva, aspiraçêo, sonho | 0.3-0.5s | Before→After, revelaçêo de produto, esperança | Problema, tensêo, escuro |
+| **wipe** (horizontal/vertical) | Progressêo, comparaçêo lado a lado | 0.3-0.5s | Before/After, comparaçêo, carrossel de features | Storytelling emocional |
+| **zoom_blur** (smash cut) | Impacto extremo, revelaçêo dramática | 0.1-0.2s | Revelaçêo de número, hook de segundo nível | Mais de 1x por vídeo |
+| **glitch** | Disrupçêo, erro, digital, tech | 0.08-0.15s | Tech brands, transiçêo de problema, streetwear | Premium, emocional, nature |
 | **slide_horizontal** | Sequência, carrossel, próximo item | 0.25-0.4s | Lista de features, galeria de produtos | Storytelling linear |
-| **spin** | Transformação, before→after | 0.4s | Reveals, comparações, promoções | Sério, editorial, corporate |
-| **match_cut** | Conexão visual entre dois elementos | 0s | Objeto A → Objeto B com forma similar | Sem planejamento visual |
+| **spin** | Transformaçêo, before→after | 0.4s | Reveals, comparações, promoções | Sério, editorial, corporate |
+| **match_cut** | Conexêo visual entre dois elementos | 0s | Objeto A → Objeto B com forma similar | Sem planejamento visual |
 
-### 4.2 Duração de Transição por Mood
+### 4.2 Duraçêo de Transiçêo por Mood
 
-| Mood | Transição dominante | Duração média | % de cuts (corte seco) |
+| Mood | Transiçêo dominante | Duraçêo média | % de cuts (corte seco) |
 |---|---|---|---|
 | Energético | cut | 0s | 80-90% |
 | Premium | crossfade | 0.5-0.8s | 10-20% |
@@ -522,39 +522,39 @@ FEED QUADRADO (1:1 = 1080x1080):
 
 ### 4.3 Regras de Uso
 
-1. **Máximo 1 transição especial** (zoom_blur, glitch, spin) por vídeo — usar no ponto de maior impacto
-2. **Nunca mesma transição 4x consecutivas** — mesmo que seja cut, intercalar com 1 crossfade
-3. **fade_black entre blocos narrativos** — hook→problema pode ser cut, mas problema→solução deve ter fade_black
-4. **Transição mais longa = respiração** — após sequência de cuts rápidos, 1 crossfade longo funciona como "respiro"
-5. **CTA sempre termina com fade_black** — sensação de conclusão
+1. **Máximo 1 transiçêo especial** (zoom_blur, glitch, spin) por vídeo — usar no ponto de maior impacto
+2. **Nunca mesma transiçêo 4x consecutivas** — mesmo que seja cut, intercalar com 1 crossfade
+3. **fade_black entre blocos narrativos** — hook→problema pode ser cut, mas problema→soluçêo deve ter fade_black
+4. **Transiçêo mais longa = respiraçêo** — após sequência de cuts rápidos, 1 crossfade longo funciona como "respiro"
+5. **CTA sempre termina com fade_black** — sensaçêo de conclusêo
 
 ---
 
-## 5. Sincronização Áudio-Visual
+## 5. Sincronizaçêo Áudio-Visual
 
-### 5.1 Sincronização de Cortes com Beats
+### 5.1 Sincronizaçêo de Cortes com Beats
 
 | Técnica | Quando usar | Como implementar |
 |---|---|---|
-| **Cut on downbeat** (tempos 1 e 3) | Impacto, poder, afirmação | Corte exatamente no beat forte da música |
-| **Cut on offbeat** (tempos 2 e 4) | Tensão, surpresa, syncopation | Corte no contratempo |
-| **Anticipation cut** (-2 frames antes do beat) | Sensação de momentum | Corte 66ms antes do beat (a 30fps) |
+| **Cut on downbeat** (tempos 1 e 3) | Impacto, poder, afirmaçêo | Corte exatamente no beat forte da música |
+| **Cut on offbeat** (tempos 2 e 4) | Tensêo, surpresa, syncopation | Corte no contratempo |
+| **Anticipation cut** (-2 frames antes do beat) | Sensaçêo de momentum | Corte 66ms antes do beat (a 30fps) |
 | **Text on beat** | Reforço de mensagem | Texto aparece sincronizado com beat forte |
-| **Silence before impact** | Máximo impacto | 0.3-0.5s de silêncio antes de revelação |
+| **Silence before impact** | Máximo impacto | 0.3-0.5s de silêncio antes de revelaçêo |
 
-### 5.2 Cue de Áudio para Aparição de Texto
+### 5.2 Cue de Áudio para Apariçêo de Texto
 
 | Momento | Efeito sonoro sugerido | Volume relativo |
 |---|---|---|
 | Headline aparece | Whoosh sutil ou click | -18dB abaixo da música |
 | Número/dado aparece | Impact sound + bass drop | -12dB abaixo da música |
 | CTA aparece | Rise sound (crescendo rápido) | -15dB abaixo da música |
-| Transição de bloco | Reverse cymbal ou tape stop | -14dB abaixo da música |
+| Transiçêo de bloco | Reverse cymbal ou tape stop | -14dB abaixo da música |
 | Logo reveal | Sonic logo da marca (se existir) | Volume igual à música |
 
-### 5.3 Pacing de Narração por Duração de Cena
+### 5.3 Pacing de Narraçêo por Duraçêo de Cena
 
-| Duração da cena | Palavras máximas | Ritmo de fala |
+| Duraçêo da cena | Palavras máximas | Ritmo de fala |
 |---|---|---|
 | 1.0-1.5s | 3-5 palavras | Rápido (180 WPM) |
 | 1.5-2.5s | 5-8 palavras | Normal-rápido (160 WPM) |
@@ -562,7 +562,7 @@ FEED QUADRADO (1:1 = 1080x1080):
 | 4.0-6.0s | 14-22 palavras | Pausado (120 WPM) |
 | 6.0s+ | 22+ palavras | Lento, com pausas (100 WPM) |
 
-**Regra:** Narração nunca deve preencher 100% do tempo da cena. Deixar 0.3-0.5s de "ar" no final para a informação visual ser absorvida.
+**Regra:** Narraçêo nunca deve preencher 100% do tempo da cena. Deixar 0.3-0.5s de "ar" no final para a informaçêo visual ser absorvida.
 
 ### 5.4 Gênero Musical por Estilo Visual
 
@@ -577,19 +577,19 @@ FEED QUADRADO (1:1 = 1080x1080):
 | Nature Organic | Folk acústico | New age, Sons naturais | 70-90 |
 | Retro Vintage | Jazz, Blues | Bossa nova, Oldies | 70-95 |
 | Bold Pop | Pop comercial | Funk brasileiro | 100-120 |
-| Dark Dramatic | Drone ambient | Percussão tribal | 60-80 |
+| Dark Dramatic | Drone ambient | Percussêo tribal | 60-80 |
 | Playful Colorful | Ukulele pop | Glockenspiel, chiptune | 100-120 |
 | Editorial Documentary | Piano minimal | Ambient discreto | 70-90 |
 
 **Regra de mixagem:**
-- Narração: 0dB (referência)
-- Música: -10 a -14dB abaixo da narração
-- SFX: -18 a -22dB abaixo da narração
-- Normalização final: -14 LUFS para social media
+- Narraçêo: 0dB (referência)
+- Música: -10 a -14dB abaixo da narraçêo
+- SFX: -18 a -22dB abaixo da narraçêo
+- Normalizaçêo final: -14 LUFS para social media
 
 ---
 
-## 6. Templates de Composição por Tipo de Cena
+## 6. Templates de Composiçêo por Tipo de Cena
 
 ### 6.1 Hook Scene (Primeiros 2-3 Segundos)
 
@@ -604,11 +604,11 @@ TEMPLATE HOOK A — Pergunta de Impacto:
 │    [imagem emocional de fundo]   │ ← Filtro escuro, zoom_in aggressive
 │                                  │
 └──────────────────────────────────┘
-- Duração: 1.0-2.0s
+- Duraçêo: 1.0-2.0s
 - Motion: zoom_in aggressive ou push-in
 - Text: center, 88-96px, punch-in
 - Overlay: dark 0.50-0.60
-- Transição out: cut
+- Transiçêo out: cut
 
 TEMPLATE HOOK B — Dado Impactante:
 ┌──────────────────────────────────┐
@@ -617,31 +617,31 @@ TEMPLATE HOOK B — Dado Impactante:
 │    "dos profissionais..."        │ ← Subtext menor, fade 300ms depois
 │                                  │
 └──────────────────────────────────┘
-- Duração: 1.5-2.5s
+- Duraçêo: 1.5-2.5s
 - Motion: static ou breathe
 - Text: center, número em 108px + subtext em 48px
 - Overlay: escuro sólido ou gradiente da marca
-- Transição out: cut
+- Transiçêo out: cut
 
 TEMPLATE HOOK C — Visual Impactante (sem texto):
 ┌──────────────────────────────────┐
 │                                  │
 │    [imagem visualmente           │ ← Imagem de alto impacto
-│     impactante, sem texto]       │ ← Movimento rápido chama atenção
+│     impactante, sem texto]       │ ← Movimento rápido chama atençêo
 │                                  │
 └──────────────────────────────────┘
-- Duração: 0.8-1.5s
+- Duraçêo: 0.8-1.5s
 - Motion: push-in aggressive
 - Text: nenhum (visual puro)
 - Overlay: mínimo 0.20
-- Transição out: cut para hook_02 com texto
+- Transiçêo out: cut para hook_02 com texto
 ```
 
 **Regras do Hook:**
 1. Primeiro frame DEVE ter movimento (nunca estático)
 2. Se houver texto, máximo 5 palavras
 3. Contraste extremo (texto claro sobre escuro ou vice-versa)
-4. Nunca começar com logo da marca (perda de 80% da atenção)
+4. Nunca começar com logo da marca (perda de 80% da atençêo)
 
 ### 6.2 Product Showcase
 
@@ -659,13 +659,13 @@ TEMPLATE HOOK C — Visual Impactante (sem texto):
 
 | Campo | Valor |
 |---|---|
-| Duração | 3-5s |
+| Duraçêo | 3-5s |
 | Motion | `zoom_out` moderate (revela o produto) ou `ken-burns-in` subtle |
-| Composição | Produto centralizado, rule of thirds se houver texto lateral |
+| Composiçêo | Produto centralizado, rule of thirds se houver texto lateral |
 | Text position | bottom com gradiente |
 | Text animation | `slide-up` ou `fade` |
 | Overlay | Gradiente do rodapé, 0.45-0.60 |
-| Transição out | `crossfade` 0.4s |
+| Transiçêo out | `crossfade` 0.4s |
 
 ### 6.3 Testimonial / Social Proof
 
@@ -678,7 +678,7 @@ TEMPLATE HOOK C — Visual Impactante (sem texto):
 │     comunidade]                  │
 │                                  │
 │  ┌────────────────────────┐      │
-│  │ "Citação ou dado"      │      │ ← Lower third style
+│  │ "Citaçêo ou dado"      │      │ ← Lower third style
 │  │  Nome — Contexto       │      │
 │  └────────────────────────┘      │
 └──────────────────────────────────┘
@@ -686,17 +686,17 @@ TEMPLATE HOOK C — Visual Impactante (sem texto):
 
 | Campo | Valor |
 |---|---|
-| Duração | 3-5s |
+| Duraçêo | 3-5s |
 | Motion | `pan_right` subtle ou `drift` sutil |
-| Composição | Pessoa/comunidade em 2/3 do frame, texto no 1/3 inferior |
+| Composiçêo | Pessoa/comunidade em 2/3 do frame, texto no 1/3 inferior |
 | Text | Lower third com linha de acento na cor da marca |
 | Text animation | `fade` 400ms |
 | Overlay | Vignette sutil + gradiente bottom |
-| Transição out | `crossfade` 0.5s |
+| Transiçêo out | `crossfade` 0.5s |
 
 ### 6.4 CTA Scene
 
-**Objetivo:** Direcionar uma ação clara. Clareza absoluta.
+**Objetivo:** Direcionar uma açêo clara. Clareza absoluta.
 
 ```
 ┌──────────────────────────────────┐
@@ -705,21 +705,21 @@ TEMPLATE HOOK C — Visual Impactante (sem texto):
 │     fundo com logo]              │
 │                                  │
 │    ┌──────────────────┐          │
-│    │  AÇÃO CLARA AQUI │          │ ← Botão visual ou caixa
+│    │  AÇêO CLARA AQUI │          │ ← Botêo visual ou caixa
 │    └──────────────────┘          │
-│    site.com/link                 │ ← URL ou instrução
+│    site.com/link                 │ ← URL ou instruçêo
 └──────────────────────────────────┘
 ```
 
 | Campo | Valor |
 |---|---|
-| Duração | 4-6s (NUNCA menos que 3s) |
-| Motion | `static` ou `breathe` (pulsação sutil) |
-| Composição | Texto dominante, imagem como suporte |
+| Duraçêo | 4-6s (NUNCA menos que 3s) |
+| Motion | `static` ou `breathe` (pulsaçêo sutil) |
+| Composiçêo | Texto dominante, imagem como suporte |
 | Text | center ou bottom, 80-96px, bold, cor da marca |
 | Text animation | `fade` lento ou `scale-up` suave |
 | Background text | `dark_box` opacidade 0.80 |
-| Transição out | `fade_black` 0.6-1.0s |
+| Transiçêo out | `fade_black` 0.6-1.0s |
 
 **Regras do CTA:**
 1. Máximo 6 palavras no texto principal
@@ -730,10 +730,10 @@ TEMPLATE HOOK C — Visual Impactante (sem texto):
 
 ### 6.5 Before/After
 
-**Objetivo:** Demonstrar transformação visual clara.
+**Objetivo:** Demonstrar transformaçêo visual clara.
 
 ```
-OPÇÃO A — Split Screen:
+OPÇêO A — Split Screen:
 ┌──────────┬───────────┐
 │  BEFORE  │  AFTER    │
 │ (dessat) │ (vivido)  │
@@ -741,7 +741,7 @@ OPÇÃO A — Split Screen:
 │ "Sem X"  │ "Com X"   │
 └──────────┴───────────┘
 
-OPÇÃO B — Sequencial:
+OPÇêO B — Sequencial:
 Corte 1: [before, filtro frio/desaturado, 2s]
     → fade_black 0.4s →
 Corte 2: [after, filtro quente/saturado, 3s]
@@ -750,7 +750,7 @@ Corte 2: [after, filtro quente/saturado, 3s]
 | Campo | Before | After |
 |---|---|---|
 | Filtro | Desaturado 0.6, frio | Saturado 1.2, quente |
-| Motion | `zoom_in` subtle (tensão) | `zoom_out` moderate (alívio) |
+| Motion | `zoom_in` subtle (tensêo) | `zoom_out` moderate (alívio) |
 | Text | "Antes" ou label do problema | "Depois" ou label do resultado |
 | Overlay | Dark, opacidade 0.55 | Light/warm, opacidade 0.30 |
 
@@ -762,13 +762,13 @@ Corte 2: [after, filtro quente/saturado, 3s]
 
 | Parâmetro | Reels (9:16) | YouTube (16:9) | TikTok (9:16) | Stories (9:16) |
 |---|---|---|---|---|
-| **Resolução** | 1080x1920 | 1920x1080 | 1080x1920 | 1080x1920 |
+| **Resoluçêo** | 1080x1920 | 1920x1080 | 1080x1920 | 1080x1920 |
 | **FPS** | 30 | 24 ou 30 | 30 | 30 |
-| **Duração ideal** | 15-30s (max 90s) | 60s-3min (Shorts: 60s) | 15-60s | 15s (max) |
+| **Duraçêo ideal** | 15-30s (max 90s) | 60s-3min (Shorts: 60s) | 15-60s | 15s (max) |
 | **Hook window** | 1.5s | 3s | 1.0s | 1.0s |
 | **Texto max** | 4 palavras | 6 palavras | 3 palavras | 3 palavras |
 | **Font size min** | 42px | 36px | 48px | 44px |
-| **CTA style** | Texto on-screen | Texto + descrição | Texto + audio | Swipe up / link |
+| **CTA style** | Texto on-screen | Texto + descriçêo | Texto + audio | Swipe up / link |
 | **Ritmo** | Rápido (20-40 cortes/min) | Variado (10-25 cortes/min) | Muito rápido (30-50 cortes/min) | Rápido (1 mensagem/story) |
 
 ### 7.2 Safe Areas Específicas
@@ -776,7 +776,7 @@ Corte 2: [after, filtro quente/saturado, 3s]
 **Instagram Reels:**
 - Topo: 120px (hora, bateria)
 - Base: 180px (caption, nome do usuário, botões)
-- Direita: 80px (botões de interação: curtir, comentar, compartilhar)
+- Direita: 80px (botões de interaçêo: curtir, comentar, compartilhar)
 - Esquerda: 60px
 
 **TikTok:**
@@ -802,19 +802,19 @@ Corte 2: [after, filtro quente/saturado, 3s]
 - Trending audio + visual impactante = máximo alcance
 - Texto curto e bold (o usuário está scrollando rápido)
 - CTA: "Salve para depois" / "Envie pra alguém"
-- Formato ideal: 15-30s para alcance, 60s para retenção
+- Formato ideal: 15-30s para alcance, 60s para retençêo
 
 **YouTube (Shorts + Standard):**
 - Shorts: hook em 1s, valor em 30s, CTA verbal
 - Standard: pode ser mais longo e informativo
 - Sempre incluir captions/legendas (60% assiste sem som)
-- Thumbnail customizada para standard (não para Shorts)
+- Thumbnail customizada para standard (nêo para Shorts)
 
 **TikTok:**
 - Hook em 0.5-1.0s (mais implacável que qualquer outra plataforma)
 - Texto nativo do TikTok funciona melhor que texto renderizado no vídeo
 - Trends e sons virais multiplicam alcance 10x
-- Edição hiper-rápida (35-50 cortes/minuto)
+- Ediçêo hiper-rápida (35-50 cortes/minuto)
 
 **Stories:**
 - 1 mensagem por story (máximo 2 frases)
@@ -822,9 +822,9 @@ Corte 2: [after, filtro quente/saturado, 3s]
 - Visual limpo com foco em 1 elemento
 - Efêmero: tom mais casual e direto
 
-### 7.4 Formatos de Exportação
+### 7.4 Formatos de Exportaçêo
 
-| Plataforma | Codec | Resolução | FPS | Bitrate | Formato |
+| Plataforma | Codec | Resoluçêo | FPS | Bitrate | Formato |
 |---|---|---|---|---|---|
 | Instagram Reels | H.264 | 1080x1920 | 30 | 8-12 Mbps | MP4 |
 | Instagram Feed | H.264 | 1080x1080 | 30 | 6-8 Mbps | MP4 |
@@ -836,7 +836,7 @@ Corte 2: [after, filtro quente/saturado, 3s]
 
 ---
 
-## 8. Processo de Seleção de Estilo
+## 8. Processo de Seleçêo de Estilo
 
 Quando o Video Pro agent receber um brief, seguir este processo para selecionar o estilo:
 
@@ -846,15 +846,15 @@ Quando o Video Pro agent receber um brief, seguir este processo para selecionar 
 |---|---|
 | Lançamento de produto tech | Neon Futurista, Corporate Clean |
 | Marca de luxo / premium | Premium Minimal, Dark Dramatic |
-| Promoção / venda | Bold Pop, Energético |
+| Promoçêo / venda | Bold Pop, Energético |
 | Causa social / emocional | Emocional Cinematic, Nature Organic |
-| Educação / curso | Neon Futurista, Editorial Documentary |
+| Educaçêo / curso | Neon Futurista, Editorial Documentary |
 | Moda / cultura | Streetwear Urban, Bold Pop |
 | Saúde / wellness | Nature Organic, Emocional Cinematic |
 | B2B / SaaS | Corporate Clean, Editorial Documentary |
 | Infantil / família | Playful Colorful, Nature Organic |
-| Heritage / tradição | Retro Vintage, Emocional Cinematic |
-| Investigação / dados | Editorial Documentary, Corporate Clean |
+| Heritage / tradiçêo | Retro Vintage, Emocional Cinematic |
+| Investigaçêo / dados | Editorial Documentary, Corporate Clean |
 | Entretenimento jovem | Streetwear Urban, Playful Colorful |
 
 ### Passo 2: Cruzar com Personalidade da Marca
@@ -909,7 +909,7 @@ No JSON de saída, incluir o campo `art_direction`:
 
 ---
 
-## 9. Checklist de Direção de Arte
+## 9. Checklist de Direçêo de Arte
 
 Antes de finalizar qualquer scene plan, verificar TODOS os itens:
 
@@ -919,7 +919,7 @@ Antes de finalizar qualquer scene plan, verificar TODOS os itens:
 - [ ] Cor da marca presente em pelo menos 3 momentos (acento, CTA, último frame)
 - [ ] Contraste texto/fundo suficiente em todas as cenas (WCAG AA: 4.5:1)
 - [ ] Overlay aplicado em cenas com imagem clara sob texto
-- [ ] Filtro de cor (color grading) segue regra de temperatura por seção
+- [ ] Filtro de cor (color grading) segue regra de temperatura por seçêo
 
 ### Tipografia
 - [ ] Máximo 2 fontes (3 se o estilo exigir accent monospace)
@@ -927,7 +927,7 @@ Antes de finalizar qualquer scene plan, verificar TODOS os itens:
 - [ ] Texto dentro das safe areas da plataforma
 - [ ] Nenhum texto em cortes < 0.8s
 - [ ] Máximo 6 palavras por text_overlay
-- [ ] Animação de texto coerente com intenção emocional
+- [ ] Animaçêo de texto coerente com intençêo emocional
 
 ### Movimento
 - [ ] Camera motion coerente com o estilo (premium = subtle, energético = aggressive)
@@ -936,22 +936,22 @@ Antes de finalizar qualquer scene plan, verificar TODOS os itens:
 - [ ] CTA com motion static ou breathe (NUNCA aggressive)
 
 ### Transições
-- [ ] Transição dominante coerente com mood (energético = cut, premium = crossfade)
-- [ ] Máximo 1 transição especial (glitch, zoom_blur, spin) por vídeo
+- [ ] Transiçêo dominante coerente com mood (energético = cut, premium = crossfade)
+- [ ] Máximo 1 transiçêo especial (glitch, zoom_blur, spin) por vídeo
 - [ ] fade_black entre blocos narrativos
 - [ ] CTA termina com fade_black
 
 ### Áudio
 - [ ] BPM da música dentro do range do estilo
 - [ ] Gênero musical coerente com estilo visual
-- [ ] Narração não preenche 100% do tempo (0.3-0.5s de ar por cena)
-- [ ] Mixagem: narração 0dB, música -10 a -14dB, SFX -18dB
+- [ ] Narraçêo nêo preenche 100% do tempo (0.3-0.5s de ar por cena)
+- [ ] Mixagem: narraçêo 0dB, música -10 a -14dB, SFX -18dB
 
 ### Plataforma
 - [ ] Safe areas respeitadas para a plataforma alvo
-- [ ] Duração dentro do ideal para a plataforma
+- [ ] Duraçêo dentro do ideal para a plataforma
 - [ ] Font size mínimo respeitado para o formato
-- [ ] Resolução e FPS corretos para exportação
+- [ ] Resoluçêo e FPS corretos para exportaçêo
 
 ---
 

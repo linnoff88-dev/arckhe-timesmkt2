@@ -1,4 +1,4 @@
-﻿# ITAGMKT v4.2.6
+# ITAGMKT v4.2.6
 
 **INEMA Time de Agentes de Marketing** â€” sistema de automacao de conteudo para marketing digital usando agentes de IA coordenados por um bot Telegram.
 
@@ -440,4 +440,4 @@ npm run media:status
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto  - ARCKHÉe

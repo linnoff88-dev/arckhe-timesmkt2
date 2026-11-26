@@ -7,7 +7,7 @@
 ## Quando Usar
 
 - Antes do scene plan (Fase 2) no video pro
-- Após narração e timing do áudio estarem prontos
+- Após narraçêo e timing do áudio estarem prontos
 - Define todas as decisões visuais que o editor (scene plan) deve seguir
 
 ---
@@ -16,12 +16,12 @@
 
 1. `<project_dir>/knowledge/brand_identity.md` — cores, tom, identidade visual
 2. `<output_dir>/creative/creative_brief.json` — ângulo criativo, visual direction
-3. `<output_dir>/audio/<task_name>_video_01_timing.json` — timing exato da narração
+3. `<output_dir>/audio/<task_name>_video_01_timing.json` — timing exato da narraçêo
 4. `skills/video-art-direction/SKILL.md` — 12 estilos visuais disponíveis
 5. `skills/video-engineering/style-dictionary.json` — **CRÍTICO**: valores técnicos (spring, easing, color, zoom) por estilo
 6. `skills/video-engineering/SKILL.md` — manual de engenharia de vídeo
 7. `skills/typography-on-image/SKILL.md` — regras de tipografia magazine
-8. `skills/video-editor-agent/SKILL.md` — regras de edição profissional
+8. `skills/video-editor-agent/SKILL.md` — regras de ediçêo profissional
 
 ---
 
@@ -50,99 +50,99 @@ Definir quais aspect ratios o vídeo será renderizado:
 
 Regra: gerar pelo menos o formato principal (9:16 para Reels) e adicionar formatos extras conforme plataformas selecionadas.
 
-### 3. Enquadramentos por Seção
+### 3. Enquadramentos por Seçêo
 
-Para cada seção narrativa (hook, problema, solução, prova, CTA), definir:
+Para cada seçêo narrativa (hook, problema, soluçêo, prova, CTA), definir:
 
 | Enquadramento | Quando usar |
 |---|---|
-| extreme-close-up | Detalhe de produto, emoção facial, textura |
+| extreme-close-up | Detalhe de produto, emoçêo facial, textura |
 | close-up | Rosto, produto em destaque, elemento-chave |
 | medium-shot | Pessoa com contexto, produto em uso |
 | wide-shot | Ambiente, contexto, estabelecimento de cena |
 | detail-shot | Textura, ingrediente, feature específica |
-| overhead | Layout flat-lay, mesa de trabalho, organização |
-| low-angle | Poder, grandeza, aspiração |
+| overhead | Layout flat-lay, mesa de trabalho, organizaçêo |
+| low-angle | Poder, grandeza, aspiraçêo |
 | high-angle | Vulnerabilidade, contexto amplo |
 
-### 4. Movimentos de Câmera por Seção
+### 4. Movimentos de Câmera por Seçêo
 
 | Movimento | Efeito | Quando usar |
 |---|---|---|
-| push-in | Intimidade, revelação | Hook, momento de impacto |
-| pull-out | Contexto, expansão | Revelação de ambiente |
-| pan-right | Progresso, descoberta | Transição entre ideias |
-| pan-left | Retorno, reflexão | Flashback, comparação |
-| drift | Conexão emocional | Momentos calmos, benefícios |
+| push-in | Intimidade, revelaçêo | Hook, momento de impacto |
+| pull-out | Contexto, expansêo | Revelaçêo de ambiente |
+| pan-right | Progresso, descoberta | Transiçêo entre ideias |
+| pan-left | Retorno, reflexêo | Flashback, comparaçêo |
+| drift | Conexêo emocional | Momentos calmos, benefícios |
 | ken-burns-in | Elegância, foco gradual | Fotos estáticas premium |
 | ken-burns-out | Nostalgia, panorama | Establishing shots |
 | zoom-in | Foco, urgência | Destaque de feature |
-| zoom-out | Revelação | Before→after |
-| breathe | Pulsação sutil | CTA, hold, contemplação |
+| zoom-out | Revelaçêo | Before→after |
+| breathe | Pulsaçêo sutil | CTA, hold, contemplaçêo |
 | tilt-shift | Miniatura, detalhe | Produto, close-up |
 | parallax-zoom | Profundidade | Destaque 3D |
 
-### 5. Paleta de Mood por Seção
+### 5. Paleta de Mood por Seçêo
 
-Definir o clima emocional de cada seção:
+Definir o clima emocional de cada seçêo:
 
-| Seção | Mood sugerido |
+| Seçêo | Mood sugerido |
 |---|---|
 | HOOK | Alto contraste, dramático, escuro → claro |
 | PROBLEMA | Desaturado, frio, tenso |
-| SOLUÇÃO | Vibrante, cores da marca, energético |
+| SOLUÇêO | Vibrante, cores da marca, energético |
 | PROVA | Quente, confiável, real |
 | CTA | Limpo, focado, cores de destaque |
 
-### 6. Tipografia por Seção
+### 6. Tipografia por Seçêo
 
 Seguir a escala magazine do `typography-on-image/SKILL.md`:
 
-| Seção | Fonte | Tamanho | Peso | Posição |
+| Seçêo | Fonte | Tamanho | Peso | Posiçêo |
 |---|---|---|---|---|
 | HOOK | Oswald / Bebas Neue | 96-140px | 900 | center |
 | PROBLEMA | Montserrat | 72-88px | 700 | top |
-| SOLUÇÃO | Montserrat / Poppins | 80-96px | 800 | top |
+| SOLUÇêO | Montserrat / Poppins | 80-96px | 800 | top |
 | PROVA | Playfair Display | 64-80px | 600 | top |
 | CTA | Oswald | 88-120px | 900 | center |
 
 ### 7. Transições entre Seções
 
-| Transição entre | Tipo | Duração |
+| Transiçêo entre | Tipo | Duraçêo |
 |---|---|---|
-| Dentro da mesma seção | cut | 0s |
+| Dentro da mesma seçêo | cut | 0s |
 | Hook → Problema | fade_black | 0.4s |
-| Problema → Solução | crossfade | 0.3s |
-| Solução → Prova | crossfade | 0.3s |
+| Problema → Soluçêo | crossfade | 0.3s |
+| Soluçêo → Prova | crossfade | 0.3s |
 | Prova → CTA | fade_black | 0.5s |
 
-### 8. Seleção e Classificação de Imagens
+### 8. Seleçêo e Classificaçêo de Imagens
 
 **Ordem de prioridade (OBRIGATÓRIA):**
 1. **Imagens da campanha** (`<output_dir>/ads/*.png`, `<output_dir>/imgs/*.jpg`) — criadas especificamente para esta campanha. USAR PRIMEIRO.
-2. **Assets da marca** (`<project_dir>/assets/`) — somente se a campanha não tem imagens suficientes ou se nenhuma imagem da campanha serve para o enquadramento.
+2. **Assets da marca** (`<project_dir>/assets/`) — somente se a campanha nêo tem imagens suficientes ou se nenhuma imagem da campanha serve para o enquadramento.
 3. **Imagens geradas por API** — somente quando `image_source = api`.
 
-**Classificação obrigatória de cada imagem:**
+**Classificaçêo obrigatória de cada imagem:**
 Para cada imagem disponível, classificar:
 - `clean` — sem texto embutido, pode receber text_overlay
 - `has_text` — já tem texto/logo/UI embutido → usar SEM text_overlay (só a imagem, zero texto em cima)
-- `unsuitable` — não serve para a campanha (desclassificada)
+- `unsuitable` — nêo serve para a campanha (desclassificada)
 
 **Regras:**
 - Imagens com `_post`, `_stories`, `oficial_`, `logo_`, `instagram`, `facebook` no nome geralmente têm texto → classificar como `has_text`
-- Imagens com `_semtexto`, `_clean`, `_raw`, `_foto`, `banner_` geralmente são limpas
+- Imagens com `_semtexto`, `_clean`, `_raw`, `_foto`, `banner_` geralmente sêo limpas
 - Na dúvida, classificar como `has_text` (mais seguro)
 - NUNCA colocar text_overlay sobre imagem classificada como `has_text`
 - Cada shot no plano deve indicar: `"image_has_text": true/false`
 
-**Justificativa:** Se usar asset da marca em vez de imagem da campanha, o shot deve incluir `"image_reason": "campanha não tem close-up de produto"` explicando por quê.
+**Justificativa:** Se usar asset da marca em vez de imagem da campanha, o shot deve incluir `"image_reason": "campanha nêo tem close-up de produto"` explicando por quê.
 
 ### 9. Image Prompts (quando image_source = api)
 
 Para cada cena/enquadramento, escrever um prompt de imagem em inglês:
 - Máximo 200 caracteres
-- Incluir: enquadramento definido + mood + iluminação + "no text, no watermark"
+- Incluir: enquadramento definido + mood + iluminaçêo + "no text, no watermark"
 - Usar cores da marca como referência
 - Cada prompt deve ser único e conectado à narrativa
 
@@ -212,9 +212,9 @@ Salvar em `<output_dir>/video/photography_plan.json`:
 
 1. **Nunca mesmo enquadramento 3x seguidas** — variar entre close, medium, wide
 2. **Nunca mesmo movimento 2x seguidas** — alternar tipos de motion
-3. **Curva de energia visual:** Hook (5) → Problema (3) → Solução (4-5) → Prova (4) → CTA (3)
+3. **Curva de energia visual:** Hook (5) → Problema (3) → Soluçêo (4-5) → Prova (4) → CTA (3)
 4. **Text position NUNCA bottom** — só top ou center (UI das redes cobre)
-5. **Shots devem cobrir 100% do timing** da narração (sem gaps)
+5. **Shots devem cobrir 100% do timing** da narraçêo (sem gaps)
 6. **Image prompts em inglês** — sempre incluir "no text, no watermark, cinematic lighting"
 7. **Máximo 6 palavras por text_overlay**
 8. **Primeiro shot ≤ 1.5s** — hook rápido

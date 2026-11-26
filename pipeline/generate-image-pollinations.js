@@ -7,9 +7,9 @@
  *   node pipeline/generate-image-pollinations.js <output.jpg> "<prompt>" [model] [aspect_ratio]
  *
  * Models:
- *   flux             — FLUX.1 Schnell, padrão, rápido (3–8s)
+ *   flux             — FLUX.1 Schnell, padrêo, rápido (3–8s)
  *   zimage           — Z-Image Turbo com upscaling 2x, mais detalhado (5–12s)
- *   kontext          — FLUX.1 Kontext, melhor para edição em contexto
+ *   kontext          — FLUX.1 Kontext, melhor para ediçêo em contexto
  *   gptimage         — GPT Image 1 Mini (OpenAI)
  *   nanobanana-pro   — Gemini 3 Pro Image (4K)
  *
@@ -45,9 +45,9 @@ const ASPECT_RATIO_SIZES = {
 };
 
 const AVAILABLE_MODELS = [
-  { id: 'flux',           label: 'FLUX Schnell (padrão, rápido)' },
+  { id: 'flux',           label: 'FLUX Schnell (padrêo, rápido)' },
   { id: 'zimage',         label: 'Z-Image Turbo (upscaling 2x, mais detalhado)' },
-  { id: 'kontext',        label: 'FLUX.1 Kontext (edição em contexto)' },
+  { id: 'kontext',        label: 'FLUX.1 Kontext (ediçêo em contexto)' },
   { id: 'gptimage',       label: 'GPT Image 1 Mini (OpenAI)' },
   { id: 'nanobanana-pro', label: 'Gemini 3 Pro Image (4K)' },
 ];

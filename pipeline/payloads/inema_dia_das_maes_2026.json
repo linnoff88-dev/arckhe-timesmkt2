@@ -1,8 +1,8 @@
 {
   "task_name": "dia_das_maes",
   "task_date": "2026-05-10",
-  "business": "INEMA — Ecossistema de IA e Transformação Digital",
-  "description": "Campanha Dia das Mães INEMA. Ângulo emocional/branding: mãe que aprende, mãe que inspira. CTA duplo: inema.club (grátis) e inema.vip (R$ 35/mês).",
+  "business": "INEMA — Ecossistema de IA e Transformaçêo Digital",
+  "description": "Campanha Dia das Mêes INEMA. Ângulo emocional/branding: mêe que aprende, mêe que inspira. CTA duplo: inema.club (grátis) e inema.vip (R$ 35/mês).",
   "simulate_uploads": false,
   "dry_run": false,
 
@@ -28,18 +28,18 @@
       "agent": "marketing-research-agent",
       "skill": "skills/marketing-research-agent/SKILL.md",
       "inputs": {
-        "niche": "educação em inteligência artificial e transformação digital no Brasil",
-        "target_audience": "profissionais em transição de carreira, empreendedores, mulheres que querem aprender IA",
-        "campaign_goal": "branding emocional no Dia das Mães + conversão para inema.club e inema.vip"
+        "niche": "educaçêo em inteligência artificial e transformaçêo digital no Brasil",
+        "target_audience": "profissionais em transiçêo de carreira, empreendedores, mulheres que querem aprender IA",
+        "campaign_goal": "branding emocional no Dia das Mêes + conversêo para inema.club e inema.vip"
       },
       "tavily": {
         "search_depth": "advanced",
         "queries": [
-          "mercado educação inteligência artificial Brasil 2025 2026",
+          "mercado educaçêo inteligência artificial Brasil 2025 2026",
           "cursos de IA gratuitos comunidades de aprendizado Brasil tendências",
           "público feminino inteligência artificial aprendizado empreendedorismo digital",
-          "campanhas dia das mães marketing digital emocional melhores práticas",
-          "INEMA inema.club inema.vip comunidade IA transformação digital"
+          "campanhas dia das mêes marketing digital emocional melhores práticas",
+          "INEMA inema.club inema.vip comunidade IA transformaçêo digital"
         ]
       },
       "outputs": {
@@ -57,8 +57,8 @@
       "agent": "ad-creative-designer",
       "skill": "skills/ad-creative-designer/SKILL.md",
       "inputs": {
-        "product": "INEMA — Comunidade de IA e Transformação Digital",
-        "campaign_goal": "branding emocional Dia das Mães",
+        "product": "INEMA — Comunidade de IA e Transformaçêo Digital",
+        "campaign_goal": "branding emocional Dia das Mêes",
         "platform": "instagram",
         "format": "square",
         "dimensions": "1080x1080",
@@ -76,7 +76,7 @@
           "white": "#FFFFFF"
         },
         "copy": {
-          "headline": "Mãe que aprende",
+          "headline": "Mêe que aprende",
           "subtext": "O presente mais poderoso tem URL: inema.club",
           "cta": "Comece grátis"
         },
@@ -108,8 +108,8 @@
       "skill": "skills/copywriter-agent/SKILL.md",
       "inputs": {
         "research_source": "prj/inema/outputs/dia_das_maes_2026-05-10/research_results.json",
-        "campaign_angle": "Mãe que aprende, mãe que inspira",
-        "topic": "Dia das Mães — empoderamento feminino via educação em IA",
+        "campaign_angle": "Mêe que aprende, mêe que inspira",
+        "topic": "Dia das Mêes — empoderamento feminino via educaçêo em IA",
         "key_benefit": "Conhecimento gratuito e comunidade ativa para se reinventar profissionalmente",
         "platforms": ["instagram", "threads", "youtube"],
         "cta_primary": "inema.club — grátis para começar",
@@ -124,7 +124,7 @@
           "emojis": 2,
           "hashtag_count": "5-8",
           "cta_required": true,
-          "hashtag_placement": "comentário (não na legenda)"
+          "hashtag_placement": "comentário (nêo na legenda)"
         },
         "threads": {
           "structure": "frase provocadora → insight → CTA com URL",
@@ -185,7 +185,7 @@
         "instagram": {
           "best_days": ["Sábado", "Domingo"],
           "best_time": "08h–10h ou 19h–21h",
-          "recommended_slot": "Sábado 10/05 às 09h (Dia das Mães)"
+          "recommended_slot": "Sábado 10/05 às 09h (Dia das Mêes)"
         },
         "threads": {
           "best_days": ["Sábado", "Domingo"],
@@ -195,7 +195,7 @@
         "youtube": {
           "best_days": ["Quinta", "Sexta", "Sábado"],
           "best_time": "12h–15h",
-          "recommended_slot": "Sexta 09/05 às 14h (24h antes do Dia das Mães)"
+          "recommended_slot": "Sexta 09/05 às 14h (24h antes do Dia das Mêes)"
         }
       },
       "publish_gate": {

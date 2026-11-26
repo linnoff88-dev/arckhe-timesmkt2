@@ -22,7 +22,7 @@ Cria videos curtos (10-20s) usando as imagens ja produzidas pelo Ad Creative Des
 1. Listar imagens disponíveis em `ads/`
 2. Ler narrative.json para headlines e key_phrases
 3. Montar scene plan com 4-6 cenas (1 imagem por cena)
-4. Narração (opcional): se ElevenLabs configurado, gerar audio
+4. Narraçêo (opcional): se ElevenLabs configurado, gerar audio
 5. Musica (opcional): se disponivel em assets/music/
 6. Salvar scene plan JSON
 

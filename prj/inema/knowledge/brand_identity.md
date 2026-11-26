@@ -2,14 +2,14 @@
 
 ## Sobre a Marca
 
-**INEMA** é um ecossistema de educação em tecnologia, IA e transformação digital fundado por **Nei Eugenio Maldaner** — empreendedor com mais de 40 anos de experiência em TI, educação corporativa e gestão comportamental.
+**INEMA** é um ecossistema de educaçêo em tecnologia, IA e transformaçêo digital fundado por **Nei Eugenio Maldaner** — empreendedor com mais de 40 anos de experiência em TI, educaçêo corporativa e gestêo comportamental.
 
-O fundador acumula décadas de experiência que vão muito além da tecnologia — entende o mercado e o ser humano. Sua trajetória acompanha cada revolução digital:
+O fundador acumula décadas de experiência que vêo muito além da tecnologia — entende o mercado e o ser humano. Sua trajetória acompanha cada revoluçêo digital:
 
 - **Anos 90:** Quando computadores eram intimidadores, ele ajudava pessoas a superarem a barreira. Fundou a SISNEMA Informática (parceira Microsoft/Dell por 20 anos, +100 mil alunos formados).
-- **Anos 2000:** Enquanto muitos viam a internet como "sem utilidade", ele já construía redes sociais — o portal inema.com.br foi vanguarda do que hoje são as redes.
-- **Anos 2010:** Já falava de IA, humanoides e automação quando ninguém prestava atenção. Registros em vídeos nas redes, manchetes de revistas e jornais comprovam.
-- **Hoje:** Continua na ativa com o **INEMA.CLUB** (plataforma gratuita de formação em IA) e a **comunidade INEMA VIP** — a mesma missão de sempre: ajudar pessoas a se desenvolverem.
+- **Anos 2000:** Enquanto muitos viam a internet como "sem utilidade", ele já construía redes sociais — o portal inema.com.br foi vanguarda do que hoje sêo as redes.
+- **Anos 2010:** Já falava de IA, humanoides e automaçêo quando ninguém prestava atençêo. Registros em vídeos nas redes, manchetes de revistas e jornais comprovam.
+- **Hoje:** Continua na ativa com o **INEMA.CLUB** (plataforma gratuita de formaçêo em IA) e a **comunidade INEMA VIP** — a mesma missêo de sempre: ajudar pessoas a se desenvolverem.
 
 Uma experiência única de alguém que sempre esteve à frente, antecipando cada onda tecnológica, e que ainda se predispõe a continuar de perto, ajudando.
 
@@ -17,19 +17,19 @@ Uma experiência única de alguém que sempre esteve à frente, antecipando cada
 > "Atrás dos computadores tem gente. Use as máquinas/IA para escalar."
 
 **Manifesto:**
-> "O INEMA não é apenas uma plataforma de conhecimento — é uma comunidade viva, feita por pessoas que acreditam no poder do aprendizado, da inovação e da colaboração para transformar o futuro."
+> "O INEMA nêo é apenas uma plataforma de conhecimento — é uma comunidade viva, feita por pessoas que acreditam no poder do aprendizado, da inovaçêo e da colaboraçêo para transformar o futuro."
 
 ---
 
 ## Tom e Voz da Marca
 
 ### Personalidade da marca
-- **Urgente e motivacional** — o futuro não espera
-- **Empoderador** — você comanda a IA, não compete
+- **Urgente e motivacional** — o futuro nêo espera
+- **Empoderador** — você comanda a IA, nêo compete
 - **Comunitário** — "juntos somos mais fortes"
 - **Acessível e sem elitismo** — conhecimento para todos
-- **Prático e aplicado** — resultado real, não teoria
-- **Aspiracional com os pés no chão** — transformação real, não milagres
+- **Prático e aplicado** — resultado real, nêo teoria
+- **Aspiracional com os pés no chêo** — transformaçêo real, nêo milagres
 - **Autoridade com humanidade** — décadas de experiência, mas linguagem próxima
 
 ### Tom por contexto
@@ -52,41 +52,41 @@ Uma experiência única de alguém que sempre esteve à frente, antecipando cada
 
 ## Os Três Pilares do Profissional do Futuro
 
-Toda comunicação da INEMA orbita esses três pilares:
+Toda comunicaçêo da INEMA orbita esses três pilares:
 
-**1. Comunicação com Máquinas (Prompt Engineering)**
-> "A IA só é poderosa conforme sua capacidade de se comunicar com ela. Quando você domina este pilar, você não compete com a IA... você a comanda."
+**1. Comunicaçêo com Máquinas (Prompt Engineering)**
+> "A IA só é poderosa conforme sua capacidade de se comunicar com ela. Quando você domina este pilar, você nêo compete com a IA... você a comanda."
 
-**2. Automação Empreendedora**
+**2. Automaçêo Empreendedora**
 > "Esqueça a mentalidade de trocar tempo por dinheiro. O futuro pertence a quem constrói sistemas que trabalham sozinhos."
 
 **3. Psicologia Humana e Influência**
-> "Em um mundo cada vez mais automatizado, o que se torna mais valioso? A conexão humana genuína."
+> "Em um mundo cada vez mais automatizado, o que se torna mais valioso? A conexêo humana genuína."
 
 ---
 
 ## Emojis Aprovados
 
 ### Primários (identidade)
-- 🚀 — aceleração, crescimento, futuro
+- 🚀 — aceleraçêo, crescimento, futuro
 - 🧠 — inteligência, IA, conhecimento
-- ⚡ — energia, velocidade, transformação
+- ⚡ — energia, velocidade, transformaçêo
 - 🌐 — mundo digital, conectividade
 - 🔥 — tendência, urgência, destaque
 
 ### Secundários (suporte)
 - 💡 — insights, ideias, aprendizado
-- 🤖 — IA, automação, tecnologia
+- 🤖 — IA, automaçêo, tecnologia
 - 🏆 — conquista, resultados, excelência
 - 💎 — valor, premium, exclusividade
 - 🎯 — foco, objetivo, resultado
-- 🔗 — conexão, integração
-- 📈 — crescimento, métricas, evolução
-- ✅ — confirmação, checklist, entregável
+- 🔗 — conexêo, integraçêo
+- 📈 — crescimento, métricas, evoluçêo
+- ✅ — confirmaçêo, checklist, entregável
 
 ### Evitar
-- Emojis de dinheiro isolados (💰💵) — conotação de "guru de dinheiro fácil"
-- Emojis de coração excessivos em conteúdo técnico
+- Emojis de dinheiro isolados (💰💵) — conotaçêo de "guru de dinheiro fácil"
+- Emojis de coraçêo excessivos em conteúdo técnico
 - Emojis de palmas isolados sem contexto
 
 ---
@@ -97,7 +97,7 @@ Toda comunicação da INEMA orbita esses três pilares:
 
 **Para comunidade VIP:**
 - "Entre para a comunidade: inema.vip"
-- "Acelere sua evolução → inema.vip"
+- "Acelere sua evoluçêo → inema.vip"
 - "R$ 35/mês. Sem desculpas para ficar para trás."
 - "Sua comunidade VIP de IA está esperando."
 
@@ -111,7 +111,7 @@ Toda comunicação da INEMA orbita esses três pilares:
 - "Compartilhe com quem precisa ouvir isso."
 - "Salva esse post — você vai precisar."
 
-**Para geração de leads:**
+**Para geraçêo de leads:**
 - "Link na bio."
 - "Me manda uma mensagem."
 - "Entra no grupo e pergunta."
@@ -150,7 +150,7 @@ Toda comunicação da INEMA orbita esses três pilares:
 
 ### Hashtags por Plataforma
 
-**Instagram:** Usar 5–8 hashtags no comentário (não na legenda)
+**Instagram:** Usar 5–8 hashtags no comentário (nêo na legenda)
 **Threads:** Máximo 3 hashtags inline no post
 **TikTok:** 4–6 hashtags no caption, priorizando trending
 **YouTube:** Sem hashtags na legenda; usar em tags do vídeo
@@ -160,9 +160,9 @@ Toda comunicação da INEMA orbita esses três pilares:
 ## Identidade Visual (Referências)
 
 ### Paleta de cores (baseada em materiais observados)
-- **Primária:** Azul elétrico / ciano (#0099FF range) — tecnologia, inovação
+- **Primária:** Azul elétrico / ciano (#0099FF range) — tecnologia, inovaçêo
 - **Secundária:** Preto / grafite escuro (#0D0D0D) — premium, modernidade
-- **Acento:** Verde limão / neon (#00FF88 range) — destaque, ação, futuro
+- **Acento:** Verde limêo / neon (#00FF88 range) — destaque, açêo, futuro
 - **Neutro:** Branco puro (#FFFFFF) e cinza escuro (#1A1A2E)
 
 ### Estilo visual
@@ -176,9 +176,9 @@ Toda comunicação da INEMA orbita esses três pilares:
 - Pessoas trabalhando em setups tecnológicos modernos: múltiplos monitores, interfaces de IA, código na tela
 - Ambientes de trabalho dark e futuristas: luz neon ciano/verde, escritório minimalista de alta tecnologia
 - Interfaces digitais visíveis: dashboards de IA, terminais de código, plataformas de e-learning, chat com agentes
-- Educação digital em ação: pessoa estudando online, trilha de aprendizado, comunidade conectada remotamente
-- Transformação profissional: contraste entre analógico/perdido e digital/confiante com tecnologia nas mãos
-- Elementos de IA tangíveis: redes neurais visuais, fluxos de dados, grafos de agentes, automação em movimento
+- Educaçêo digital em açêo: pessoa estudando online, trilha de aprendizado, comunidade conectada remotamente
+- Transformaçêo profissional: contraste entre analógico/perdido e digital/confiante com tecnologia nas mêos
+- Elementos de IA tangíveis: redes neurais visuais, fluxos de dados, grafos de agentes, automaçêo em movimento
 - Pessoa sempre presente mas sempre COM tecnologia — nunca pessoa isolada sem contexto tech
 - Evitar: natureza genérica sem tech, escritórios corporativos tradicionais, pessoas sem equipamento ou tela visível
 
@@ -189,7 +189,7 @@ Toda comunicação da INEMA orbita esses três pilares:
 **Nei Eugenio Maldaner** é o rosto e a autoridade por trás da INEMA.
 
 Pontos de credibilidade comunicáveis:
-- 40+ anos de experiência em TI, educação e gestão comportamental
+- 40+ anos de experiência em TI, educaçêo e gestêo comportamental
 - Fundador da SISNEMA (anos 90) — +100.000 alunos, parceira Microsoft/Dell por 20 anos
 - **Em 2000 criou o inema.com.br** — plataforma de aventura com +100.000 colaboradores e mais de 200 modalidades esportivas, referência nacional no segmento
 - Por mais de 20 anos conduziu o **Academics e Roadshow** — eventos gratuitos de tecnologia levados a todo o Brasil, evangelizando o conhecimento sem recursos governamentais, tudo por iniciativa e recursos próprios

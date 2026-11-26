@@ -1,18 +1,18 @@
-# Plano: Video Editor Agent ("Diretor de Edição")
+# Plano: Video Editor Agent ("Diretor de Ediçêo")
 
 ## Contexto
 
-O pipeline atual gera vídeos com 5 cenas de ~12s cada — basicamente um slideshow. Um editor profissional criaria 30-50+ cortes rápidos em 60s com ritmo variado, transições diversas e pacing sincronizado com narração/música.
+O pipeline atual gera vídeos com 5 cenas de ~12s cada — basicamente um slideshow. Um editor profissional criaria 30-50+ cortes rápidos em 60s com ritmo variado, transições diversas e pacing sincronizado com narraçêo/música.
 
-O desafio é criar um **agente automatizado que pensa como editor de vídeo profissional**, recebendo briefings de outros agentes e gerando um plano de edição com qualidade de clipe.
+O desafio é criar um **agente automatizado que pensa como editor de vídeo profissional**, recebendo briefings de outros agentes e gerando um plano de ediçêo com qualidade de clipe.
 
 ---
 
-## Decisão Arquitetural
+## Decisêo Arquitetural
 
 **SUBSTITUIR** `video_ad_specialist` + absorver `motion_director` em um único novo agente: `video_editor_agent`.
 
-Razão: o agente atual foi projetado para 5 cenas. Reescrever 90% é mais limpo que patchar. O novo agente ocupa o mesmo slot (stage3), mesma skip flag (`skip_video`), mesmos dependencies.
+Razêo: o agente atual foi projetado para 5 cenas. Reescrever 90% é mais limpo que patchar. O novo agente ocupa o mesmo slot (stage3), mesma skip flag (`skip_video`), mesmos dependencies.
 
 ---
 
@@ -27,22 +27,22 @@ Razão: o agente atual foi projetado para 5 cenas. Reescrever 90% é mais limpo 
 - **Pode solicitar complementos** ao agente upstream se faltar assets
 
 ### Fase B: Edit Decision List (EDL) — 30-50 cortes
-- Quebra narração em 30-50+ segmentos mapeados a "cortes"
+- Quebra narraçêo em 30-50+ segmentos mapeados a "cortes"
 - Cada corte: duration (0.5-5s), scene_type, visual_concept, energy_level (1-5)
 - Regras profissionais:
   - Nunca mesmo motion 2x seguidas
   - Nunca mesmo text_position 3x seguidas
   - Padrões rítmicos: short-short-long, short-long-short
-  - Curva de energia: alto no hook → dip no problema → build na solução → peak na prova → hold no CTA
+  - Curva de energia: alto no hook → dip no problema → build na soluçêo → peak na prova → hold no CTA
   - Hook: cortes 0.5-1.5s (rápidos) | Meio: 1-3s (variado) | CTA: 3-5s (hold)
 
-### Fase C: Atribuição de Assets
+### Fase C: Atribuiçêo de Assets
 - Mapeia cada corte a uma imagem (path ou image_prompt para API)
 - Reutiliza imagens criativamente: mesma imagem + crop/motion diferentes = visualmente distinto
 - Máximo 5 usos por imagem (com 11 imagens e 35 cortes = ~3.2 usos/imagem)
-- Text overlays: max 6 palavras, complementam narração, nunca repetem
+- Text overlays: max 6 palavras, complementam narraçêo, nunca repetem
 
-### Fase D: Motion e Pós-Produção (absorve motion_director)
+### Fase D: Motion e Pós-Produçêo (absorve motion_director)
 - Atribui camera effects por corte (ffmpeg: 4 tipos / Remotion: 12 tipos)
 - Atribui text animations por corte (Remotion: 11 tipos)
 - Define transições: cut, crossfade, fade_black
@@ -54,12 +54,12 @@ Razão: o agente atual foi projetado para 5 cenas. Reescrever 90% é mais limpo 
 ## Arquivos a Criar/Modificar
 
 ### 1. CRIAR: `skills/video-editor-agent/SKILL.md`
-Spec completa do agente com as 4 fases, regras de edição profissional, tabelas de pacing, exemplos de EDL, schema JSON, checklist de qualidade.
+Spec completa do agente com as 4 fases, regras de ediçêo profissional, tabelas de pacing, exemplos de EDL, schema JSON, checklist de qualidade.
 
 ### 2. CRIAR: Handler `handleVideoEditorAgent()` em `pipeline/worker.js`
 - Prompt com instruções detalhadas + budget de cortes obrigatório
-- Fase 1.5 de geração de imagens (reutiliza lógica existente)
-- Validação pós-Claude: verifica `scenes.length >= 25`, corrige motions consecutivas
+- Fase 1.5 de geraçêo de imagens (reutiliza lógica existente)
+- Validaçêo pós-Claude: verifica `scenes.length >= 25`, corrige motions consecutivas
 - Sem sub-fase de motion_director (já incluído na saída)
 - Mesmo mecanismo de approval (approval_needed.json / approved.json)
 
@@ -68,12 +68,12 @@ Spec completa do agente com as 4 fases, regras de edição profissional, tabelas
 - STAGES.stage3: trocar `['video_ad_specialist']` → `['video_editor_agent']`
 
 ### 4. MODIFICAR: `telegram/bot.js`
-- Mensagem de aprovação resumida (por seções, não por corte individual):
+- Mensagem de aprovaçêo resumida (por seções, nêo por corte individual):
   ```
   Video 01: "Título" | 35 cortes | 60s | Energético
   HOOK (0-8s): 7 cortes
   PROBLEMA (8-20s): 6 cortes
-  SOLUÇÃO (20-38s): 10 cortes
+  SOLUÇêO (20-38s): 10 cortes
   CTA (52-60s): 5 cortes
   ```
 
@@ -142,7 +142,7 @@ Spec completa do agente com as 4 fases, regras de edição profissional, tabelas
 
 Para demonstrar o conceito, vou gerar um vídeo de teste com:
 - 35 cortes usando as 11 imagens INEMA disponíveis
-- Narração ElevenLabs (voz Rachel)
+- Narraçêo ElevenLabs (voz Rachel)
 - Ritmo energético (cortes 0.5-3s)
 - Framework: Hero's Journey
 - Renderizado via ffmpeg (compatível imediato)
@@ -162,25 +162,25 @@ O handler valida automaticamente:
 
 ---
 
-## Verificação End-to-End
+## Verificaçêo End-to-End
 
 1. Criar SKILL.md e handler
-2. Gerar narração via ElevenLabs para script de teste
+2. Gerar narraçêo via ElevenLabs para script de teste
 3. Executar agente via `runClaude()` com payload INEMA
 4. Validar JSON de saída (35+ cortes, regras respeitadas)
 5. Renderizar via `render-video-ffmpeg.js`
 6. Verificar vídeo: 60s, cortes visualmente distintos, texto legível
-7. Enviar para Telegram para aprovação visual
+7. Enviar para Telegram para aprovaçêo visual
 
 ---
 
 ## Arquivos Críticos
 
-| Arquivo | Ação |
+| Arquivo | Açêo |
 |---------|------|
 | `skills/video-editor-agent/SKILL.md` | CRIAR — spec completa |
 | `pipeline/worker.js` | MODIFICAR — novo handler, manter antigo como fallback |
 | `pipeline/orchestrator.js` | MODIFICAR — trocar agent name e stage |
-| `telegram/bot.js` | MODIFICAR — mensagem de aprovação resumida |
+| `telegram/bot.js` | MODIFICAR — mensagem de aprovaçêo resumida |
 | `pipeline/render-video-ffmpeg.js` | OPCIONAL — xfade transitions |
-| `prj/inema/testes/video_editor_demo/` | CRIAR — vídeo de demonstração |
+| `prj/inema/testes/video_editor_demo/` | CRIAR — vídeo de demonstraçêo |

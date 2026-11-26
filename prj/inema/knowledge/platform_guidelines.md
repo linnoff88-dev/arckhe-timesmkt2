@@ -1,12 +1,12 @@
 # Platform Guidelines — INEMA
 
-## Visão Geral de Canais
+## Visêo Geral de Canais
 
 | Canal | Handle | Seguidores | Prioridade |
 |---|---|---|---|
 | Instagram | @inema.tds | 70.000 | Alta |
 | TikTok | @inema.tds / @inema.tia | — | Alta |
-| Telegram | Comunidade VIP (+30 grupos) | — | Alta (monetização) |
+| Telegram | Comunidade VIP (+30 grupos) | — | Alta (monetizaçêo) |
 | GitHub | inematds | 72 seguidores, 159 repos | Média (credibilidade) |
 | YouTube | — | — | Média |
 | Threads | @nei.e.maldaner | — | Média |
@@ -25,24 +25,24 @@
 - Carrossel: até 10 slides, todos 1080×1080px ou 1080×1350px
 
 **Formato e Tom:**
-- Primeira imagem deve capturar atenção sem texto (ou com headline mínimo)
+- Primeira imagem deve capturar atençêo sem texto (ou com headline mínimo)
 - Hook visual poderoso — 3 segundos para engajar
 - Carrosséis educativos performam melhor (salvo rate alto)
-- Evitar logos grandes e poluição visual
+- Evitar logos grandes e poluiçêo visual
 - Gradientes ciano/azul + fundo escuro = identidade visual INEMA
 
 **Legenda:**
 - Estrutura: Hook (1ª linha) → Desenvolvimento → CTA
 - Máximo 150 palavras visíveis (resto fica "ver mais")
 - Hook deve aparecer antes do "ver mais" (sem quebra de linha antes)
-- 5–8 hashtags no primeiro comentário (não na legenda)
+- 5–8 hashtags no primeiro comentário (nêo na legenda)
 - Mencionar @inema.tds ou @inema.vip quando relevante
-- Emojis: usar com moderação, apenas os aprovados
+- Emojis: usar com moderaçêo, apenas os aprovados
 
 **Exemplos de Hooks aprovados:**
-- "A IA vai roubar seu emprego. Ou não. Depende do que você fizer agora."
+- "A IA vai roubar seu emprego. Ou nêo. Depende do que você fizer agora."
 - "3 pilares que separam o profissional do futuro do profissional do passado."
-- "R$ 35/mês. Isso é tudo que você precisa para não ficar para trás."
+- "R$ 35/mês. Isso é tudo que você precisa para nêo ficar para trás."
 
 **CTAs:**
 - "Link na bio → inema.vip" ou "Link na bio → inema.club"
@@ -64,8 +64,8 @@
 
 **Elementos obrigatórios:**
 - Link/swipe up para inema.vip ou inema.club quando aplicável
-- Menção ao @inema.tds para repostar
-- Stickers de enquete para aumentar interação
+- Mençêo ao @inema.tds para repostar
+- Stickers de enquete para aumentar interaçêo
 
 **Frequência:** 3–7 stories/dia (pode incluir reposts de @nei.e.maldaner)
 
@@ -74,7 +74,7 @@
 ### Reels
 
 **Dimensões:** 1080×1920px
-**Duração:** 15–60s (ideal: 30–45s para algoritmo)
+**Duraçêo:** 15–60s (ideal: 30–45s para algoritmo)
 
 **Estrutura:**
 1. Hook visual/sonoro nos primeiros 2s (corte brusco, texto impactante ou pergunta)
@@ -84,10 +84,10 @@
 **Legendas automáticas:** Sempre ativar (a maioria assiste sem som)
 
 **Temas que performam:**
-- "X ferramentas de IA que você não conhece"
-- Tutorial rápido de automação
-- Opinião polêmica sobre futuro do trabalho
-- Bastidores de criação de conteúdo com IA
+- "X ferramentas de IA que você nêo conhece"
+- Tutorial rápido de automaçêo
+- Opiniêo polêmica sobre futuro do trabalho
+- Bastidores de criaçêo de conteúdo com IA
 
 ---
 
@@ -97,7 +97,7 @@
 **Handle educacional:** @lnema.tia (Técnico em IA)
 
 **Dimensões:** 1080×1920px
-**Duração ideal:** 15–60s (TikTok favorece entre 21–34s para maior alcance)
+**Duraçêo ideal:** 15–60s (TikTok favorece entre 21–34s para maior alcance)
 
 **Tom:** Ainda mais dinâmico que Instagram. Cortes a cada 2–3s.
 
@@ -124,14 +124,14 @@
 **Tom:** Reflexivo, provocador, pessoal. Nei como voz humana da marca.
 
 **Formatos que funcionam:**
-- Opinião direta sobre futuro do trabalho
+- Opiniêo direta sobre futuro do trabalho
 - Observações curtas sobre IA e comportamento humano
 - Perguntas que convidam ao debate
 - Links para conteúdo do INEMA.CLUB com contexto
 
 **Estrutura de thread:**
 ```
-Post 1: Afirmação provocadora ou insight (máx 300 chars)
+Post 1: Afirmaçêo provocadora ou insight (máx 300 chars)
 Post 2-4: Desenvolvimento com argumentos práticos
 Post final: CTA + link
 ```
@@ -148,23 +148,23 @@ Post final: CTA + link
 
 ### YouTube Shorts
 - **Dimensões:** 1080×1920px
-- **Duração:** Até 60s
-- **Descrição:** Máx 100 palavras, incluir link inema.vip ou inema.club
-- **Tags:** claude ai, inteligência artificial, automação, inema, prompt engineering, agentes ia, transformacao digital
-- **Thumbnails:** Rosto em close com expressão + texto impactante
+- **Duraçêo:** Até 60s
+- **Descriçêo:** Máx 100 palavras, incluir link inema.vip ou inema.club
+- **Tags:** claude ai, inteligência artificial, automaçêo, inema, prompt engineering, agentes ia, transformacao digital
+- **Thumbnails:** Rosto em close com expressêo + texto impactante
 
 ### Vídeos Longos
 - **Dimensões:** 1920×1080px (widescreen)
-- **Duração ideal para SEO:** 8–15 min (tutorial/educativo) ou 20–45 min (masterclass)
+- **Duraçêo ideal para SEO:** 8–15 min (tutorial/educativo) ou 20–45 min (masterclass)
 - **Título:** 60–70 caracteres, incluir keyword principal no início
   - Ex: "Claude Code COMPLETO: Do Zero ao Agente em 1 Hora | INEMA"
-- **Descrição:** Hook nos primeiros 150 chars (aparece no preview) + timestamps + links
-- **Tags:** 10–15 tags relevantes (ex: claude code, agents ia, automação com ia, curso ia gratis)
+- **Descriçêo:** Hook nos primeiros 150 chars (aparece no preview) + timestamps + links
+- **Tags:** 10–15 tags relevantes (ex: claude code, agents ia, automaçêo com ia, curso ia gratis)
 - **Thumbnails:** 1280×720px, rosto + texto + contraste alto
 
 **CTAs no vídeo:**
-- Verbal: "Se inscreve no canal" + "Acessa o link na descrição"
-- Visual: Card com link e tela final com sugestão de vídeo
+- Verbal: "Se inscreve no canal" + "Acessa o link na descriçêo"
+- Visual: Card com link e tela final com sugestêo de vídeo
 
 ---
 
@@ -172,13 +172,13 @@ Post final: CTA + link
 
 **Estrutura:** +30 grupos especializados acessados via inema.vip
 
-**Tom:** Caloroso, colaborativo, de igual para igual. Não é suporte — é comunidade.
+**Tom:** Caloroso, colaborativo, de igual para igual. Nêo é suporte — é comunidade.
 
-**Regras de comunicação:**
+**Regras de comunicaçêo:**
 - Mensagens de boas-vindas personalizadas (mascote "Tiza")
-- Dúvidas são respondidas pela comunidade, não só pelo Nei
+- Dúvidas sêo respondidas pela comunidade, nêo só pelo Nei
 - Conteúdo prático e aplicável imediatamente
-- Novidades e lançamentos são anunciados aqui primeiro
+- Novidades e lançamentos sêo anunciados aqui primeiro
 
 **Frequência de posts:** Diária (é o canal mais ativo da comunidade)
 
@@ -205,12 +205,12 @@ Post final: CTA + link
 
 ## GitHub — inematds
 
-**Não é canal de marketing**, mas é canal de credibilidade.
+**Nêo é canal de marketing**, mas é canal de credibilidade.
 
 **Boas práticas:**
 - README.md de cada repositório deve ter link para inema.club e inema.vip
 - Usar issues e discussions como canais de suporte técnico
-- Stars e forks são métricas de autoridade — mencionar em conteúdo social
+- Stars e forks sêo métricas de autoridade — mencionar em conteúdo social
 
 ---
 
@@ -219,11 +219,11 @@ Post final: CTA + link
 | Objetivo | Formatos Recomendados |
 |---|---|
 | **Awareness** | Reels, TikTok, Stories com alcance |
-| **Educação** | Carrossel Instagram, YouTube longo, artigo LinkedIn |
-| **Conversão VIP** | Stories com link, post de oferta, anúncio pago |
+| **Educaçêo** | Carrossel Instagram, YouTube longo, artigo LinkedIn |
+| **Conversêo VIP** | Stories com link, post de oferta, anúncio pago |
 | **Comunidade** | Telegram, Threads, enquetes Stories |
 | **Credibilidade** | LinkedIn artigos, YouTube masterclass, GitHub |
-| **Viralização** | TikTok, Reels com hook polêmico/provocador |
+| **Viralizaçêo** | TikTok, Reels com hook polêmico/provocador |
 
 ---
 
@@ -232,8 +232,8 @@ Post final: CTA + link
 | Dia | Conteúdo |
 |---|---|
 | Segunda | Post educativo (carrossel ou vídeo tutorial) |
-| Terça | TikTok/Reel — dica rápida de IA ou automação |
-| Quarta | Threads — opinião/provocação sobre futuro do trabalho |
+| Terça | TikTok/Reel — dica rápida de IA ou automaçêo |
+| Quarta | Threads — opiniêo/provocaçêo sobre futuro do trabalho |
 | Quinta | Post de comunidade (depoimento, bastidor, novidade VIP) |
 | Sexta | Conteúdo inspiracional + CTA para inema.vip |
 | Sábado | Conteúdo leve (case, curiosidade, ferramenta) |

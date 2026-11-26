@@ -62,7 +62,7 @@
       "pro_secret": "drawbox opacity 0.5 for text legibility; 30fps"
     },
     "10_problem_solution": {
-      "label": "Problema e Solução",
+      "label": "Problema e Soluçêo",
       "remotion": {
         "easing_problem": "Easing.linear",
         "easing_solution": "Easing.out(Easing.back)",
@@ -148,7 +148,7 @@
     },
     "inema_hightech": {
       "label": "INEMA High-Tech Marketing (default)",
-      "description": "Mix dos Modelos 11 (Motion Graphics), 13 (Kinetic Typography), 14 (Short Vertical) e 20 (Performance Ad). Foco em informação + estímulo visual, não em movimento de câmera física.",
+      "description": "Mix dos Modelos 11 (Motion Graphics), 13 (Kinetic Typography), 14 (Short Vertical) e 20 (Performance Ad). Foco em informaçêo + estímulo visual, nêo em movimento de câmera física.",
       "base_models": ["11_motion_graphics", "13_kinetic_typography", "14_short_vertical", "20_performance_ad"],
 
       "remotion": {
@@ -261,15 +261,15 @@
           "comment": "Pulso orgânico — substitui zoom linear mecânico",
           "scale_noise": { "type": "perlin", "amplitude": 0.02, "frequency": "low" },
           "rotation_noise": { "amplitude": 0.1, "unit": "degrees" },
-          "effect": "sensação de bastidores/cinema, mesmo em imagens estáticas"
+          "effect": "sensaçêo de bastidores/cinema, mesmo em imagens estáticas"
         },
 
         "glitch_transitions": {
-          "comment": "Rupturas de dados entre cenas — NÃO crossfade",
+          "comment": "Rupturas de dados entre cenas — NêO crossfade",
           "duration_frames": 3,
           "effects": ["rgb_split", "chromatic_aberration", "zoom_10percent"],
           "ffmpeg": "lutrgb=r='val*1.2':g='val*0.8':b='val*1.1',zoompan=z='zoom+0.1':d=3",
-          "when": "entre TODAS as cenas, não só entre seções"
+          "when": "entre TODAS as cenas, nêo só entre seções"
         },
 
         "lighting": {
@@ -281,7 +281,7 @@
 
       "mood": "high-tech, innovation, empowerment, urgency, conversion",
 
-      "prompt_instruction": "Protocolo HUD ativo. UNIDADE: granulado 3% + vinheta em todas as cenas. INTERFACE: texto com colchetes, scan line, dados binários nos cantos. MOVIMENTO: Camera Breathing (Perlin noise na escala 1.0-1.02). TRANSIÇÃO: Chromatic Aberration + RGB Shift nos cortes (glitch de dados, 3 frames). ILUMINAÇÃO: sombras pesadas + highlights neon azul/verde. TIPOGRAFIA: Oswald/Montserrat com spring scale, fontes mono para dados. CTA: glow pulse."
+      "prompt_instruction": "Protocolo HUD ativo. UNIDADE: granulado 3% + vinheta em todas as cenas. INTERFACE: texto com colchetes, scan line, dados binários nos cantos. MOVIMENTO: Camera Breathing (Perlin noise na escala 1.0-1.02). TRANSIÇêO: Chromatic Aberration + RGB Shift nos cortes (glitch de dados, 3 frames). ILUMINAÇêO: sombras pesadas + highlights neon azul/verde. TIPOGRAFIA: Oswald/Montserrat com spring scale, fontes mono para dados. CTA: glow pulse."
     }
   },
   "universal_rules": {

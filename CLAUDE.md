@@ -6,26 +6,26 @@
 
 ## Versionamento
 
-**Padrão:** `ITAGMKT vMAJOR.RECURSO.BUG`
+**Padrêo:** `ITAGMKT vMAJOR.RECURSO.BUG`
 
 | Campo | Quando incrementar |
 |---|---|
 | `MAJOR` | Mudança de arquitetura ou redesign completo do fluxo |
-| `RECURSO` | Novo agente, nova aprovação, novo provider, nova feature |
-| `BUG` | Correção de bug, ajuste de comportamento, fix de prompt |
+| `RECURSO` | Novo agente, nova aprovaçêo, novo provider, nova feature |
+| `BUG` | Correçêo de bug, ajuste de comportamento, fix de prompt |
 
 **Regra crítica:** O contador `BUG` **acumula e nunca zera quando RECURSO incrementa**. Só zera quando MAJOR incrementa.
 
 **Exemplos:**
-- `v3.0.0` → versão base com novo fluxo de 4 aprovações + Diretor de Criação
-- `v3.1.0` → adição do Agente Revisor automático (RECURSO+1, BUG não zera → mantém 0)
+- `v3.0.0` → versêo base com novo fluxo de 4 aprovações + Diretor de Criaçêo
+- `v3.1.0` → adiçêo do Agente Revisor automático (RECURSO+1, BUG nêo zera → mantém 0)
 - `v3.1.1` → fix no gate de imagens (BUG+1)
-- `v3.2.1` → Motion Director + brand visual context (RECURSO+1, BUG acumulado = 1, não zerou)
+- `v3.2.1` → Motion Director + brand visual context (RECURSO+1, BUG acumulado = 1, nêo zerou)
 - `v4.0.0` → pipeline 5 estágios, 6 agentes de plataforma, video quick/pro, publish genérico (MAJOR+1, tudo zera)
 
-**Versão atual:** `ITAGMKT v4.3.4`
+**Versêo atual:** `ITAGMKT v4.3.4`
 
-Sempre atualizar a versão no topo deste arquivo e no `package.json` ao fazer uma alteração relevante.
+Sempre atualizar a versêo no topo deste arquivo e no `package.json` ao fazer uma alteraçêo relevante.
 
 ---
 
@@ -61,42 +61,42 @@ The system consists of **13+ specialized agents** coordinated by the bot in a **
 ┌─────────────────────────────────────────────────────────────┐
 │  Stage 1: Estratégia & Narrativa                            │
 │  Research Agent → Diretor Criativo → Copywriter             │
-│                          [APROVAÇÃO 1 — brief + narrativa]  │
+│                          [APROVAÇêO 1 — brief + narrativa]  │
 ├─────────────────────────────────────────────────────────────┤
 │  Stage 2: Imagens                                           │
 │  Ad Creative Designer                                       │
-│                          [APROVAÇÃO 2 — imagens estáticas]  │
+│                          [APROVAÇêO 2 — imagens estáticas]  │
 ├─────────────────────────────────────────────────────────────┤
 │  Stage 3: Vídeo                                             │
 │  Video Quick (default) + Video Pro (sob demanda)            │
 │  Independentes — podem rodar juntos                         │
-│                          [APROVAÇÃO 3 — vídeo + plataformas]│
+│                          [APROVAÇêO 3 — vídeo + plataformas]│
 ├─────────────────────────────────────────────────────────────┤
 │  Stage 4: Plataformas                                       │
 │  Instagram + YouTube + TikTok + Facebook + Threads + LinkedIn│
 │  (só rodam as plataformas selecionadas)                     │
-│                          [APROVAÇÃO 4 — copy nativo]        │
+│                          [APROVAÇêO 4 — copy nativo]        │
 ├─────────────────────────────────────────────────────────────┤
-│  Stage 5: Distribuição                                      │
+│  Stage 5: Distribuiçêo                                      │
 │  Distribution Agent (upload + agendar + publicar)           │
-│                          [APROVAÇÃO 5 — publicar]           │
+│                          [APROVAÇêO 5 — publicar]           │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 **Componentes:**
-- **Bot** (`telegram/bot.js`) — controlador do pipeline; avança etapas após aprovação
+- **Bot** (`telegram/bot.js`) — controlador do pipeline; avança etapas após aprovaçêo
 - **Orchestrator** (`pipeline/orchestrator.js`) — enfileira jobs por etapa via `enqueueStage()`
 - **Worker** (`pipeline/worker.js`) — executa os agentes; emite sinais `[STAGE1_DONE]`, `[STAGE2_IMAGE_READY]`, `[IMAGE_APPROVAL_NEEDED]`
 
-**Modos de aprovação por etapa** (configurável via `approval_modes` no payload):
+**Modos de aprovaçêo por etapa** (configurável via `approval_modes` no payload):
 | Modo | Comportamento |
 |---|---|
-| `humano` | Bot envia resultado ao usuário e aguarda confirmação (padrão) |
-| `auto` | Avança automaticamente sem aprovação |
+| `humano` | Bot envia resultado ao usuário e aguarda confirmaçêo (padrêo) |
+| `auto` | Avança automaticamente sem aprovaçêo |
 | `agente` | Agente Revisor avalia e decide |
 
-**Gate interno de imagens vs. aprovação de stage:**
-O worker emite `[IMAGE_APPROVAL_NEEDED]` após gerar imagens via API — esse é um gate **interno** que aguarda o arquivo `imgs/approved.json` para continuar montando o ad HTML. O bot v3 escreve esse arquivo automaticamente. A aprovação real (humano/agente/auto) acontece no **gate de stage 2**, depois que ambos os agentes (`ad_creative_designer` + `copywriter_agent`) completam. Os dois mecanismos são independentes — os flags de aprovação controlam apenas o gate de stage.
+**Gate interno de imagens vs. aprovaçêo de stage:**
+O worker emite `[IMAGE_APPROVAL_NEEDED]` após gerar imagens via API — esse é um gate **interno** que aguarda o arquivo `imgs/approved.json` para continuar montando o ad HTML. O bot v3 escreve esse arquivo automaticamente. A aprovaçêo real (humano/agente/auto) acontece no **gate de stage 2**, depois que ambos os agentes (`ad_creative_designer` + `copywriter_agent`) completam. Os dois mecanismos sêo independentes — os flags de aprovaçêo controlam apenas o gate de stage.
 
 Each agent uses a combination of **instruction specs, knowledge files, and APIs** to perform its tasks.
 

@@ -51,15 +51,15 @@ const MODELS = {
 };
 
 const AVAILABLE_MODELS = [
-  { id: 'z-image',          label: 'Z-Image (padrão)' },
+  { id: 'z-image',          label: 'Z-Image (padrêo)' },
   { id: 'z-image-turbo',    label: 'Z-Image Turbo (mais rápido)' },
   { id: 'flux-kontext-pro', label: 'Flux Kontext Pro' },
   { id: 'flux-kontext-max', label: 'Flux Kontext Max (qualidade máxima)' },
   { id: 'gpt-image-1',      label: 'GPT-Image-1 (estilo OpenAI)' },
-  { id: 'seedream',         label: 'SeedReam (alta resolução)' },
-  { id: 'flux-2',           label: 'FLUX 2 (nova geração)' },
+  { id: 'seedream',         label: 'SeedReam (alta resoluçêo)' },
+  { id: 'flux-2',           label: 'FLUX 2 (nova geraçêo)' },
   { id: 'grok-imagine',     label: 'Grok Imagine (xAI)' },
-  { id: 'nano-banana-2',    label: 'Nano Banana 2 (1K resolução)' },
+  { id: 'nano-banana-2',    label: 'Nano Banana 2 (1K resoluçêo)' },
 ];
 
 // ── Brand context reader ──────────────────────────────────────────────────────
@@ -183,16 +183,16 @@ function extractThemeKeywords(brief) {
   // Portuguese stop words to filter out
   const stopWords = new Set([
     'de','do','da','dos','das','em','no','na','nos','nas','para','por','com','uma',
-    'um','que','se','não','mas','ou','e','o','a','os','as','ao','aos','às',
+    'um','que','se','nêo','mas','ou','e','o','a','os','as','ao','aos','às',
     'este','esta','estes','estas','esse','essa','isso','aqui','já','mais',
-    'muito','ser','ter','foi','são','está','como','sua','seu','seus','suas',
+    'muito','ser','ter','foi','sêo','está','como','sua','seu','seus','suas',
     'todo','toda','todos','todas','quando','onde','qual','quais','porque',
     'sobre','entre','sem','pelo','pela','pelos','pelas','até','após',
   ]);
 
   return brief
     .toLowerCase()
-    .replace(/[^a-záéíóúâêîôûãõç\s]/g, ' ')
+    .replace(/[^a-záéíóúâêîôûêõç\s]/g, ' ')
     .split(/\s+/)
     .filter(w => w.length > 3 && !stopWords.has(w))
     .slice(0, 8);

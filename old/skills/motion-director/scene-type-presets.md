@@ -8,7 +8,7 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 
 **Objetivo:** Parar o scroll nos primeiros 2 segundos.
 
-| Campo | Valor padrão |
+| Campo | Valor padrêo |
 |---|---|
 | `motion.type` | `zoom_in` |
 | `motion.intensity` | `aggressive` |
@@ -30,7 +30,7 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 
 **Objetivo:** Criar desconforto emocional — o espectador se identifica com o problema.
 
-| Campo | Valor padrão |
+| Campo | Valor padrêo |
 |---|---|
 | `motion.type` | `zoom_in` ou `pan_left` |
 | `motion.intensity` | `aggressive` |
@@ -46,7 +46,7 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 
 **Objetivo:** Revelar o produto com clareza e destaque.
 
-| Campo | Valor padrão |
+| Campo | Valor padrêo |
 |---|---|
 | `motion.type` | `zoom_out` ou `pan_right` |
 | `motion.intensity` | `moderate` |
@@ -68,7 +68,7 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 
 **Objetivo:** Entregar o valor de forma clara e crível.
 
-| Campo | Valor padrão |
+| Campo | Valor padrêo |
 |---|---|
 | `motion.type` | `zoom_out` |
 | `motion.intensity` | `moderate` |
@@ -84,7 +84,7 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 
 **Objetivo:** Mostrar resultado real, comunidade, credibilidade.
 
-| Campo | Valor padrão |
+| Campo | Valor padrêo |
 |---|---|
 | `motion.type` | `pan_right` |
 | `motion.intensity` | `subtle` |
@@ -100,9 +100,9 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 
 ## cta
 
-**Objetivo:** Direcionar a ação. Clareza acima de tudo.
+**Objetivo:** Direcionar a açêo. Clareza acima de tudo.
 
-| Campo | Valor padrão |
+| Campo | Valor padrêo |
 |---|---|
 | `motion.type` | `static` |
 | `motion.intensity` | `static` |
@@ -114,6 +114,6 @@ Combinações prontas de movimento + layout por tipo de cena. Usar como ponto de
 | `transition_out` | `fade_black` 0.6s |
 
 **Regras:**
-- CTA deve ter +1s adicional de duração — dar tempo para ler e agir
+- CTA deve ter +1s adicional de duraçêo — dar tempo para ler e agir
 - Texto do CTA máximo 6 palavras — se maior, quebrar em 2 linhas
 - Nunca movimento agressivo no CTA — confunde o espectador

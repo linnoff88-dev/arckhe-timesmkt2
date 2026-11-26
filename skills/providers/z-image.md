@@ -5,7 +5,7 @@
 
 ---
 
-## Endpoint de criação de tarefa
+## Endpoint de criaçêo de tarefa
 
 ```
 POST https://api.kie.ai/api/v1/jobs/createTask
@@ -35,15 +35,15 @@ Content-Type: application/json
 
 ## Parâmetros aceitos
 
-| Campo | Tipo | Obrig. | Descrição |
+| Campo | Tipo | Obrig. | Descriçêo |
 |---|---|---|---|
 | `model` | string | Sim | `"z-image"` ou `"z-image-turbo"` |
 | `input.prompt` | string | Sim | 3–1000 caracteres. Manter abaixo de 800. |
 | `input.aspect_ratio` | string | Sim | Ver valores abaixo |
-| `input.nsfw_checker` | boolean | Não | Filtragem de conteúdo. Default: `true` |
-| `callBackUrl` | string | Não | Webhook para resultado (preferir sobre polling) |
+| `input.nsfw_checker` | boolean | Nêo | Filtragem de conteúdo. Default: `true` |
+| `callBackUrl` | string | Nêo | Webhook para resultado (preferir sobre polling) |
 
-**NÃO existe:** `negative_prompt` — Z-Image-Turbo não suporta classifier-free guidance, então negative prompts não têm efeito.
+**NêO existe:** `negative_prompt` — Z-Image-Turbo nêo suporta classifier-free guidance, entêo negative prompts nêo têm efeito.
 
 ---
 
@@ -84,33 +84,33 @@ Authorization: Bearer YOUR_API_KEY
 
 ## Evitar texto na imagem
 
-O Z-Image-Turbo foi treinado com forte suporte a renderização de texto bilíngue (EN+ZH). **Ele tende a gerar texto quando o prompt sugere nomes de produtos ou palavras-chave textuais.**
+O Z-Image-Turbo foi treinado com forte suporte a renderizaçêo de texto bilíngue (EN+ZH). **Ele tende a gerar texto quando o prompt sugere nomes de produtos ou palavras-chave textuais.**
 
-**Estratégia recomendada pela documentação oficial:** colocar restrições no **final** do prompt:
+**Estratégia recomendada pela documentaçêo oficial:** colocar restrições no **final** do prompt:
 
 ```
-[descrição do conteúdo visual]
+[descriçêo do conteúdo visual]
 [estilo fotográfico]
-[composição e iluminação]
+[composiçêo e iluminaçêo]
 Clean image, no text overlay, no watermark, no logo, no words,
 no typography, no letters or numbers visible, text-free, label-free.
 ```
 
-**Palavras a evitar no prompt** (ativam renderização de texto):
+**Palavras a evitar no prompt** (ativam renderizaçêo de texto):
 - Nomes de marcas com texto ("Cold Brew Coffee Co.", brand names completos)
-- "label", "sign", "poster", "banner" sem negação
+- "label", "sign", "poster", "banner" sem negaçêo
 - "packaging with text", "billboard"
 
-**Nota:** Nossa implementação atual coloca "No text..." no INÍCIO do prompt. A doc oficial recomenda o FIM. Para z-image-turbo (sem CFG/guidance), o posicionamento pode ter efeito diferente de modelos SDXL/Flux. Testar ambas posições se texto ainda aparecer.
+**Nota:** Nossa implementaçêo atual coloca "No text..." no INÍCIO do prompt. A doc oficial recomenda o FIM. Para z-image-turbo (sem CFG/guidance), o posicionamento pode ter efeito diferente de modelos SDXL/Flux. Testar ambas posições se texto ainda aparecer.
 
 ---
 
 ## Template de prompt para ATMKT
 
 ```
-[Descrição do produto/cena — específica e detalhada]
+[Descriçêo do produto/cena — específica e detalhada]
 [Estilo: "commercial product photography, soft studio lighting"]
-[Composição: "centered composition, shallow depth of field"]
+[Composiçêo: "centered composition, shallow depth of field"]
 [Paleta de cores]
 Clean image, no text overlay, no watermark, no logo, no words,
 no typography, no letters or numbers visible, text-free, label-free,
@@ -144,7 +144,7 @@ pure visual composition.
 
 | Aspecto | Z-Image | Z-Image-Turbo |
 |---|---|---|
-| Negative prompt | Suportado | **Não suportado** |
+| Negative prompt | Suportado | **Nêo suportado** |
 | Velocidade | Mais lento | Near-instant |
 | Passos inferência | Muitos | 8-12 |
 | Guidance scale (CFG) | Suportado | Deve ser 0.0 |

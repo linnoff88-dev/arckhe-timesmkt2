@@ -1,4 +1,4 @@
-# Video Engineering — Manual Técnico de Produção
+# Video Engineering — Manual Técnico de Produçêo
 
 > Traduz conceitos visuais subjetivos em parâmetros matemáticos para Remotion e FFmpeg.
 
@@ -63,13 +63,13 @@ Para cada cena, o agente deve incluir no JSON:
 }
 ```
 
-O renderer Remotion lê esses valores e aplica diretamente — sem interpretação.
+O renderer Remotion lê esses valores e aplica diretamente — sem interpretaçêo.
 
 ---
 
 ## Referência: doc/videos/
 
-Os guias detalhados dos 20 estilos estão em:
+Os guias detalhados dos 20 estilos estêo em:
 - `doc/videos/guia_edicao_video.md` — estilos 01-10
 - `doc/videos/guia_edicao_video_11_20.md` — estilos 11-20
 - `doc/videos/guia_edicao_video_11_20_detalhado.md` — detalhamento 11-20

@@ -1,6 +1,6 @@
-# Integração Blotato — Publicação via MCP + API
+# Integraçêo Blotato — Publicaçêo via MCP + API
 
-O Blotato substitui as chamadas diretas às APIs oficiais (Instagram Graph API, YouTube Data API) por uma API unificada. Com ele, você cadastra seus canais uma vez e o Claude publica direto após sua aprovação.
+O Blotato substitui as chamadas diretas às APIs oficiais (Instagram Graph API, YouTube Data API) por uma API unificada. Com ele, você cadastra seus canais uma vez e o Claude publica direto após sua aprovaçêo.
 
 ---
 
@@ -11,7 +11,7 @@ O Blotato substitui as chamadas diretas às APIs oficiais (Instagram Graph API, 
 | Token Instagram expira a cada 60 dias | Sem tokens — Blotato gerencia as sessões |
 | YouTube precisa de OAuth + refresh token | Conecta a conta uma vez no Blotato |
 | Threads sem API pública | Blotato publica no Threads |
-| Conta Business obrigatória no Instagram | Não obrigatória |
+| Conta Business obrigatória no Instagram | Nêo obrigatória |
 | Código diferente por plataforma | Uma API unificada para todas |
 
 ---
@@ -42,7 +42,7 @@ Verificar se está ativo:
 claude mcp list
 ```
 
-Após isso, o Claude Code terá acesso direto às ferramentas de publicação do Blotato.
+Após isso, o Claude Code terá acesso direto às ferramentas de publicaçêo do Blotato.
 
 ### 3. Adicionar a key no .env (para uso via script)
 
@@ -52,7 +52,7 @@ BLOTATO_API_KEY=sua-key
 
 ---
 
-## Fluxo de publicação no pipeline
+## Fluxo de publicaçêo no pipeline
 
 ```
 Pipeline completo → Publish MD gerado
@@ -65,7 +65,7 @@ Você aprova: "Executar Publish dia_das_maes 2026-05-10.md"
     ↓
 Claude chama a API do Blotato (via MCP ou HTTP direto):
     ├── Instagram: post com carousel de imagens
-    ├── YouTube: upload de vídeo com título/descrição/tags
+    ├── YouTube: upload de vídeo com título/descriçêo/tags
     └── Threads: post de texto
     ↓
 Blotato processa e publica em cada plataforma
@@ -107,7 +107,7 @@ blotato-api-key: SUA_KEY
   "post": {
     "accountId": "12345",
     "content": {
-      "text": "Café é pretexto. O abraço é o presente de verdade. ☕\n\nCold brew suave e premium.\n\n#DiadasMães #ColdBrewCoffeeCo #CaféComCarinho",
+      "text": "Café é pretexto. O abraço é o presente de verdade. ☕\n\nCold brew suave e premium.\n\n#DiadasMêes #ColdBrewCoffeeCo #CaféComCarinho",
       "mediaUrls": [
         "https://xxx.supabase.co/storage/v1/object/public/campaign-uploads/carousel_01.png",
         "https://xxx.supabase.co/storage/v1/object/public/campaign-uploads/carousel_02.png",
@@ -131,7 +131,7 @@ blotato-api-key: SUA_KEY
   "post": {
     "accountId": "67890",
     "content": {
-      "text": "Descubra como transformar a manhã da sua mãe num momento inesquecível com cold brew premium.",
+      "text": "Descubra como transformar a manhê da sua mêe num momento inesquecível com cold brew premium.",
       "mediaUrls": [
         "https://xxx.supabase.co/storage/v1/object/public/campaign-uploads/ad_01.mp4"
       ],
@@ -139,7 +139,7 @@ blotato-api-key: SUA_KEY
     },
     "target": {
       "targetType": "youtube",
-      "title": "Cold Brew no Dia das Mães: O Presente Perfeito | Cold Brew Coffee Co.",
+      "title": "Cold Brew no Dia das Mêes: O Presente Perfeito | Cold Brew Coffee Co.",
       "privacyStatus": "public",
       "shouldNotifySubscribers": true
     }
@@ -185,7 +185,7 @@ Ou usar o próximo slot livre do calendário:
 }
 ```
 
-> Sem campos de agendamento = publicação imediata.
+> Sem campos de agendamento = publicaçêo imediata.
 
 ### Resposta
 
@@ -215,11 +215,11 @@ Usar o `postSubmissionId` para acompanhar o status via endpoint de status.
 
 ## Como implementar no pipeline
 
-### Opção 1: Via MCP (recomendado)
+### Opçêo 1: Via MCP (recomendado)
 
-Com o MCP configurado, o Claude Code já tem acesso às ferramentas do Blotato. Na aprovação do Publish MD, o Claude usa as ferramentas MCP diretamente — sem precisar de script adicional.
+Com o MCP configurado, o Claude Code já tem acesso às ferramentas do Blotato. Na aprovaçêo do Publish MD, o Claude usa as ferramentas MCP diretamente — sem precisar de script adicional.
 
-### Opção 2: Via script Node.js
+### Opçêo 2: Via script Node.js
 
 Criar um `pipeline/blotato-publish.js` que:
 
@@ -283,14 +283,14 @@ Sem contrato anual. Trial de 7 dias.
 
 ## Troubleshooting
 
-| Problema | Solução |
+| Problema | Soluçêo |
 |---|---|
 | 401 Unauthorized | Verificar API key em Settings > API |
 | Post falha | Ver posts com erro em https://my.blotato.com/failed |
 | accountId inválido | Buscar IDs atualizados via `GET /v2/users/me/accounts` |
-| Mídia não carrega | URLs devem ser públicas (Supabase bucket público) |
+| Mídia nêo carrega | URLs devem ser públicas (Supabase bucket público) |
 | Rate limit (429) | Máximo 30 req/min — espaçar os posts |
-| MCP não aparece | Rodar `claude mcp list` e verificar se blotato está listado |
+| MCP nêo aparece | Rodar `claude mcp list` e verificar se blotato está listado |
 
 ---
 

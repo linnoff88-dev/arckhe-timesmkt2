@@ -117,13 +117,13 @@ Use **3–5 hashtags per post**. Hashtags should be specific, community-driven, 
 
 ### Contexto Visual para Imagens
 - Lata ou copo de cold brew como elemento central ou visível na cena
-- Ambientes de manhã premium: bancada de cozinha, janela com luz natural suave, mesa de café minimalista
+- Ambientes de manhê premium: bancada de cozinha, janela com luz natural suave, mesa de café minimalista
 - Superfícies escuras e texturizadas: mármore preto, madeira escura, metal fosco
-- Detalhes sensoriais do produto: gotas de condensação na lata, cubos de gelo, líquido escuro translúcido
+- Detalhes sensoriais do produto: gotas de condensaçêo na lata, cubos de gelo, líquido escuro translúcido
 - Pessoa segurando ou interagindo com o produto — sempre com o cold brew em cena
 - Atmosfera de rotina matinal premium: laptop aberto, livro, fone de ouvido ao fundo
-- Iluminação lateral suave com destaque no produto, fundo desfocado mas reconhecível
-- Evitar: pessoas sem produto, ambientes genéricos sem contexto de café ou manhã, cores quentes excessivas
+- Iluminaçêo lateral suave com destaque no produto, fundo desfocado mas reconhecível
+- Evitar: pessoas sem produto, ambientes genéricos sem contexto de café ou manhê, cores quentes excessivas
 
 ---
 

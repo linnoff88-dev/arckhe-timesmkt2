@@ -81,7 +81,7 @@ Structure:
 ## Ângulo da Campanha
 [1 paragraph]
 
-## Direção Visual
+## Direçêo Visual
 [bullet points]
 
 ## Mensagens por Plataforma

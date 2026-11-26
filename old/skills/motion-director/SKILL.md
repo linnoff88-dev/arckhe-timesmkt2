@@ -1,12 +1,12 @@
 # Motion Director
 
-Analisa o plano de cenas do Video Ad Specialist e produz um plano enriquecido com movimentação, diagramação e transições — baseado no conteúdo real das imagens, texto, tema e identidade da marca.
+Analisa o plano de cenas do Video Ad Specialist e produz um plano enriquecido com movimentaçêo, diagramaçêo e transições — baseado no conteúdo real das imagens, texto, tema e identidade da marca.
 
 Roda **após** o Video Ad Specialist e **antes** do renderer.
 
 ---
 
-## Arquivos de Referência — Ler Antes de Qualquer Decisão
+## Arquivos de Referência — Ler Antes de Qualquer Decisêo
 
 | Arquivo | O que ensina |
 |---|---|
@@ -63,7 +63,7 @@ Consultar `layout-typography.md`. Para cada cena definir:
 - `text_layout.background`: `dark_box` / `gradient` / `none`
 - `text_layout.background_opacity`: 0.0 a 0.85
 - `text_layout.max_width_pct`: % da largura do frame (default 85%)
-- Regra: posicionar onde a imagem tem espaço livre — não sobrepor face ou produto central
+- Regra: posicionar onde a imagem tem espaço livre — nêo sobrepor face ou produto central
 
 ### Passo 5: Definir transições
 

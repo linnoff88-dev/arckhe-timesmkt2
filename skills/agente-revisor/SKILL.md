@@ -82,7 +82,7 @@ Print ONLY one of the following formats (nothing else):
 **If approved:**
 ```
 [AGENTE_APROVADO] Stage <N>
-Razão: <1-2 sentences explaining why it's good enough>
+Razêo: <1-2 sentences explaining why it's good enough>
 ```
 
 **If adjustments needed:**

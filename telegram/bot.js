@@ -114,7 +114,7 @@ bot.command('help', async (ctx) => {
 
     `<b>Etapas do pipeline:</b>\n` +
     `  1. Estrategia — Research + Diretor Criativo + Copywriter\n` +
-    `  2. Imagens — Ad Creative Designer (validação aspect ratio)\n` +
+    `  2. Imagens — Ad Creative Designer (validaçêo aspect ratio)\n` +
     `  3. Video — Quick (ffmpeg) + Pro (Diretor de Foto + Opus + Remotion)\n` +
     `  4. Plataformas — Instagram, YouTube, TikTok, Facebook, Threads, LinkedIn\n` +
     `  5. Distribuicao — Upload + Agendar + Publicar\n\n` +
@@ -158,7 +158,7 @@ bot.command('helpcampanha', async (ctx) => {
 
     `O pipeline roda em <b>5 etapas</b>:\n` +
     `  <b>1.</b> Estrategia — Research + Diretor Criativo + Copywriter\n` +
-    `  <b>2.</b> Imagens — Ad Creative Designer (validação 1:1/9:16)\n` +
+    `  <b>2.</b> Imagens — Ad Creative Designer (validaçêo 1:1/9:16)\n` +
     `  <b>3.</b> Video\n` +
     `      ▶️ Quick — slideshow 15s (ffmpeg)\n` +
     `      ▶️ Pro — Diretor de Fotografia + Scene Plan + Remotion 60s\n` +
@@ -166,14 +166,14 @@ bot.command('helpcampanha', async (ctx) => {
     `  <b>5.</b> Distribuicao — Upload + Agendar + Publicar\n\n` +
 
     `<b>Fases do Video Pro:</b>\n` +
-    `  1. Narração (ElevenLabs)\n` +
+    `  1. Narraçêo (ElevenLabs)\n` +
     `  1.5 Timing áudio (ffprobe)\n` +
     `  1.6 Diretor de Fotografia (Opus)\n` +
     `  2. Scene Plan (Opus)\n` +
     `  3. Imagens (se API)\n` +
     `  4. Render (Remotion)\n\n` +
 
-    `A cada etapa o bot envia o resultado e aguarda confirmação (modo padrão). Veja /helpaprovacoes.\n\n` +
+    `A cada etapa o bot envia o resultado e aguarda confirmaçêo (modo padrêo). Veja /helpaprovacoes.\n\n` +
 
     `<b>Como iniciar:</b>\n` +
     `Descreva sua campanha em linguagem natural:\n` +
@@ -182,11 +182,11 @@ bot.command('helpcampanha', async (ctx) => {
     `<code>/campanha &lt;nome&gt; [opcoes]</code>\n\n` +
 
     `<b>Opções:</b>\n` +
-    `  --date YYYY-MM-DD (padrão: hoje)\n` +
-    `  --lang pt-BR|en (padrão: pt-BR)\n` +
+    `  --date YYYY-MM-DD (padrêo: hoje)\n` +
+    `  --lang pt-BR|en (padrêo: pt-BR)\n` +
     `  --platforms instagram,youtube,threads\n` +
-    `  --images N — qtd de imagens (padrão: 5)\n` +
-    `  --videos N — qtd de vídeos (padrão: 1)\n` +
+    `  --images N — qtd de imagens (padrêo: 5)\n` +
+    `  --videos N — qtd de vídeos (padrêo: 1)\n` +
     `  --skip-research — pula pesquisa\n` +
     `  --skip-image — pula imagens\n` +
     `  --skip-video — pula vídeo\n\n` +
@@ -200,7 +200,7 @@ bot.command('helpcampanha', async (ctx) => {
     `/status — etapa atual e agentes rodando\n` +
     `/outputs — lista campanhas prontas\n` +
     `/enviar &lt;pasta&gt; — recebe os arquivos aqui\n` +
-    `/helpaprovacoes — configurar modos de aprovação`,
+    `/helpaprovacoes — configurar modos de aprovaçêo`,
     { parse_mode: 'HTML' }
   );
 });
@@ -211,34 +211,34 @@ bot.command('helpaprovacoes', async (ctx) => {
   await ctx.reply(
     `<b>APROVAÇÕES — Como funciona</b>\n\n` +
 
-    `O pipeline v4 tem <b>5 pontos de aprovação</b>, um por etapa:\n\n` +
+    `O pipeline v4 tem <b>5 pontos de aprovaçêo</b>, um por etapa:\n\n` +
     `  <b>Etapa 1</b> — Brief Criativo\n` +
-    `  O Diretor de Criação entrega o ângulo estratégico da campanha.\n` +
+    `  O Diretor de Criaçêo entrega o ângulo estratégico da campanha.\n` +
     `  Você aprova antes das imagens e copy serem gerados.\n\n` +
     `  <b>Etapa 2</b> — Imagens & Copy\n` +
-    `  Imagens chegam ao vivo à medida que são geradas.\n` +
-    `  Copy (Instagram, Threads, YouTube) é mostrado para aprovação.\n\n` +
+    `  Imagens chegam ao vivo à medida que sêo geradas.\n` +
+    `  Copy (Instagram, Threads, YouTube) é mostrado para aprovaçêo.\n\n` +
     `  <b>Etapa 3</b> — Vídeo\n` +
-    `  Roteiro cena a cena é enviado para revisão antes da renderização.\n\n` +
-    `  <b>Etapa 4</b> — Distribuição\n` +
-    `  Confirmação final antes de publicar nas plataformas.\n\n` +
+    `  Roteiro cena a cena é enviado para revisêo antes da renderizaçêo.\n\n` +
+    `  <b>Etapa 4</b> — Distribuiçêo\n` +
+    `  Confirmaçêo final antes de publicar nas plataformas.\n\n` +
 
     `<b>Modos por etapa:</b>\n\n` +
-    `  👤 <b>humano</b> — você recebe o resultado e responde <b>sim</b> ou <b>não</b> (padrão)\n` +
+    `  👤 <b>humano</b> — você recebe o resultado e responde <b>sim</b> ou <b>nêo</b> (padrêo)\n` +
     `  🤖 <b>agente</b> — Agente Revisor avalia e decide automaticamente; só notifica se pedir ajuste\n` +
-    `  ⚡ <b>auto</b> — avança sem nenhuma aprovação\n\n` +
+    `  ⚡ <b>auto</b> — avança sem nenhuma aprovaçêo\n\n` +
 
     `<b>Configurar antes de rodar:</b>\n` +
     `Descreva no briefing:\n` +
-    `<i>"campanha de páscoa, aprovação por agente em tudo"</i>\n` +
+    `<i>"campanha de páscoa, aprovaçêo por agente em tudo"</i>\n` +
     `<i>"campanha sem aprovações, notificações desativadas"</i>\n` +
-    `<i>"aprovação humana só no brief e na distribuição"</i>\n\n` +
+    `<i>"aprovaçêo humana só no brief e na distribuiçêo"</i>\n\n` +
 
     `<b>Configurar durante a campanha:</b>\n` +
     `<code>/modos todas auto</code> — sem aprovações\n` +
     `<code>/modos todas agente</code> — Agente Revisor em tudo\n` +
-    `<code>/modos 1 humano</code> — só etapa 1 com aprovação humana\n` +
-    `<code>/modos 3 auto</code> — vídeo sem aprovação\n` +
+    `<code>/modos 1 humano</code> — só etapa 1 com aprovaçêo humana\n` +
+    `<code>/modos 3 auto</code> — vídeo sem aprovaçêo\n` +
     `<code>/modos notificacoes off</code> — silencia notificações de agentes\n\n` +
 
     `<b>O Agente Revisor:</b>\n` +
@@ -248,7 +248,7 @@ bot.command('helpaprovacoes', async (ctx) => {
 
     `<b>Respostas aceitas nas aprovações:</b>\n` +
     `  <b>sim</b> / ok / confirma / vai / bora → avança\n` +
-    `  <b>não</b> / cancela → cancela a campanha\n` +
+    `  <b>nêo</b> / cancela → cancela a campanha\n` +
     `  Qualquer texto longo → ajuste (ex: "deixa o copy mais direto")`,
     { parse_mode: 'HTML' }
   );
@@ -1573,7 +1573,7 @@ bot.on('message:text', async (ctx) => {
     let newSource = null;
     if (/^(avan[çc]|avanc|continuar|sem imagem)/.test(lower)) action = 'advance';
     else if (/^(tentar|retry|repetir|novamente)/.test(lower))  action = 'retry';
-    else if (/^(cancel|cancelar|nao|não|para)/.test(lower))    action = 'cancel';
+    else if (/^(cancel|cancelar|nao|nêo|para)/.test(lower))    action = 'cancel';
     else if (/^(outra|trocar|mudar|fonte|source)/.test(lower) || /^(api|free|gratis|brand|marca|folder|pasta)/.test(lower)) {
       // Parse new image source from the message
       if (/api/.test(lower)) newSource = 'api';
@@ -1618,7 +1618,7 @@ bot.on('message:text', async (ctx) => {
     }
     // unknown reply — show options again
     await ctx.reply(
-      'Responda:\n• <b>avançar</b> — continuar sem imagens (CSS)\n• <b>tentar novamente</b> — repetir a geração\n• <b>outra fonte</b> — trocar: api, free, brand, pasta xxx\n• <b>cancelar</b>',
+      'Responda:\n• <b>avançar</b> — continuar sem imagens (CSS)\n• <b>tentar novamente</b> — repetir a geraçêo\n• <b>outra fonte</b> — trocar: api, free, brand, pasta xxx\n• <b>cancelar</b>',
       { parse_mode: 'HTML' }
     );
     return;
@@ -1634,7 +1634,7 @@ bot.on('message:text', async (ctx) => {
   if (s.pendingVideoApproval) {
     const lower = text.toLowerCase().trim();
     const isConfirm = /^(sim|ok|confirmar|confirma|aprovado|aprovar|vai|bora|yes|roda|rodar|renderiza|renderizar)/.test(lower);
-    const isCancel  = /^(nao|não|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
+    const isCancel  = /^(nao|nêo|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
 
     if (isConfirm) {
       const { outputDir } = s.pendingVideoApproval;
@@ -1684,7 +1684,7 @@ Keep the same JSON structure. Only modify what the feedback requests.`;
   if (s.pendingRerun) {
     const lower = text.toLowerCase().trim();
     const isConfirm = /^(sim|ok|confirmar|confirma|aprovado|aprovar|vai|bora|yes|roda)/.test(lower);
-    const isCancel  = /^(nao|não|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
+    const isCancel  = /^(nao|nêo|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
 
     if (isConfirm) {
       const { payload, stages, campaignFolder } = s.pendingRerun;
@@ -1833,7 +1833,7 @@ Keep the same JSON structure. Only modify what the feedback requests.`;
     const lower = text.toLowerCase().trim();
 
     const isConfirm = /^(sim|ok|confirmar|confirma|aprovado|aprovar|vai|bora|yes|roda|rodar)/.test(lower);
-    const isCancel  = /^(nao|não|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
+    const isCancel  = /^(nao|nêo|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
 
     if (isConfirm) {
       const payload = s.pendingCampaign;
@@ -1881,7 +1881,7 @@ Keep the same JSON structure. Only modify what the feedback requests.`;
       showCampaignConfirmation(ctx, chatId, s.pendingCampaign);
       return;
     }
-    if (/^(notif|notifica).*(off|desativ|nao|não)/.test(lower)) {
+    if (/^(notif|notifica).*(off|desativ|nao|nêo)/.test(lower)) {
       s.pendingCampaign.notifications = false;
       await ctx.reply('🔇 Notificações desativadas.');
       showCampaignConfirmation(ctx, chatId, s.pendingCampaign);
@@ -1934,7 +1934,7 @@ Keep the same JSON structure. Only modify what the feedback requests.`;
     }
     if (/^pular\s+(imagens?|image)$/i.test(lower)) {
       s.pendingCampaign.skip_image = true;
-      await ctx.reply('✅ Imagens serão puladas.');
+      await ctx.reply('✅ Imagens serêo puladas.');
       showCampaignConfirmation(ctx, chatId, s.pendingCampaign);
       return;
     }
@@ -1959,10 +1959,10 @@ Keep the same JSON structure. Only modify what the feedback requests.`;
       showCampaignConfirmation(ctx, chatId, s.pendingCampaign);
       return;
     }
-    if (/^dura[çc][aã]o\s+(\d+)/i.test(lower)) {
-      const dur = parseInt(lower.match(/^dura[çc][aã]o\s+(\d+)/i)[1]);
+    if (/^dura[çc][aê]o\s+(\d+)/i.test(lower)) {
+      const dur = parseInt(lower.match(/^dura[çc][aê]o\s+(\d+)/i)[1]);
       s.pendingCampaign.video_duration = dur;
-      await ctx.reply(`✅ Duração do vídeo Pro: <b>${dur}s</b>`, { parse_mode: 'HTML' });
+      await ctx.reply(`✅ Duraçêo do vídeo Pro: <b>${dur}s</b>`, { parse_mode: 'HTML' });
       showCampaignConfirmation(ctx, chatId, s.pendingCampaign);
       return;
     }
@@ -2009,7 +2009,7 @@ Keep the same JSON structure. Only modify what the feedback requests.`;
   }
 
   // ── Detect rerun intent in free text ─────────────────────────────────
-  const rerunKeywords = /\b(recri[ae]|refaz|refazer|reprocessa|re-?run|gera? novas?|nova vers[ãa]o|outra vers[ãa]o|recriar)\b/i;
+  const rerunKeywords = /\b(recri[ae]|refaz|refazer|reprocessa|re-?run|gera? novas?|nova vers[êa]o|outra vers[êa]o|recriar)\b/i;
   const campaignRef = text.match(/\b(c\d{1,4})\b/i);
   if (rerunKeywords.test(text) && campaignRef && !s.runningTask && !s.processing) {
     let rerunProjectDir = detectProjectFromText(text, s.projectDir);
@@ -2167,7 +2167,7 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
   ];
 
   if (isApi) {
-    lines.push(`<b>Marca nas imagens:</b> ${brandOverlay ? 'sim (cores e estilo da marca)' : 'não (estilo neutro)'}`);
+    lines.push(`<b>Marca nas imagens:</b> ${brandOverlay ? 'sim (cores e estilo da marca)' : 'nêo (estilo neutro)'}`);
     lines.push(`<b>Fluxo:</b> gerar imagens → você aprova → montar criativos e vídeo`);
   }
 
@@ -2179,8 +2179,8 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
   const bgLabel = payload.image_bg_mode === 'blur' ? 'blur' : 'escuro';
   lines.push(`  ▶️ Quick: ${vQuick ? 'sim' : 'nao'} (fundo ${bgLabel}) | ▶️ Pro: ${vPro ? 'sim' : 'nao'}`);
   if (vPro) {
-    lines.push(`  <i>Narração:</i> ${payload.narrator || 'rachel'}`);
-    lines.push(`  <i>Duração:</i> ${payload.video_duration || 60}s`);
+    lines.push(`  <i>Narraçêo:</i> ${payload.narrator || 'rachel'}`);
+    lines.push(`  <i>Duraçêo:</i> ${payload.video_duration || 60}s`);
     lines.push(`  <i>Style:</i> ${payload.style_preset || 'inema_hightech'}`);
   }
   lines.push(`<b>Idioma:</b> ${payload.language}`);
@@ -2212,8 +2212,8 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
     payload = { ...payload, use_brand_overlay: true };
   }
   lines.push(`\nResponda <b>sim</b> para rodar ou ajuste antes:`);
-  lines.push(`• <code>auto</code> — aprovação automática`);
-  lines.push(`• <code>humano</code> — aprovação manual (default)`);
+  lines.push(`• <code>auto</code> — aprovaçêo automática`);
+  lines.push(`• <code>humano</code> — aprovaçêo manual (default)`);
   lines.push(`• <code>notif off</code> / <code>notif on</code>`);
   lines.push(`• <code>pro</code> — adicionar video pro`);
   lines.push(`• <code>sem quick</code> — desativar video quick`);
@@ -2222,11 +2222,11 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
   lines.push(`• <code>idioma pt-BR</code> / <code>idioma en</code>`);
   lines.push(`• <code>narrador rachel</code> / <code>narrador bella</code>`);
   lines.push(`• <code>estilo inema_hightech</code> / <code>estilo 01_hero_film</code>`);
-  lines.push(`• <code>duração 30</code> / <code>duração 60</code> — duração do pro (s)`);
+  lines.push(`• <code>duraçêo 30</code> / <code>duraçêo 60</code> — duraçêo do pro (s)`);
   lines.push(`• <code>fonte brand</code> / <code>fonte api</code> / <code>fonte free</code>`);
   lines.push(`• <code>provider kie</code> / <code>provider pollinations</code>`);
   lines.push(`• <code>modelo z-image</code> / <code>modelo flux</code>`);
-  lines.push(`• <code>não</code> — cancelar`);
+  lines.push(`• <code>nêo</code> — cancelar`);
   session.setPendingCampaign(chatId, payload);
 
   await ctx.reply(lines.join('\n'), { parse_mode: 'HTML' });
@@ -2296,9 +2296,9 @@ Rules:
 - video_pro: true if user says "video pro", "video profissional", "remotion", "pro", "both", "2 videos"
 - image_source: "brand" (or "marca") if user mentions brand images, project images, fotos da marca; "free" (or "gratis") if user mentions free stock photos, banco de imagens, pexels, unsplash, pixabay; "api" if user mentions AI generation, gerar imagens, criar imagens com IA; "folder" (or "pasta") if user specifies a folder path; "screenshot" (or "captura") if user mentions screenshot, captura de site, print do site, capturar pagina. When screenshot, also populate "screenshot_urls" with any URLs mentioned. Default "brand".
 - image_model: only relevant when image_source is "api". Default is ALWAYS "${process.env.KIE_DEFAULT_MODEL || 'z-image'}" (from .env). Only change if the user explicitly requests a different model. Options: "z-image", "z-image-turbo", "flux-kontext-pro", "flux-kontext-max", "gpt-image-1".
-- approval_modes: each stage can be "humano" (user must approve), "agente" (AI reviewer decides), or "auto" (advance automatically). Default "humano" for all. Set to "auto" if user says "sem aprovações", "automático", "full auto". Set to "agente" if user says "aprovação por agente", "agente revisa".
-- notifications: false only if user explicitly says "sem notificações", "silencioso", "não notificar".
-- video_audio: "narration" if user wants voiceover/narração (default), "music" if user wants background music only, "both" if user wants narration + music, "none" for silent/no audio.
+- approval_modes: each stage can be "humano" (user must approve), "agente" (AI reviewer decides), or "auto" (advance automatically). Default "humano" for all. Set to "auto" if user says "sem aprovações", "automático", "full auto". Set to "agente" if user says "aprovaçêo por agente", "agente revisa".
+- notifications: false only if user explicitly says "sem notificações", "silencioso", "nêo notificar".
+- video_audio: "narration" if user wants voiceover/narraçêo (default), "music" if user wants background music only, "both" if user wants narration + music, "none" for silent/no audio.
 - campaign_brief: comprehensive summary of everything the user described
 - Return ONLY the JSON object, no markdown, no explanation`;
 
@@ -2422,7 +2422,7 @@ function runPipeline(ctx, chatId, payload, outputDir) {
     // Step 2: start worker (only if not already running)
     const worker = ensureWorker();
     if (!worker) {
-      ctx.reply('Worker já rodando — jobs serão processados automaticamente.');
+      ctx.reply('Worker já rodando — jobs serêo processados automaticamente.');
       return;
     }
 
@@ -2461,7 +2461,7 @@ function runPipeline(ctx, chatId, payload, outputDir) {
         const match = text.match(/\[VIDEO_APPROVAL_NEEDED\]\s*(\S+)/);
         if (match) {
           const approvalOutputDir = match[1];
-          ctx.reply('Roteiro de vídeo pronto. Preparando para revisão...').then(() => {
+          ctx.reply('Roteiro de vídeo pronto. Preparando para revisêo...').then(() => {
             sendVideoApprovalRequest(ctx, chatId, approvalOutputDir).catch(e => {
               console.error('Error sending video approval:', e.message);
             });
@@ -2594,10 +2594,10 @@ function runPipelineV3(ctx, chatId, payload, outputDir) {
         const errorMsg  = match[2].trim();
         session.setPendingImageError(chatId, { outputDir });
         bot.api.sendMessage(chatId,
-          `⚠️ <b>Erro na geração de imagens</b>\n\n<code>${errorMsg}</code>\n\n` +
+          `⚠️ <b>Erro na geraçêo de imagens</b>\n\n<code>${errorMsg}</code>\n\n` +
           `O que deseja fazer?\n` +
           `• <b>avançar</b> — continuar sem imagens (CSS)\n` +
-          `• <b>tentar novamente</b> — repetir a geração\n` +
+          `• <b>tentar novamente</b> — repetir a geraçêo\n` +
           `• <b>outra fonte</b> — trocar: api, free, brand, pasta xxx\n` +
           `• <b>cancelar</b> — cancelar a campanha`,
           { parse_mode: 'HTML' }
@@ -2736,7 +2736,7 @@ function runAgentReview(ctx, chatId, stage, outputDir) {
   if (!cv) return;
 
   const absOutputDir = path.resolve(PROJECT_ROOT, outputDir);
-  const stageLabels = { 1: 'Brief & Narrativa', 2: 'Visuais (Imagens & Vídeo)', 3: 'Copy de Plataforma', 4: 'Distribuição' };
+  const stageLabels = { 1: 'Brief & Narrativa', 2: 'Visuais (Imagens & Vídeo)', 3: 'Copy de Plataforma', 4: 'Distribuiçêo' };
 
   const prompt = `You are the Agente Revisor. Follow the skill defined in skills/agente-revisor/SKILL.md exactly.
 
@@ -2751,13 +2751,13 @@ Then print your decision in exactly the required format: [AGENTE_APROVADO] or [A
   runClaude(prompt, 'agente_revisor', (code, stdout) => {
     if (code !== 0) {
       // Fallback to human approval on agent error
-      ctx.reply(`Agente Revisor encontrou um erro na etapa ${stage}. Enviando para revisão humana...`)
+      ctx.reply(`Agente Revisor encontrou um erro na etapa ${stage}. Enviando para revisêo humana...`)
         .then(() => sendStageApprovalRequest(ctx, chatId, stage))
         .catch(() => {});
       return;
     }
 
-    const approvedMatch = stdout.match(/\[AGENTE_APROVADO\][^\n]*\nRaz[ãa]o:\s*(.+)/i);
+    const approvedMatch = stdout.match(/\[AGENTE_APROVADO\][^\n]*\nRaz[êa]o:\s*(.+)/i);
     const adjustMatch  = stdout.match(/\[AGENTE_AJUSTE\][^\n]*\nFeedback:\s*([\s\S]+)/i);
 
     if (approvedMatch) {
@@ -2772,7 +2772,7 @@ Then print your decision in exactly the required format: [AGENTE_APROVADO] or [A
       ctx.reply(
         `<b>Agente Revisor — Etapa ${stage} precisa de ajustes</b>\n\n` +
         `<i>${escapeHtml(feedback)}</i>\n\n` +
-        `Responda <b>sim</b> para ignorar e continuar, <b>não</b> para cancelar, ` +
+        `Responda <b>sim</b> para ignorar e continuar, <b>nêo</b> para cancelar, ` +
         `ou descreva como corrigir.`,
         { parse_mode: 'HTML' }
       ).then(() => {
@@ -2780,7 +2780,7 @@ Then print your decision in exactly the required format: [AGENTE_APROVADO] or [A
       }).catch(() => {});
     } else {
       // Could not parse agent output — escalate to human
-      ctx.reply(`Agente Revisor não retornou decisão clara na etapa ${stage}. Enviando para revisão humana...`)
+      ctx.reply(`Agente Revisor nêo retornou decisêo clara na etapa ${stage}. Enviando para revisêo humana...`)
         .then(() => sendStageApprovalRequest(ctx, chatId, stage))
         .catch(() => {});
     }
@@ -2851,7 +2851,7 @@ async function sendStageApprovalRequest(ctx, chatId, stage) {
     await ctx.reply(
       '<b>Brief criativo pronto — Etapa 1/5 ✅</b>\n\n' +
       'Responda <b>sim</b> para avançar para imagens e copy.\n' +
-      '<b>não</b> para cancelar a campanha.\n' +
+      '<b>nêo</b> para cancelar a campanha.\n' +
       'Ou descreva ajustes.',
       { parse_mode: 'HTML' }
     );
@@ -2967,7 +2967,7 @@ async function handleV3StageApproval(ctx, chatId, s, text) {
 
   const lower = text.toLowerCase().trim();
   const isConfirm = /^(sim|ok|confirmar|confirma|aprovado|aprovar|vai|bora|yes|roda)/.test(lower);
-  const isCancel  = /^(nao|não|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
+  const isCancel  = /^(nao|nêo|cancela|cancelar|cancel|para|parar|no\b)/.test(lower);
   const stage = cv.pendingApproval.stage;
 
   // Stage 3 approval: user can change platform_targets before advancing to stage 4
@@ -3050,7 +3050,7 @@ Read each, apply feedback, save to same paths. Keep same JSON structure.`;
         sendStageApprovalRequest(ctx, chatId, 3).catch(() => {});
       });
     } else if (stage === 4) {
-      await ctx.reply('Responda <b>sim</b> para distribuir ou <b>não</b> para cancelar.', { parse_mode: 'HTML' });
+      await ctx.reply('Responda <b>sim</b> para distribuir ou <b>nêo</b> para cancelar.', { parse_mode: 'HTML' });
     }
     return true;
   }
@@ -3265,13 +3265,13 @@ async function sendImageApprovalRequest(_ctx, chatId, outputDir) {
         caption: path.basename(imgPath),
       });
     } catch (e) {
-      await bot.api.sendMessage(chatId, `(não foi possível enviar ${path.basename(imgPath)})`).catch(() => {});
+      await bot.api.sendMessage(chatId, `(nêo foi possível enviar ${path.basename(imgPath)})`).catch(() => {});
     }
   }
 
   await bot.api.sendMessage(chatId,
     `Responda <b>sim</b> para usar estas imagens e continuar.\n` +
-    `<b>não</b> para cancelar.\n` +
+    `<b>nêo</b> para cancelar.\n` +
     `Ou descreva o que ajustar e vou regenerar.`,
     { parse_mode: 'HTML' }
   );
@@ -3313,7 +3313,7 @@ function formatStoryboardMessage(outputDir) {
       const pacing = plan.pacing || '';
 
       lines.push(`<b>${plan.titulo || file}</b>`);
-      lines.push(`Voz: ${voiceLabel[plan.voice] || plan.voice || 'padrão'} | ${totalDur}s | ${sceneCount} cortes${pacing ? ` | ${pacing}` : ''}\n`);
+      lines.push(`Voz: ${voiceLabel[plan.voice] || plan.voice || 'padrêo'} | ${totalDur}s | ${sceneCount} cortes${pacing ? ` | ${pacing}` : ''}\n`);
 
       if (plan.narration_script) {
         const preview = plan.narration_script.slice(0, 150);
@@ -3350,7 +3350,7 @@ function formatStoryboardMessage(outputDir) {
     } catch {}
   }
 
-  lines.push(`Responda <b>sim</b> para renderizar ou <b>não</b> para cancelar.`);
+  lines.push(`Responda <b>sim</b> para renderizar ou <b>nêo</b> para cancelar.`);
   lines.push(`Ou descreva ajustes e eu reescrevo o roteiro.`);
 
   return lines.join('\n');
@@ -3440,13 +3440,13 @@ bot.command('arquivar', async (ctx) => {
   })();
 
   if (!campaignFolder) {
-    return ctx.reply(`Campanha "${raw}" não encontrada.`);
+    return ctx.reply(`Campanha "${raw}" nêo encontrada.`);
   }
 
   const projectDir = findCampaignAcrossProjects(raw)?.projectDir || s.projectDir;
   const campDir = path.resolve(PROJECT_ROOT, projectDir, 'outputs', campaignFolder);
   fs.writeFileSync(path.join(campDir, 'archived.json'), JSON.stringify({ archived: true, ts: new Date().toISOString() }));
-  await ctx.reply(`📦 <b>${campaignFolder}</b> arquivada — não aparecerá mais no startup.`, { parse_mode: 'HTML' });
+  await ctx.reply(`📦 <b>${campaignFolder}</b> arquivada — nêo aparecerá mais no startup.`, { parse_mode: 'HTML' });
 });
 
 bot.command('desarquivar', async (ctx) => {
@@ -3463,7 +3463,7 @@ bot.command('desarquivar', async (ctx) => {
   })();
 
   if (!campaignFolder) {
-    return ctx.reply(`Campanha "${raw}" não encontrada.`);
+    return ctx.reply(`Campanha "${raw}" nêo encontrada.`);
   }
 
   const projectDir = findCampaignAcrossProjects(raw)?.projectDir || s.projectDir;
@@ -3482,17 +3482,17 @@ bot.command('modos', async (ctx) => {
 
   if (!cv) {
     await ctx.reply(
-      '<b>Modos de aprovação</b>\n\n' +
+      '<b>Modos de aprovaçêo</b>\n\n' +
       'Use este comando durante uma campanha ativa para ajustar os modos por etapa.\n\n' +
       'Sintaxe: <code>/modos [etapa] [modo]</code>\n\n' +
-      'Etapas: <code>1</code> (brief), <code>2</code> (criativos), <code>3</code> (vídeo), <code>4</code> (distribuição), <code>todas</code>\n' +
+      'Etapas: <code>1</code> (brief), <code>2</code> (criativos), <code>3</code> (vídeo), <code>4</code> (distribuiçêo), <code>todas</code>\n' +
       'Modos:\n' +
       '  👤 <code>humano</code> — você aprova antes de avançar\n' +
       '  🤖 <code>agente</code> — Agente Revisor decide\n' +
-      '  ⚡ <code>auto</code> — avança automaticamente sem aprovação\n\n' +
+      '  ⚡ <code>auto</code> — avança automaticamente sem aprovaçêo\n\n' +
       'Exemplos:\n' +
       '<code>/modos todas auto</code> — sem aprovações\n' +
-      '<code>/modos 1 humano</code> — só etapa 1 com aprovação humana\n' +
+      '<code>/modos 1 humano</code> — só etapa 1 com aprovaçêo humana\n' +
       '<code>/modos notificacoes off</code> — silencia notificações',
       { parse_mode: 'HTML' }
     );
@@ -3506,7 +3506,7 @@ bot.command('modos', async (ctx) => {
 
   // Notification toggle
   if (target === 'notificacoes' || target === 'notificações') {
-    cv.notifications = !(mode === 'off' || mode === 'nao' || mode === 'não' || mode === 'false');
+    cv.notifications = !(mode === 'off' || mode === 'nao' || mode === 'nêo' || mode === 'false');
     await ctx.reply(`Notificações ${cv.notifications ? 'ativadas ✅' : 'desativadas 🔇'}`);
     return;
   }
@@ -3581,7 +3581,7 @@ async function scanPendingApprovals(targetChatId, ctx) {
   }
 
   if (pending.length === 0) {
-    if (ctx) await ctx.reply('Nenhuma aprovação pendente encontrada.');
+    if (ctx) await ctx.reply('Nenhuma aprovaçêo pendente encontrada.');
     return;
   }
 
@@ -3759,10 +3759,10 @@ bot.start({
               const errorMsg = errorLine.replace(/.*Failed image \d+: /, '');
               session.setPendingImageError(chatId, { outputDir: relDir });
               bot.api.sendMessage(chatId,
-                `⚠️ <b>Erro na geração de imagens</b>\n\n<code>${errorMsg}</code>\n\n` +
+                `⚠️ <b>Erro na geraçêo de imagens</b>\n\n<code>${errorMsg}</code>\n\n` +
                 `O que deseja fazer?\n` +
                 `• <b>avançar</b> — continuar sem imagens (CSS)\n` +
-                `• <b>tentar novamente</b> — repetir a geração\n` +
+                `• <b>tentar novamente</b> — repetir a geraçêo\n` +
                 `• <b>outra fonte</b> — trocar: api, free, brand, pasta xxx\n` +
                 `• <b>cancelar</b> — cancelar a campanha`,
                 { parse_mode: 'HTML' }
@@ -3811,7 +3811,7 @@ bot.start({
             const logsDir2 = path.join(campDir, 'logs');
             const phaseNotifs = [
               { file: 'video_pro.log', phases: [
-                { key: 'Generating narration', msg: '🎙️ Gerando narração...' },
+                { key: 'Generating narration', msg: '🎙️ Gerando narraçêo...' },
                 { key: 'Photography Director', msg: '📷 Diretor de Fotografia analisando...' },
                 { key: 'Creating scene plan', msg: '🎬 Criando plano de cenas...' },
                 { key: 'Typography validation', msg: '🔤 Validando tipografia...' },
@@ -3895,7 +3895,7 @@ bot.start({
 
                 // Notify
                 if (cv.notifications !== false) {
-                  const stageNames = { 1: 'Brief & Narrativa', 2: 'Imagens', 3: 'Video', 4: 'Plataformas', 5: 'Distribuição' };
+                  const stageNames = { 1: 'Brief & Narrativa', 2: 'Imagens', 3: 'Video', 4: 'Plataformas', 5: 'Distribuiçêo' };
                   bot.api.sendMessage(chatId, `✅ Etapa ${num} concluída — ${stageNames[num]}`, { parse_mode: 'HTML' }).catch(() => {});
                 }
 
@@ -3964,7 +3964,7 @@ bot.start({
                     session.setCampaignV3Stage(chatId, nextStage);
                     _enqueueStage(cv.payload, nextAgents)
                       .then(() => {
-                        const stageNames = { 2: 'Imagens', 3: 'Video', 4: 'Plataformas', 5: 'Distribuição' };
+                        const stageNames = { 2: 'Imagens', 3: 'Video', 4: 'Plataformas', 5: 'Distribuiçêo' };
                         if (cv.notifications !== false) {
                           bot.api.sendMessage(chatId, `▶️ Etapa ${nextStage} iniciando — ${stageNames[nextStage]}`, { parse_mode: 'HTML' }).catch(() => {});
                         }

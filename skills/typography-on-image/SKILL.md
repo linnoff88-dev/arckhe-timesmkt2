@@ -13,17 +13,17 @@ Todos os vídeos e ads DEVEM seguir o estilo editorial de **capa de revista**:
 - **Hierarquia tipográfica clara:** headline ENORME → subtítulo médio → body pequeno
 - **Peso visual:** headlines sempre bold/black (700-900), nunca regular
 - **Contraste de escala:** headline 3-4x maior que body text (ex: 96px vs 28px)
-- **Espaço negativo:** texto NÃO deve ocupar mais de 40% da área — deixar a imagem respirar
-- **Posição editorial:** texto no topo como título de revista, imagem como fundo
+- **Espaço negativo:** texto NêO deve ocupar mais de 40% da área — deixar a imagem respirar
+- **Posiçêo editorial:** texto no topo como título de revista, imagem como fundo
 
 ### Escala Tipográfica Obrigatória (1080p)
 
 | Nível | Tamanho | Peso | Uso |
 |---|---|---|---|
 | Display | 96-140px | 900 (Black) | Hook, headline principal, número de impacto |
-| Title | 72-88px | 700-800 (Bold) | Título de seção, CTA principal |
+| Title | 72-88px | 700-800 (Bold) | Título de seçêo, CTA principal |
 | Subtitle | 48-64px | 600 (SemiBold) | Subtítulo, frase de suporte |
-| Body | 32-44px | 400-500 | Descrição, benefício, texto corrido |
+| Body | 32-44px | 400-500 | Descriçêo, benefício, texto corrido |
 | Caption | 20-28px | 400 | URL, handle, disclaimer, crédito |
 
 ### Erros Comuns que DEVEM ser Evitados

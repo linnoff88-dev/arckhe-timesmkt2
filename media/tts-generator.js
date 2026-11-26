@@ -5,7 +5,7 @@
  *
  * Usage:
  *   const { generateSpeech } = require('./tts-generator');
- *   await generateSpeech('Bom dia, mãe.', 'output.mp3', { provider: 'elevenlabs', language: 'pt-BR' });
+ *   await generateSpeech('Bom dia, mêe.', 'output.mp3', { provider: 'elevenlabs', language: 'pt-BR' });
  */
 
 const fs = require('fs');

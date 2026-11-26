@@ -1,7 +1,7 @@
 {
   "task_name": "inema_ddm_test",
   "task_date": "2026-05-10",
-  "business": "INEMA — Ecossistema de IA e Transformação Digital",
+  "business": "INEMA — Ecossistema de IA e Transformaçêo Digital",
   "description": "Teste completo do pipeline com brand assets reais, ElevenLabs narration e ffmpeg render.",
 
   "project_dir": "prj/inema",
@@ -14,14 +14,14 @@
   "skip_image": false,
   "skip_video": false,
 
-  "campaign_brief": "Campanha Dia das Mães INEMA. Ângulo: 'Mãe que aprende, mãe que inspira'. Empoderamento feminino via educação em IA. CTAs: inema.club (grátis) e inema.vip (R$ 35/mês). Tom: emocional, inspirador, sem elitismo. Usar imagens de marca reais.",
+  "campaign_brief": "Campanha Dia das Mêes INEMA. Ângulo: 'Mêe que aprende, mêe que inspira'. Empoderamento feminino via educaçêo em IA. CTAs: inema.club (grátis) e inema.vip (R$ 35/mês). Tom: emocional, inspirador, sem elitismo. Usar imagens de marca reais.",
 
   "image_count": 8,
   "image_formats": ["story_1080x1920", "carousel_1080x1080"],
 
   "video_count": 2,
   "video_briefs": [
-    "Vídeo 1 — 'Mãe que Cria' — voz Rachel (warm/emotional). Ângulo emocional: mãe que decide aprender IA transforma o futuro de toda a família. Hook: 'Tem um presente que nenhuma loja vende.' Mostre pertencimento, comunidade, crescimento. CTA: inema.club — grátis para começar.",
-    "Vídeo 2 — 'Mãe que Aprende' — voz Bella (clear/friendly). Ângulo aspiracional: mulher que não para de evoluir, nunca está obsoleta. Hook: 'Mãe que aprende, nunca para.' Mostre projetos reais, comunidade VIP, futuro. CTA: inema.vip — comunidade ativa R$ 35/mês."
+    "Vídeo 1 — 'Mêe que Cria' — voz Rachel (warm/emotional). Ângulo emocional: mêe que decide aprender IA transforma o futuro de toda a família. Hook: 'Tem um presente que nenhuma loja vende.' Mostre pertencimento, comunidade, crescimento. CTA: inema.club — grátis para começar.",
+    "Vídeo 2 — 'Mêe que Aprende' — voz Bella (clear/friendly). Ângulo aspiracional: mulher que nêo para de evoluir, nunca está obsoleta. Hook: 'Mêe que aprende, nunca para.' Mostre projetos reais, comunidade VIP, futuro. CTA: inema.vip — comunidade ativa R$ 35/mês."
   ]
 }

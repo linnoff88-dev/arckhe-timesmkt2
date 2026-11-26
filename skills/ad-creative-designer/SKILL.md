@@ -318,12 +318,12 @@ Quando usar fotos reais (stock, IA ou locais) como background, SEMPRE seguir est
 
 ### 1. Analisar a imagem ANTES de posicionar texto
 - VISUALIZAR a imagem de background antes de gerar o HTML
-- Identificar onde estão: rostos, produto, elementos importantes
+- Identificar onde estêo: rostos, produto, elementos importantes
 - Posicionar texto SOMENTE em áreas livres (céu, fundo desfocado, bordas vazias)
 
 ### 2. NUNCA cobrir rostos ou produto
-- Texto NÃO pode sobrepor rostos de pessoas
-- Texto NÃO pode cobrir o produto (lata, copo, etc.)
+- Texto NêO pode sobrepor rostos de pessoas
+- Texto NêO pode cobrir o produto (lata, copo, etc.)
 - Se a imagem tem pessoas no centro, usar texto no topo ou rodapé
 - Se a imagem tem pessoas na esquerda, usar texto na direita (e vice-versa)
 
@@ -338,7 +338,7 @@ Quando usar fotos reais (stock, IA ou locais) como background, SEMPRE seguir est
 ### 4. Usar gradientes para legibilidade
 - Gradiente escuro onde o texto é claro
 - Gradiente claro onde o texto é escuro
-- Gradiente deve cobrir APENAS a zona do texto, não a imagem inteira
+- Gradiente deve cobrir APENAS a zona do texto, nêo a imagem inteira
 - Opacidade do gradiente: 0.4-0.7 (suficiente para ler, sem matar a foto)
 
 ### 5. Zonas seguras por tipo de imagem
@@ -350,7 +350,7 @@ Quando usar fotos reais (stock, IA ou locais) como background, SEMPRE seguir est
 | Pessoas na direita | Esquerda (left 40%) |
 | Produto no centro | Topo ou rodapé com gradiente |
 | Paisagem/fundo | Centro com vinheta radial |
-| Texto já na imagem | Não adicionar mais texto sobre a mesma área |
+| Texto já na imagem | Nêo adicionar mais texto sobre a mesma área |
 
 ### 6. Checklist obrigatório antes de renderizar
 - [ ] Visualizei a imagem de background

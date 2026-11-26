@@ -1,7 +1,7 @@
 # Media Help — Sistema de Comandos de Mídia
 
 Quando o usuário digitar `/help`, mostre TODOS os comandos abaixo formatados.
-Quando o usuário usar qualquer um dos comandos abaixo, interprete os parâmetros e execute a ação correspondente usando os scripts em `media/`.
+Quando o usuário usar qualquer um dos comandos abaixo, interprete os parâmetros e execute a açêo correspondente usando os scripts em `media/`.
 
 Primeiro execute `node -e "require('./media/providers').printStatus()"` para mostrar o status atual dos providers.
 
@@ -12,10 +12,10 @@ Primeiro execute `node -e "require('./media/providers').printStatus()"` para mos
 ## 🖼️ IMAGENS
 
 ### `/img-api [prompt]`
-Gera imagem via IA (Kie.ai Z-Image por padrão).
+Gera imagem via IA (Kie.ai Z-Image por padrêo).
 
 ```
-/img-api mãe e filha tomando café juntas numa manhã ensolarada
+/img-api mêe e filha tomando café juntas numa manhê ensolarada
 /img-api --provider dalle café em estilo cartoon
 /img-api --ratio 9:16 cold brew em fundo escuro
 ```
@@ -27,7 +27,7 @@ Gera imagem via IA (Kie.ai Z-Image por padrão).
 | `--quality` | `standard`, `hd` | `standard` |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/img_[timestamp].png` |
 
-**Execução:** `media.image.generate(prompt, outputPath, { provider, aspectRatio })`
+**Execuçêo:** `media.image.generate(prompt, outputPath, { provider, aspectRatio })`
 
 ---
 
@@ -35,7 +35,7 @@ Gera imagem via IA (Kie.ai Z-Image por padrão).
 Busca foto gratuita em banco de imagens stock.
 
 ```
-/img-free café da manhã com família
+/img-free café da manhê com família
 /img-free --provider pexels coffee morning lifestyle
 /img-free --provider pixabay --orientation portrait café
 ```
@@ -46,11 +46,11 @@ Busca foto gratuita em banco de imagens stock.
 | `--orientation` | `landscape`, `portrait`, `square` | `square` |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/stock_[timestamp].jpg` |
 
-**Execução:** `media.image.stock(query, outputPath, { provider, orientation })`
+**Execuçêo:** `media.image.stock(query, outputPath, { provider, orientation })`
 
 ---
 
-### `/img-svg [descrição]`
+### `/img-svg [descriçêo]`
 Gera imagem usando SVGs programáticos via Playwright (HTML → PNG). Sem API, sem custo.
 
 ```
@@ -64,12 +64,12 @@ Gera imagem usando SVGs programáticos via Playwright (HTML → PNG). Sem API, s
 | `--size` | `1080x1080`, `1080x1920`, `1920x1080` | `1080x1080` |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/svg_[timestamp].png` |
 
-**Execução:** Claude gera HTML+CSS → renderiza com Playwright → salva PNG.
+**Execuçêo:** Claude gera HTML+CSS → renderiza com Playwright → salva PNG.
 
 ---
 
 ### `/img-pasta [caminho]`
-Usa imagens de uma pasta local existente. Não gera nada — apenas referencia.
+Usa imagens de uma pasta local existente. Nêo gera nada — apenas referencia.
 
 ```
 /img-pasta prj/coldbrew-coffee-co/assets/
@@ -77,7 +77,7 @@ Usa imagens de uma pasta local existente. Não gera nada — apenas referencia.
 /img-pasta ~/minhas-fotos/campanha/
 ```
 
-**Execução:** Lista os arquivos de imagem na pasta e os disponibiliza para os agentes.
+**Execuçêo:** Lista os arquivos de imagem na pasta e os disponibiliza para os agentes.
 
 ---
 
@@ -93,7 +93,7 @@ Define o formato do vídeo a ser gerado.
 /video-fmt v,q        → gera em ambos os formatos
 ```
 
-| Valor | Dimensões | Composição Remotion | Uso |
+| Valor | Dimensões | Composiçêo Remotion | Uso |
 |---|---|---|---|
 | `v` | 1080x1920 (9:16) | `DynamicAd` | Reels, Stories, Shorts |
 | `q` | 1080x1080 (1:1) | `DynamicAdSquare` | Feed Instagram |
@@ -102,10 +102,10 @@ Define o formato do vídeo a ser gerado.
 ---
 
 ### `/video-api [prompt]`
-Gera vídeo completo: scene plan (Claude) → renderização (Remotion).
+Gera vídeo completo: scene plan (Claude) → renderizaçêo (Remotion).
 
 ```
-/video-api mãe e filha preparando cold brew juntas
+/video-api mêe e filha preparando cold brew juntas
 /video-api --count 2 --fmt v campanha de Páscoa
 /video-api --duration 15 --fmt v,q campanha de Natal
 ```
@@ -117,19 +117,19 @@ Gera vídeo completo: scene plan (Claude) → renderização (Remotion).
 | `--duration` | `10`, `15`, `20`, `30` | `15` |
 | `--output` | pasta de saída | `<project_dir>/outputs/media/video/` |
 
-**Execução:** Video Ad Specialist gera scene_plan.json → render-video.js renderiza via Remotion.
+**Execuçêo:** Video Ad Specialist gera scene_plan.json → render-video.js renderiza via Remotion.
 
 ---
 
 ### `/video-clip-pasta [caminho]`
-Usa vídeo clips de uma pasta local como assets para composição.
+Usa vídeo clips de uma pasta local como assets para composiçêo.
 
 ```
 /video-clip-pasta prj/coldbrew-coffee-co/assets/clips/
 /video-clip-pasta ~/meus-videos/b-roll/
 ```
 
-**Execução:** Lista os clips disponíveis e os disponibiliza como assets para Remotion (`staticFile()`).
+**Execuçêo:** Lista os clips disponíveis e os disponibiliza como assets para Remotion (`staticFile()`).
 
 ---
 
@@ -147,10 +147,10 @@ Busca música royalty-free gratuita.
 | Parâmetro | Valores | Default |
 |---|---|---|
 | `--provider` | `pixabay`, `freesound` | `pixabay` |
-| `--duration` | duração máx em segundos | sem limite |
+| `--duration` | duraçêo máx em segundos | sem limite |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/music_[timestamp].mp3` |
 
-**Execução:** `media.music.fetch(query, outputPath, { provider })`
+**Execuçêo:** `media.music.fetch(query, outputPath, { provider })`
 
 ---
 
@@ -158,7 +158,7 @@ Busca música royalty-free gratuita.
 Gera música via IA.
 
 ```
-/musica-api lo-fi piano suave para vídeo de Dia das Mães
+/musica-api lo-fi piano suave para vídeo de Dia das Mêes
 /musica-api --provider suno beat animado para Reels
 ```
 
@@ -168,7 +168,7 @@ Gera música via IA.
 | `--duration` | `15`, `30`, `60` | `30` |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/music_ai_[timestamp].mp3` |
 
-**Execução:** `media.music.generate(prompt, outputPath, { provider })` (requer `SUNO_API_KEY`)
+**Execuçêo:** `media.music.generate(prompt, outputPath, { provider })` (requer `SUNO_API_KEY`)
 
 ---
 
@@ -186,21 +186,21 @@ Busca efeito sonoro gratuito.
 | Parâmetro | Valores | Default |
 |---|---|---|
 | `--provider` | `pixabay`, `freesound` | `pixabay` |
-| `--duration` | duração máx em segundos | `10` |
+| `--duration` | duraçêo máx em segundos | `10` |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/sfx_[timestamp].mp3` |
 
-**Execução:** `media.sfx.fetch(query, outputPath, { provider })`
+**Execuçêo:** `media.sfx.fetch(query, outputPath, { provider })`
 
 ---
 
-## 🗣️ NARRAÇÃO / TTS
+## 🗣️ NARRAÇêO / TTS
 
 ### `/tts-api [texto]`
-Gera narração com voz IA premium.
+Gera narraçêo com voz IA premium.
 
 ```
 /tts-api Presente perfeito para quem te deu tudo.
-/tts-api --provider elevenlabs --voice Rachel Bom dia, mãe.
+/tts-api --provider elevenlabs --voice Rachel Bom dia, mêe.
 /tts-api --provider openai --voice nova Cada gole é um abraço.
 ```
 
@@ -215,12 +215,12 @@ Vozes ElevenLabs: `Rachel` (feminina, quente), `Bella` (feminina, suave), `Anton
 
 Vozes OpenAI: `nova` (feminina, amigável), `shimmer` (feminina, suave), `echo` (quente), `onyx` (masculina, grave), `alloy` (neutra), `fable` (expressiva)
 
-**Execução:** `media.tts.speak(text, outputPath, { provider, voiceId })`
+**Execuçêo:** `media.tts.speak(text, outputPath, { provider, voiceId })`
 
 ---
 
 ### `/tts-free [texto]`
-Gera narração com TTS local gratuito (Piper).
+Gera narraçêo com TTS local gratuito (Piper).
 
 ```
 /tts-free Presente perfeito para quem te deu tudo.
@@ -232,7 +232,7 @@ Gera narração com TTS local gratuito (Piper).
 | `--lang` | `pt-BR`, `en`, `es` | `pt-BR` |
 | `--output` | caminho do arquivo | `<project_dir>/outputs/media/tts_local_[timestamp].wav` |
 
-**Execução:** `media.tts.speak(text, outputPath, { provider: 'local-piper' })` (requer `pip install piper-tts`)
+**Execuçêo:** `media.tts.speak(text, outputPath, { provider: 'local-piper' })` (requer `pip install piper-tts`)
 
 ---
 
@@ -259,7 +259,7 @@ Roda o pipeline completo com todos os agentes.
 ## ⚙️ UTILITÁRIOS
 
 ### `/media-status`
-Mostra quais providers estão configurados e disponíveis.
+Mostra quais providers estêo configurados e disponíveis.
 
 ```
 /media-status
@@ -284,8 +284,8 @@ Mostra este guia completo de comandos.
 | `/musica-free` | Busca música (Pixabay) | grátis |
 | `/musica-api` | Gera música (Suno) | ~$0.05 |
 | `/sfx-free` | Busca SFX (Pixabay) | grátis |
-| `/tts-api` | Narração IA (ElevenLabs) | ~$0.30/1k chars |
-| `/tts-free` | Narração local (Piper) | grátis |
+| `/tts-api` | Narraçêo IA (ElevenLabs) | ~$0.30/1k chars |
+| `/tts-free` | Narraçêo local (Piper) | grátis |
 | `/campanha` | Pipeline completo | variável |
 | `/media-status` | Status dos providers | — |
 | `/help` | Este guia | — |
