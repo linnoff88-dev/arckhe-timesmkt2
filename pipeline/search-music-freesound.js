@@ -10,8 +10,8 @@
  *   node pipeline/search-music-freesound.js <output_dir> "<query>" [mood] [min_duration] [max_duration]
  *
  * Examples:
- *   node pipeline/search-music-freesound.js prj/inema/outputs/c0029/audio "tech ambient" upbeat 30 120
- *   node pipeline/search-music-freesound.js prj/inema/outputs/c0029/audio "corporate background"
+ *   node pipeline/search-music-freesound.js prj/ARCKHÉ/outputs/c0029/audio "tech ambient" upbeat 30 120
+ *   node pipeline/search-music-freesound.js prj/ARCKHÉ/outputs/c0029/audio "corporate background"
  */
 
 const https = require('https');

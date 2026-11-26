@@ -1,7 +1,7 @@
 # Referências: Vídeos Promocionais de Produto com Qualidade Profissional
 
 > Documento de referência para criaçêo de vídeos promocionais usando Remotion (React).
-> Contexto de aplicaçêo: **INEMA** — educaçêo em tecnologia e IA.
+> Contexto de aplicaçêo: **ARCKHÉ** — educaçêo em tecnologia e IA.
 
 ---
 
@@ -95,7 +95,7 @@
 | Duraçêo | 1 minuto 7 segundos |
 | Estilo visual | Motion graphics 3D com morfismo geométrico, paleta azul/teal, transições fluidas entre conceitos abstratos |
 | Narrativa | Desafio abstrato de negócio → soluçêo como catalisador → benefícios concretos mensuráveis → visêo de inovaçêo |
-| O que funcionou | Estética azul/teal traduziu confiabilidade corporativa sem ser entediante. Morfismo geométrico transformou conceitos abstratos em visuais tangíveis. Relevante para o contexto INEMA. |
+| O que funcionou | Estética azul/teal traduziu confiabilidade corporativa sem ser entediante. Morfismo geométrico transformou conceitos abstratos em visuais tangíveis. Relevante para o contexto ARCKHÉ. |
 
 ---
 
@@ -123,11 +123,11 @@ Formas geométricas, partículas, gradientes e fluxos de dados animados. Nêo re
 
 - **Quando usar:** tech, IA, fintech, segurança de dados — temas que nêo têm "cara" física
 - **Referências:** Cognizant OptiMax, HSBC Banking Innovation, Google AI announcements
-- **Nota INEMA:** estilo altamente compatível com paleta dark/cyan/neon green
+- **Nota ARCKHÉ:** estilo altamente compatível com paleta dark/cyan/neon green
 
 ### 4. Screen Recording com Motion Overlay
 
-Gravaçêo da interface real do produto com animações sobrepostas (setas, destaque, zoom cinematográfico). Alta credibilidade — o produto aparece como é.
+Gravaçêo da interface real do produto com animações sobrepostas (setas, destaque, zoom cARCKHÉtográfico). Alta credibilidade — o produto aparece como é.
 
 - **Quando usar:** produto já existente, feature launch, demo técnica
 - **Referências:** Notion Agents, Figma AI, Linear feature releases
@@ -179,7 +179,7 @@ Partículas em movimento, redes de nós, fluxos de dados, gráficos que ganham v
 
 - **Quando usar:** IA, big data, cibersegurança, produtos de infraestrutura
 - **Referências:** Google DeepMind visualizações, IBM AI demos, OpenAI comunicações
-- **Nota INEMA:** estilo altamente alinhado — transmite "inteligência em movimento"
+- **Nota ARCKHÉ:** estilo altamente alinhado — transmite "inteligência em movimento"
 
 ---
 
@@ -284,7 +284,7 @@ Formatos de exportaçêo padrêo:
 | Storyboard | Milanote, Storyboarder | Figma, papel |
 | Sound design | Adobe Audition | Audacity, GarageBand |
 | Narraçêo sintética | ElevenLabs, Murf | ElevenLabs (plano gratuito) |
-| Vídeo 3D | Cinema 4D, Blender | Blender (grátis) |
+| Vídeo 3D | CARCKHÉ 4D, Blender | Blender (grátis) |
 
 ### Custos Típicos de Mercado (Brasil, 2024-2025)
 
@@ -299,7 +299,7 @@ Formatos de exportaçêo padrêo:
 
 ---
 
-## Parte 4 — Adaptaçêo para o Contexto INEMA
+## Parte 4 — Adaptaçêo para o Contexto ARCKHÉ
 
 ### Perfil da Marca
 
@@ -311,9 +311,9 @@ Formatos de exportaçêo padrêo:
 | Posicionamento | "Você já tem o potencial. Aqui você aprende a usá-lo." |
 | Paleta | Dark background (#0D0D0D ou #080C14) + Cyan (#00E5FF) + Neon Green (#39FF14) |
 
-### Estilo Visual Recomendado para INEMA
+### Estilo Visual Recomendado para ARCKHÉ
 
-Com base nos exemplos e estilos catalogados, os três estilos mais alinhados com a marca INEMA sêo:
+Com base nos exemplos e estilos catalogados, os três estilos mais alinhados com a marca ARCKHÉ sêo:
 
 **1. Kinetic Typography + Motion Graphics Abstrato (principal)**
 - Manifesto em texto animado com fundo dark e acentos cyan/neon
@@ -332,7 +332,7 @@ Com base nos exemplos e estilos catalogados, os três estilos mais alinhados com
 - Tom autêntico que reduz ceticismo ("isso existe de verdade")
 - Por que funciona: público técnico valoriza ver o produto real antes de comprar
 
-### Estrutura Narrativa Recomendada para INEMA (60-90 segundos)
+### Estrutura Narrativa Recomendada para ARCKHÉ (60-90 segundos)
 
 ```
 [0-4s]   HOOK         — Pergunta que bate na dor real:
@@ -341,7 +341,7 @@ Com base nos exemplos e estilos catalogados, os três estilos mais alinhados com
 [4-18s]  PROBLEMA     — Mostrar o gap: mercado evoluindo, profissional estagnado.
                         Números reais. Tom urgente sem ser alarmista.
 
-[18-45s] SOLUÇêO      — INEMA como caminho. Mostrar trilhas, método, resultados.
+[18-45s] SOLUÇêO      — ARCKHÉ como caminho. Mostrar trilhas, método, resultados.
                         3-4 benefícios concretos com visuais que reforçam cada um.
 
 [45-60s] PROVA        — Número de alunos, depoimento rápido (3-5s), taxa de empregabilidade.
@@ -379,7 +379,7 @@ Com base nos exemplos e estilos catalogados, os três estilos mais alinhados com
 | Labels / tags | JetBrains Mono | 400 (monospace reforça tech) |
 | Destaque / CTA | Space Grotesk | 800 uppercase |
 
-### Template de Cena Remotion para INEMA
+### Template de Cena Remotion para ARCKHÉ
 
 Estrutura base de uma cena de hook em Remotion:
 
@@ -429,7 +429,7 @@ const HookScene = () => {
 };
 ```
 
-### Checklist de Qualidade para Vídeo INEMA
+### Checklist de Qualidade para Vídeo ARCKHÉ
 
 Antes de renderizar e publicar:
 
@@ -454,7 +454,7 @@ Os vídeos promocionais de maior impacto compartilham três características ind
 
 3. **Uma mensagem. Uma açêo.** Vídeos que tentam comunicar tudo nêo comunicam nada. A ediçêo é o ato de remover o que nêo é essencial.
 
-Para o contexto INEMA com Remotion: priorizar kinetic typography sobre motion complexo nas primeiras versões. Alta qualidade de tipografia animada é mais fácil de executar com código React e tem impacto visual elevado com o público tech que reconhece o estilo como sofisticado.
+Para o contexto ARCKHÉ com Remotion: priorizar kinetic typography sobre motion complexo nas primeiras versões. Alta qualidade de tipografia animada é mais fácil de executar com código React e tem impacto visual elevado com o público tech que reconhece o estilo como sofisticado.
 
 ---
 
@@ -467,7 +467,7 @@ Para o contexto INEMA com Remotion: priorizar kinetic typography sobre motion co
 - [15 Best Types of Motion Graphics — Vidico](https://vidico.com/news/types-of-motion-graphics/)
 - [Motion Graphics Video Trends — Filmbaker](https://www.filmbaker.com/blog/motion-graphics-video-trends-for-2024)
 - [Qual o preço de uma animaçêo motion graphic — KOP Animado](https://www.kopanimado.com.br/qual-o-preco-de-uma-animacao-motion-graphic)
-- [Quanto Custa um Vídeo Institucional — Cinematika](https://cinematika.com.br/quanto-custa-um-video-institucional/)
+- [Quanto Custa um Vídeo Institucional — CARCKHÉtika](https://cARCKHÉtika.com.br/quanto-custa-um-video-institucional/)
 - [How to Plan a Motion Graphics Project — Milanote](https://milanote.com/guide/motion-graphics-pre-production)
 - [Animation Process Step-by-Step — Yansmedia](https://www.yansmedia.com/blog/animation-process-step-by-step-guide)
 - [Streamline Video Production with React and Remotion — Qubika](https://qubika.com/blog/dynamic-video-creation-react-remotion/)

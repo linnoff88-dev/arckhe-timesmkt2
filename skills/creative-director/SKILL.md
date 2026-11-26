@@ -55,7 +55,7 @@ Save to `{output_dir}/creative/`:
   "positioning_statement": "For [audience] who [pain], [brand] offers [solution] unlike [competitors]",
   "emotional_hook": "The core emotion this campaign activates (e.g. aspiration, urgency, belonging)",
   "visual_direction": {
-    "mood": "cinematic and warm / bold and energetic / minimal and premium / etc.",
+    "mood": "cARCKHÉtic and warm / bold and energetic / minimal and premium / etc.",
     "dominant_colors": ["#hex1", "#hex2"],
     "photography_style": "description of the image style (e.g. lifestyle close-ups, product-hero, documentary)",
     "typography_mood": "bold and impactful / elegant and spacious / raw and direct"

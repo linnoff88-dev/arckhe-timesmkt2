@@ -1,15 +1,15 @@
-# Product & Campaign — INEMA
+# Product & Campaign — ARCKHÉ
 
-## O Ecossistema INEMA
+## O Ecossistema ARCKHÉ
 
-A INEMA é uma marca guarda-chuva com quatro plataformas complementares:
+A ARCKHÉ é uma marca guarda-chuva com quatro plataformas complementares:
 
 ```
-INEMA
-├── inema.tds    → Conteúdo e marketing (Instagram, TikTok, GitHub 159 repos)
-├── inema.club   → Educaçêo gratuita (portal de cursos e trilhas open-source)
-├── inema.vip    → Comunidade premium (R$ 35/mês, +30 grupos Telegram)
-└── inema.tia    → Conteúdo sobre carreira de Técnico em IA
+ARCKHÉ
+├── ARCKHÉ.tds    → Conteúdo e marketing (Instagram, TikTok, GitHub 159 repos)
+├── ARCKHÉ AI   → Educaçêo gratuita (portal de cursos e trilhas open-source)
+├── ARCKHÉ.vip    → Comunidade premium (R$ 35/mês, +30 grupos Telegram)
+└── ARCKHÉ.tia    → Conteúdo sobre carreira de Técnico em IA
 ```
 
 > **Alcance total:** +500.000 seguidores somando todas as redes sociais do ecossistema.
@@ -18,7 +18,7 @@ INEMA
 
 ## Produtos e Serviços
 
-### 1. INEMA.VIP — Comunidade Premium
+### 1. ARCKHÉ.VIP — Comunidade Premium
 
 **O que é:** Comunidade paga de aprendizado colaborativo no Telegram com +30 grupos especializados.
 
@@ -37,11 +37,11 @@ INEMA
 
 **Métodos de pagamento:** PayPal, Telegram Stars, criptomoedas
 
-**URL:** inema.vip
+**URL:** ARCKHÉ.vip
 
 ---
 
-### 2. INEMA.CLUB — Portal Educacional Gratuito
+### 2. ARCKHÉ AI — Portal Educacional Gratuito
 
 **O que é:** Portal com trilhas de aprendizagem estruturadas, cursos em HTML open-source hospedados no GitHub.
 
@@ -64,17 +64,17 @@ INEMA
 | **Automaçêo com n8n e Make** | Cursos de automaçêo no-code com IA. |
 | **NotebookLM Completo** | Ferramenta IA do Google para transformar documentos em conhecimento. |
 
-**URL:** inema.club
+**URL:** ARCKHÉ AI
 
 ---
 
-### 3. INEMA.TDS — Conteúdo e Comunidade
+### 3. ARCKHÉ.TDS — Conteúdo e Comunidade
 
 **O que é:** Braço de conteúdo massivo da marca. TDS = Transformaçêo Digital Sustentável.
 
 **Presença:**
-- Instagram @inema.tds, TikTok @inema.tds, e demais redes — **+500.000 seguidores** no total do ecossistema
-- GitHub inematds — 159 repositórios open-source
+- Instagram @ARCKHÉ.tds, TikTok @ARCKHÉ.tds, e demais redes — **+500.000 seguidores** no total do ecossistema
+- GitHub linnoff88-dev — 159 repositórios open-source
 
 **Repositórios em destaque:**
 - BMAD-Academy — Framework de agentes de IA (JavaScript)
@@ -110,7 +110,7 @@ INEMA
 
 ## Diferenciais e Pontos de Venda
 
-### Por que INEMA vs. concorrentes?
+### Por que ARCKHÉ vs. concorrentes?
 
 1. **Ecossistema completo:** CLUB (grátis) + VIP (R$ 35/mês) + GitHub open-source — raridade no mercado
 2. **Preço imbatível:** R$ 35/mês vs. cursos de R$ 500–2.000 no mercado
@@ -118,29 +118,29 @@ INEMA
 4. **Conteúdo em PT-BR de ponta:** Claude Code, LangGraph, CrewAI — áreas com pouquíssimo material em português
 5. **Comunidade ativa:** +30 grupos Telegram especializados vs. EAD passivo
 6. **Três pilares únicos:** Tech (IA) + Negócios (automaçêo) + Comportamento humano (psicologia)
-7. **Credibilidade histórica:** 40+ anos de INEMA/SISNEMA — nêo é "guru digital" sem história
+7. **Credibilidade histórica:** 40+ anos de ARCKHÉ/SISNEMA — nêo é "guru digital" sem história
 8. **Early adopter:** Vibe Coding e metodologias emergentes antes do mainstream brasileiro
 
 ---
 
 ## Assets Visuais
 
-### Referências disponíveis em `prj/inema/imgs/`
+### Referências disponíveis em `prj/ARCKHÉ/imgs/`
 
-**Imagens de marca INEMA:**
-- `inema_vip_hero.jpg` — Banner hero da landing page VIP
-- `inema_vip_oferta_banner.jpg` — Banner de oferta da comunidade VIP
-- `inema_vip_grupos_post.jpg` — Post mostrando os grupos do VIP
-- `inema_vip_motivacional.jpg` — Post motivacional da comunidade
-- `inema_vip_stories.jpg` — Stories formato da INEMA VIP
-- `inema_vip_linkedin.jpg` — Banner formato LinkedIn
-- `inema_club_instagram_post.jpg` — Post Instagram do CLUB
-- `inema_club_stories.jpg` — Stories do CLUB
-- `inema_tds_instagram_post.jpg` — Post Instagram TDS
-- `inema_tds_stories.jpg` — Stories TDS
-- `inema_tds_facebook_banner.jpg` — Banner Facebook TDS
-- `inema_tds_youtube_thumb.jpg` — Thumbnail YouTube TDS
-- `inema_web_banner.jpg` — Banner web geral
+**Imagens de marca ARCKHÉ:**
+- `ARCKHÉ_vip_hero.jpg` — Banner hero da landing page VIP
+- `ARCKHÉ_vip_oferta_banner.jpg` — Banner de oferta da comunidade VIP
+- `ARCKHÉ_vip_grupos_post.jpg` — Post mostrando os grupos do VIP
+- `ARCKHÉ_vip_motivacional.jpg` — Post motivacional da comunidade
+- `ARCKHÉ_vip_stories.jpg` — Stories formato da ARCKHÉ VIP
+- `ARCKHÉ_vip_linkedin.jpg` — Banner formato LinkedIn
+- `ARCKHÉ_club_instagram_post.jpg` — Post Instagram do CLUB
+- `ARCKHÉ_club_stories.jpg` — Stories do CLUB
+- `ARCKHÉ_tds_instagram_post.jpg` — Post Instagram TDS
+- `ARCKHÉ_tds_stories.jpg` — Stories TDS
+- `ARCKHÉ_tds_facebook_banner.jpg` — Banner Facebook TDS
+- `ARCKHÉ_tds_youtube_thumb.jpg` — Thumbnail YouTube TDS
+- `ARCKHÉ_web_banner.jpg` — Banner web geral
 
 **Variações por persona/estilo:**
 - `exec_*` — Estilo executivo (tom mais formal/corporativo)
@@ -149,8 +149,8 @@ INEMA
 - `banner_oferta_anual_light.jpg` — Banner oferta anual
 - `banner_ecossistema_light.jpg` — Banner mostrando todo ecossistema
 
-### Assets em `prj/inema/assets/`
-- `conviteinemap.png` — Convite oficial INEMA
+### Assets em `prj/ARCKHÉ/assets/`
+- `conviteARCKHÉp.png` — Convite oficial ARCKHÉ
 - `26demai.de2025,20_45_15(2).jpg` — Asset de evento/data
 
 ---
@@ -162,11 +162,11 @@ INEMA
 **Formatos:** Carrossel educativo, Reel com Nei explicando cada pilar, Thread reflexivo.
 
 ### Ângulo 2: "R$ 35 que mudam sua carreira"
-**Conceito:** Comparaçêo de valor — quanto custa um curso avulso vs. a comunidade INEMA VIP com +30 grupos especializados.
+**Conceito:** Comparaçêo de valor — quanto custa um curso avulso vs. a comunidade ARCKHÉ VIP com +30 grupos especializados.
 **Formatos:** Stories de comparaçêo, post de oferta, anúncio de conversêo.
 
 ### Ângulo 3: "De 0 a IA em 3 dias"
-**Conceito:** Urgência e acessibilidade. Qualquer pessoa pode começar agora, de graça, no INEMA.CLUB.
+**Conceito:** Urgência e acessibilidade. Qualquer pessoa pode começar agora, de graça, no ARCKHÉ AI.
 **Formatos:** Reel de prova social, carrossel de trilha de aprendizado.
 
 ### Ângulo 4: "Automatize e liberte seu tempo"
@@ -174,11 +174,11 @@ INEMA
 **Formatos:** Tutorial em vídeo, antes/depois de processo automatizado.
 
 ### Ângulo 5: "A história de 40 anos que chegou no futuro"
-**Conceito:** Credibilidade do Nei — da SISNEMA (anos 90) ao inema.com.br em 2000 (plataforma de aventura com +100K colaboradores e 200 modalidades esportivas, referência nacional) à INEMA de IA (2024+). Mais de 20 anos levando eventos gratuitos de tecnologia por todo o Brasil com recursos próprios, sem depender de governo. Quem construiu tudo isso do zero sabe do que fala.
+**Conceito:** Credibilidade do Nei — da SISNEMA (anos 90) ao ARCKHÉ.com.br em 2000 (plataforma de aventura com +100K colaboradores e 200 modalidades esportivas, referência nacional) à ARCKHÉ de IA (2024+). Mais de 20 anos levando eventos gratuitos de tecnologia por todo o Brasil com recursos próprios, sem depender de governo. Quem construiu tudo isso do zero sabe do que fala.
 **Formatos:** Vídeo longo biográfico, thread LinkedIn, podcast/entrevista.
 
 ### Ângulo 6: "Open-Source: o conhecimento é seu"
-**Conceito:** INEMA nêo tranca conhecimento atrás de paywall. Cursos gratuitos no GitHub, para sempre.
+**Conceito:** ARCKHÉ nêo tranca conhecimento atrás de paywall. Cursos gratuitos no GitHub, para sempre.
 **Formatos:** Post de posicionamento, comparaçêo com concorrentes, carrossel de cursos gratuitos.
 
 ### Ângulo 7: "Comunidade que ensina na prática"

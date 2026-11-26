@@ -8,7 +8,7 @@ Exemplo de conversa:
 ```
 Usuario: /nova
 Bot: Descreva a campanha...
-Usuario: Campanha de Pascoa para o clube INEMA, imagens da marca, video pro
+Usuario: Campanha de Pascoa para o clube ARCKHÉ, imagens da marca, video pro
 Bot: [monta payload e inicia pipeline]
 ```
 
@@ -63,7 +63,7 @@ Pipeline: c0013-pascoa2026
 {
   "task_name": "c0014-lancamento",
   "task_date": "2026-03-29",
-  "project_dir": "prj/inema",
+  "project_dir": "prj/ARCKHÉ",
   "language": "pt-BR",
   "campaign_brief": "Lancamento da nova colecao de inverno",
   "platform_targets": ["instagram", "youtube", "tiktok", "facebook", "threads", "linkedin"],
@@ -101,7 +101,7 @@ Pipeline: c0013-pascoa2026
 npm run pipeline:run
 
 # Rodar com payload inline
-npm run pipeline:run:payload '{"task_name":"test","project_dir":"prj/inema"}'
+npm run pipeline:run:payload '{"task_name":"test","project_dir":"prj/ARCKHÉ"}'
 
 # Iniciar worker (terminal separado)
 node pipeline/worker.js

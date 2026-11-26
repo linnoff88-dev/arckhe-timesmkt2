@@ -22,13 +22,13 @@
       "strengths": "Melhor balanço qualidade/velocidade. Bom com fotografia, pessoas, ambientes.",
       "prompt_tips": [
         "Prompts curtos e diretos funcionam melhor (< 200 chars ideal)",
-        "Especificar iluminaçêo: 'cinematic lighting', 'golden hour', 'studio lighting'",
+        "Especificar iluminaçêo: 'cARCKHÉtic lighting', 'golden hour', 'studio lighting'",
         "Evitar instruções negativas — nêo entende 'no X' bem, prefira descrever o que QUER",
         "Bom com: retratos, ambientes profissionais, produto em contexto",
         "Fraco com: texto em imagem, mêos detalhadas, layouts complexos"
       ],
       "style_prefix": "",
-      "style_suffix": "Cinematic lighting, photorealistic. No text, no watermark.",
+      "style_suffix": "CARCKHÉtic lighting, photorealistic. No text, no watermark.",
       "example_prompt": "Professional woman working at modern desk with laptop, warm studio lighting, shallow depth of field. Square 1:1. Colors: #0099FF, #00FF88."
     },
 
@@ -43,7 +43,7 @@
         "Pode perder detalhes em cenas muito complexas"
       ],
       "style_prefix": "",
-      "style_suffix": "Cinematic lighting, photorealistic. No text, no watermark."
+      "style_suffix": "CARCKHÉtic lighting, photorealistic. No text, no watermark."
     },
 
     "flux-kontext-pro": {
@@ -182,7 +182,7 @@
         "Upscaling pode criar artefatos em fundos gradientes — evitar fundos simples"
       ],
       "style_prefix": "",
-      "style_suffix": "Cinematic lighting. No text, no watermark."
+      "style_suffix": "CARCKHÉtic lighting. No text, no watermark."
     },
 
     "kontext": {

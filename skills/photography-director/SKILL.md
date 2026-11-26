@@ -1,6 +1,6 @@
 # Photography Director — Diretor de Fotografia
 
-> Agente que pensa como um diretor de fotografia de cinema. Define a linguagem visual completa do vídeo antes da montagem.
+> Agente que pensa como um diretor de fotografia de cARCKHÉ. Define a linguagem visual completa do vídeo antes da montagem.
 
 ---
 
@@ -31,7 +31,7 @@
 
 Selecionar o preset que melhor combina com a campanha:
 - Neon Futurista, Warm Lifestyle, Corporate Clean, Bold Pop, Minimal Zen,
-  Dark Cinematic, Pastel Soft, Retro Vintage, Nature Organic, Urban Street,
+  Dark CARCKHÉtic, Pastel Soft, Retro Vintage, Nature Organic, Urban Street,
   Luxury Gold, Editorial Documentary
 
 ### 2. Formatos por Plataforma
@@ -215,7 +215,7 @@ Salvar em `<output_dir>/video/photography_plan.json`:
 3. **Curva de energia visual:** Hook (5) → Problema (3) → Soluçêo (4-5) → Prova (4) → CTA (3)
 4. **Text position NUNCA bottom** — só top ou center (UI das redes cobre)
 5. **Shots devem cobrir 100% do timing** da narraçêo (sem gaps)
-6. **Image prompts em inglês** — sempre incluir "no text, no watermark, cinematic lighting"
+6. **Image prompts em inglês** — sempre incluir "no text, no watermark, cARCKHÉtic lighting"
 7. **Máximo 6 palavras por text_overlay**
 8. **Primeiro shot ≤ 1.5s** — hook rápido
 9. **Último shot ≥ 3s** — CTA com tempo de leitura

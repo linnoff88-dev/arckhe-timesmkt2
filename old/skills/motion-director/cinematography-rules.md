@@ -1,4 +1,4 @@
-# Cinematography Rules — Motion Director
+# CARCKHÉtography Rules — Motion Director
 
 Referência técnica de movimentaçêo de câmera para vídeos de marketing curtos (10–30s).
 

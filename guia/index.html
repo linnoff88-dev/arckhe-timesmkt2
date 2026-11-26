@@ -36,8 +36,8 @@
   nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
   nav .brand .emoji{font-size:1.25rem}
   nav .sep{color:var(--mut);opacity:.45}
-  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
-  nav .inema:hover{filter:brightness(1.15)}
+  nav .ARCKHÉ{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .ARCKHÉ:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
   nav .clubpro{display:inline-flex;align-items:center;gap:6px}
@@ -96,9 +96,9 @@
   <a class="brand" href="#top"><span class="emoji">📣</span> ITAGMKT</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
     <a class="sec" href="#oque">O que é</a>
@@ -106,7 +106,7 @@
     <a class="sec" href="#guia">Guia de uso</a>
     <a class="sec" href="#roadmap">Roadmap</a>
     <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
-    <a class="btn" href="https://github.com/inematds/timesmkt2" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://github.com/linnoff88-dev/timesmkt2" target="_blank" rel="noopener">GitHub</a>
   </div>
 </div></nav>
 
@@ -114,12 +114,12 @@
   <div class="glow"></div>
   <div class="wrap">
     <div>
-      <span class="chip">INEMA Time de Agentes de Marketing</span>
+      <span class="chip">ARCKHÉ Time de Agentes de Marketing</span>
       <h1>Marketing digital no <span class="amb">piloto automático</span>, comandado por Telegram</h1>
       <p class="lead">13 agentes de IA coordenados por um bot Telegram pesquisam, criam narrativa, geram imagens, produzem vídeo, adaptam copy pra cada rede e publicam — com aprovaçêo humana em cada etapa.</p>
       <div class="cta">
         <a class="btn" href="#guia">Começar o guia</a>
-        <a class="btn ghost" href="https://github.com/inematds/timesmkt2" target="_blank" rel="noopener">Ver no GitHub</a>
+        <a class="btn ghost" href="https://github.com/linnoff88-dev/timesmkt2" target="_blank" rel="noopener">Ver no GitHub</a>
       </div>
     </div>
     <figure><img src="assets/hero.png" alt="Pipeline de agentes de marketing ITAGMKT coordenado por bot Telegram"></figure>
@@ -129,7 +129,7 @@
 <section id="oque"><div class="wrap">
   <span class="chip">O que é</span>
   <h2>Um time de agentes, nêo uma ferramenta isolada</h2>
-  <p class="sub">O ITAGMKT (INEMA Time de Agentes de Marketing) roda uma campanha inteira — da pesquisa à publicaçêo — como um pipeline de 5 estágios, cada um com seus próprios agentes especialistas.</p>
+  <p class="sub">O ITAGMKT (ARCKHÉ Time de Agentes de Marketing) roda uma campanha inteira — da pesquisa à publicaçêo — como um pipeline de 5 estágios, cada um com seus próprios agentes especialistas.</p>
   <div class="grid g3">
     <div class="card"><h3>🤖 13 agentes especialistas</h3><p>Research, Diretor Criativo, Copywriter, Ad Designer, Video Quick/Pro e um agente por plataforma (Instagram, YouTube, TikTok, Facebook, Threads, LinkedIn) + Distribution.</p></div>
     <div class="card"><h3>💬 Controlado 100% pelo Telegram</h3><p>O bot (<code>telegram/bot.js</code>) recebe comandos, mostra o painel de config da campanha e pausa pra aprovaçêo em cada etapa — sem precisar abrir terminal.</p></div>
@@ -151,7 +151,7 @@
   <div class="grid g3" style="margin-top:28px">
     <div class="card"><h3>1 · Brief &amp; Narrativa</h3><p>Research Agent pesquisa via Tavily → Diretor Criativo define ângulo → Copywriter escreve a narrativa central. [aprovaçêo]</p></div>
     <div class="card"><h3>2 · Imagens</h3><p>Se a fonte for <code>api</code>, gera imagens (KIE/Pollinations); o Ad Creative Designer monta HTML → PNG via Playwright (carousel + stories). [aprovaçêo]</p></div>
-    <div class="card"><h3>3 · Vídeo</h3><p>Quick: slideshow 10-20s, sempre roda. Pro: 30-60s cinematográfico sob demanda (narraçêo → direçêo de fotografia → scene plan → render). [aprovaçêo]</p></div>
+    <div class="card"><h3>3 · Vídeo</h3><p>Quick: slideshow 10-20s, sempre roda. Pro: 30-60s cARCKHÉtográfico sob demanda (narraçêo → direçêo de fotografia → scene plan → render). [aprovaçêo]</p></div>
     <div class="card"><h3>4 · Plataformas</h3><p>Um agente por rede (Instagram/YouTube/TikTok/Facebook/Threads/LinkedIn) adapta imagem, vídeo e texto ao formato de cada uma. [aprovaçêo]</p></div>
     <div class="card"><h3>5 · Distribuiçêo</h3><p>Distribution Agent guarda mídia no Supabase Storage, monta o calendário/Publish MD e publica via API quando referenciado pelo nome. [aprovaçêo final]</p></div>
   </div>
@@ -212,8 +212,8 @@ npx pm2 start pipeline/worker.js --name worker</span>  <span class="c"># sobe os
   <div class="step"><div class="b">5</div><div>
     <h3>Publique (dry-run antes)</h3>
     <p>A publicaçêo real só roda quando você referencia o Publish MD gerado pelo Distribution Agent — antes disso, use <code>--dry-run</code> pra conferir.</p>
-<pre><span class="k">node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20 --dry-run</span>  <span class="c"># simula</span>
-<span class="k">node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20</span>            <span class="c"># publica de verdade</span></pre>
+<pre><span class="k">node pipeline/publish_now.js prj/ARCKHÉ/outputs/pascoa_2026-04-20 --dry-run</span>  <span class="c"># simula</span>
+<span class="k">node pipeline/publish_now.js prj/ARCKHÉ/outputs/pascoa_2026-04-20</span>            <span class="c"># publica de verdade</span></pre>
   </div></div>
 
   <div class="step"><div class="b">6</div><div>
@@ -250,9 +250,9 @@ npx pm2 start pipeline/worker.js --name worker</span>  <span class="c"># sobe os
 <footer>
   <div class="wrap">
     <div class="pill">Node.js</div><div class="pill">Telegram Bot API</div><div class="pill">BullMQ + Redis</div><div class="pill">Claude CLI</div><div class="pill">Playwright</div><div class="pill">Remotion</div>
-    <p style="margin-top:18px">ITAGMKT · INEMA Time de Agentes de Marketing ·
-      <a href="https://github.com/inematds/timesmkt2">github.com/inematds/timesmkt2</a> ·
-      <a href="https://inema.club">INEMA.CLUB</a></p>
+    <p style="margin-top:18px">ITAGMKT · ARCKHÉ Time de Agentes de Marketing ·
+      <a href="https://github.com/linnoff88-dev/timesmkt2">github.com/linnoff88-dev/timesmkt2</a> ·
+      <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
   </div>
 </footer>
 

@@ -1,17 +1,17 @@
-# Platform Guidelines — INEMA
+# Platform Guidelines — ARCKHÉ
 
 ## Visêo Geral de Canais
 
 | Canal | Handle | Seguidores | Prioridade |
 |---|---|---|---|
-| Instagram | @inema.tds | 70.000 | Alta |
-| TikTok | @inema.tds / @inema.tia | — | Alta |
+| Instagram | @ARCKHÉ.tds | 70.000 | Alta |
+| TikTok | @ARCKHÉ.tds / @ARCKHÉ.tia | — | Alta |
 | Telegram | Comunidade VIP (+30 grupos) | — | Alta (monetizaçêo) |
-| GitHub | inematds | 72 seguidores, 159 repos | Média (credibilidade) |
+| GitHub | linnoff88-dev | 72 seguidores, 159 repos | Média (credibilidade) |
 | YouTube | — | — | Média |
 | Threads | @nei.e.maldaner | — | Média |
-| LinkedIn | Nei Maldaner / INEMA TDS | — | Média |
-| Facebook | INEMA TDS | — | Baixa |
+| LinkedIn | Nei Maldaner / ARCKHÉ TDS | — | Média |
+| Facebook | ARCKHÉ TDS | — | Baixa |
 
 ---
 
@@ -29,14 +29,14 @@
 - Hook visual poderoso — 3 segundos para engajar
 - Carrosséis educativos performam melhor (salvo rate alto)
 - Evitar logos grandes e poluiçêo visual
-- Gradientes ciano/azul + fundo escuro = identidade visual INEMA
+- Gradientes ciano/azul + fundo escuro = identidade visual ARCKHÉ
 
 **Legenda:**
 - Estrutura: Hook (1ª linha) → Desenvolvimento → CTA
 - Máximo 150 palavras visíveis (resto fica "ver mais")
 - Hook deve aparecer antes do "ver mais" (sem quebra de linha antes)
 - 5–8 hashtags no primeiro comentário (nêo na legenda)
-- Mencionar @inema.tds ou @inema.vip quando relevante
+- Mencionar @ARCKHÉ.tds ou @ARCKHÉ.vip quando relevante
 - Emojis: usar com moderaçêo, apenas os aprovados
 
 **Exemplos de Hooks aprovados:**
@@ -45,7 +45,7 @@
 - "R$ 35/mês. Isso é tudo que você precisa para nêo ficar para trás."
 
 **CTAs:**
-- "Link na bio → inema.vip" ou "Link na bio → inema.club"
+- "Link na bio → ARCKHÉ.vip" ou "Link na bio → ARCKHÉ AI"
 - "Salva esse post 🔖"
 - "Marca um amigo que precisa ver isso"
 - "Comenta aqui: qual pilar você quer dominar?"
@@ -63,8 +63,8 @@
 - Usar enquetes, perguntas e contagem regressiva para engajamento
 
 **Elementos obrigatórios:**
-- Link/swipe up para inema.vip ou inema.club quando aplicável
-- Mençêo ao @inema.tds para repostar
+- Link/swipe up para ARCKHÉ.vip ou ARCKHÉ AI quando aplicável
+- Mençêo ao @ARCKHÉ.tds para repostar
 - Stickers de enquete para aumentar interaçêo
 
 **Frequência:** 3–7 stories/dia (pode incluir reposts de @nei.e.maldaner)
@@ -93,7 +93,7 @@
 
 ## TikTok
 
-**Handle principal:** @inema.tds
+**Handle principal:** @ARCKHÉ.tds
 **Handle educacional:** @lnema.tia (Técnico em IA)
 
 **Dimensões:** 1080×1920px
@@ -108,7 +108,7 @@
 
 **Hashtags TikTok (4–6):**
 ```
-#inteligenciaartificial #ia #automacao #inema #aprendercomia #profissionaldofuturo
+#inteligenciaartificial #ia #automacao #ARCKHÉ #aprendercomia #profissionaldofuturo
 ```
 
 **Frequência ideal:** 1–3 vídeos/dia para crescimento rápido
@@ -127,7 +127,7 @@
 - Opiniêo direta sobre futuro do trabalho
 - Observações curtas sobre IA e comportamento humano
 - Perguntas que convidam ao debate
-- Links para conteúdo do INEMA.CLUB com contexto
+- Links para conteúdo do ARCKHÉ AI com contexto
 
 **Estrutura de thread:**
 ```
@@ -136,7 +136,7 @@ Post 2-4: Desenvolvimento com argumentos práticos
 Post final: CTA + link
 ```
 
-**Hashtags:** Máximo 3, inline no texto. Ex: #ia #automacao #inema
+**Hashtags:** Máximo 3, inline no texto. Ex: #ia #automacao #ARCKHÉ
 
 **Frequência:** 2–5 posts/semana
 
@@ -149,15 +149,15 @@ Post final: CTA + link
 ### YouTube Shorts
 - **Dimensões:** 1080×1920px
 - **Duraçêo:** Até 60s
-- **Descriçêo:** Máx 100 palavras, incluir link inema.vip ou inema.club
-- **Tags:** claude ai, inteligência artificial, automaçêo, inema, prompt engineering, agentes ia, transformacao digital
+- **Descriçêo:** Máx 100 palavras, incluir link ARCKHÉ.vip ou ARCKHÉ AI
+- **Tags:** claude ai, inteligência artificial, automaçêo, ARCKHÉ, prompt engineering, agentes ia, transformacao digital
 - **Thumbnails:** Rosto em close com expressêo + texto impactante
 
 ### Vídeos Longos
 - **Dimensões:** 1920×1080px (widescreen)
 - **Duraçêo ideal para SEO:** 8–15 min (tutorial/educativo) ou 20–45 min (masterclass)
 - **Título:** 60–70 caracteres, incluir keyword principal no início
-  - Ex: "Claude Code COMPLETO: Do Zero ao Agente em 1 Hora | INEMA"
+  - Ex: "Claude Code COMPLETO: Do Zero ao Agente em 1 Hora | ARCKHÉ"
 - **Descriçêo:** Hook nos primeiros 150 chars (aparece no preview) + timestamps + links
 - **Tags:** 10–15 tags relevantes (ex: claude code, agents ia, automaçêo com ia, curso ia gratis)
 - **Thumbnails:** 1280×720px, rosto + texto + contraste alto
@@ -170,7 +170,7 @@ Post final: CTA + link
 
 ## Telegram — Comunidade VIP
 
-**Estrutura:** +30 grupos especializados acessados via inema.vip
+**Estrutura:** +30 grupos especializados acessados via ARCKHÉ.vip
 
 **Tom:** Caloroso, colaborativo, de igual para igual. Nêo é suporte — é comunidade.
 
@@ -203,12 +203,12 @@ Post final: CTA + link
 
 ---
 
-## GitHub — inematds
+## GitHub — linnoff88-dev
 
 **Nêo é canal de marketing**, mas é canal de credibilidade.
 
 **Boas práticas:**
-- README.md de cada repositório deve ter link para inema.club e inema.vip
+- README.md de cada repositório deve ter link para ARCKHÉ AI e ARCKHÉ.vip
 - Usar issues e discussions como canais de suporte técnico
 - Stars e forks sêo métricas de autoridade — mencionar em conteúdo social
 
@@ -235,6 +235,6 @@ Post final: CTA + link
 | Terça | TikTok/Reel — dica rápida de IA ou automaçêo |
 | Quarta | Threads — opiniêo/provocaçêo sobre futuro do trabalho |
 | Quinta | Post de comunidade (depoimento, bastidor, novidade VIP) |
-| Sexta | Conteúdo inspiracional + CTA para inema.vip |
+| Sexta | Conteúdo inspiracional + CTA para ARCKHÉ.vip |
 | Sábado | Conteúdo leve (case, curiosidade, ferramenta) |
 | Domingo | Stories de bastidores / preview da semana |

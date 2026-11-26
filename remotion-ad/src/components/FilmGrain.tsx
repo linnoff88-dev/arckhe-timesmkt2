@@ -15,7 +15,7 @@ interface FilmGrainProps {
 }
 
 /**
- * FilmGrain — Cinematic grain overlay + animated light leaks.
+ * FilmGrain — CARCKHÉtic grain overlay + animated light leaks.
  * Unifies images from different sources — "same camera, same day" effect.
  * Applied as top-level overlay across ALL scenes.
  */

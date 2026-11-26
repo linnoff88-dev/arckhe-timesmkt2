@@ -10,8 +10,8 @@
  *   node pipeline/publish_now.js <output_dir> [--dry-run]
  *
  * Example:
- *   node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20
- *   node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20 --dry-run
+ *   node pipeline/publish_now.js prj/ARCKHÉ/outputs/pascoa_2026-04-20
+ *   node pipeline/publish_now.js prj/ARCKHÉ/outputs/pascoa_2026-04-20 --dry-run
  */
 
 const fs = require('fs');

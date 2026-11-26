@@ -31,7 +31,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | **Overlay** | Gradiente radial escuro, opacidade 0.55-0.70 |
 | **Partículas/efeitos** | Partículas cyan flutuantes, linhas de circuito, grid digital, data flow |
 | **Audio mood** | Eletrônica/synthwave, 110-130 BPM, bass profundo |
-| **Marcas referência** | MasterClass dark mode, Notion launches, Apple WWDC, INEMA |
+| **Marcas referência** | MasterClass dark mode, Notion launches, Apple WWDC, ARCKHÉ |
 
 **Regra:** Nunca usar mais de 2 cores neon no mesmo frame. Alternar cyan e green entre cenas.
 
@@ -89,7 +89,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 
 ---
 
-### 1.4 Emocional Cinematic
+### 1.4 Emocional CARCKHÉtic
 
 **Quando usar:** Família, saúde, causas sociais, datas comemorativas (Dia das Mêes, Natal), storytelling humano.
 
@@ -376,7 +376,7 @@ Cada estilo define TODOS os parâmetros visuais para uma campanha. Selecione o e
 | Neon Futurista | Space Grotesk 800 | Inter 400 | JetBrains Mono 400 |
 | Premium Minimal | Playfair Display 700 | Inter 300 | — |
 | Energético | Oswald 800 | Bebas Neue 400 | — |
-| Emocional Cinematic | Lora 700 | Inter 400 | — |
+| Emocional CARCKHÉtic | Lora 700 | Inter 400 | — |
 | Corporate Clean | Inter 700 | Inter 400 | — |
 | Streetwear Urban | Archivo Black 900 | Roboto Condensed 700 | — |
 | Nature Organic | DM Serif Display 400 | Nunito 400 | — |
@@ -571,7 +571,7 @@ FEED QUADRADO (1:1 = 1080x1080):
 | Neon Futurista | Synthwave, Electro | Ambient electronica | 110-130 |
 | Premium Minimal | Piano solo, Ambient | Cordas clássicas | 60-80 |
 | Energético | EDM, Trap | Rock alternativo | 120-145 |
-| Emocional Cinematic | Piano + cordas | Folk acústico | 70-90 |
+| Emocional CARCKHÉtic | Piano + cordas | Folk acústico | 70-90 |
 | Corporate Clean | Ambient corporativo | Pop acústico suave | 80-100 |
 | Streetwear Urban | Trap, Drill | Lo-fi hip hop | 130-150 |
 | Nature Organic | Folk acústico | New age, Sons naturais | 70-90 |
@@ -847,13 +847,13 @@ Quando o Video Pro agent receber um brief, seguir este processo para selecionar 
 | Lançamento de produto tech | Neon Futurista, Corporate Clean |
 | Marca de luxo / premium | Premium Minimal, Dark Dramatic |
 | Promoçêo / venda | Bold Pop, Energético |
-| Causa social / emocional | Emocional Cinematic, Nature Organic |
+| Causa social / emocional | Emocional CARCKHÉtic, Nature Organic |
 | Educaçêo / curso | Neon Futurista, Editorial Documentary |
 | Moda / cultura | Streetwear Urban, Bold Pop |
-| Saúde / wellness | Nature Organic, Emocional Cinematic |
+| Saúde / wellness | Nature Organic, Emocional CARCKHÉtic |
 | B2B / SaaS | Corporate Clean, Editorial Documentary |
 | Infantil / família | Playful Colorful, Nature Organic |
-| Heritage / tradiçêo | Retro Vintage, Emocional Cinematic |
+| Heritage / tradiçêo | Retro Vintage, Emocional CARCKHÉtic |
 | Investigaçêo / dados | Editorial Documentary, Corporate Clean |
 | Entretenimento jovem | Streetwear Urban, Playful Colorful |
 
@@ -868,7 +868,7 @@ Ler `brand_identity.md` e cruzar tom da marca com o estilo:
 | Divertido, casual | Playful Colorful, Bold Pop |
 | Sério, confiável | Corporate Clean, Editorial Documentary |
 | Rebelde, autêntico | Streetwear Urban, Retro Vintage |
-| Acolhedor, humano | Emocional Cinematic, Nature Organic |
+| Acolhedor, humano | Emocional CARCKHÉtic, Nature Organic |
 
 ### Passo 3: Adaptar Paleta
 

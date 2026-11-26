@@ -52,7 +52,7 @@ Produce a one-paragraph creative brief including:
 
 - The core hook or tension (what stops the scroll)
 - The emotional arc of the ad
-- The visual style (cinematic, lo-fi, fast cuts, slow-mo)
+- The visual style (cARCKHÉtic, lo-fi, fast cuts, slow-mo)
 - The CTA intent (visit link, follow, shop now)
 
 Apply brand voice from `brand_identity.md` — confident, clean, energizing. No corporate speak.

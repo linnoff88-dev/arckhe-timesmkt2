@@ -1196,7 +1196,7 @@ STEP 2 — Image source: ${providerNameVideo} API (images will be generated AFTE
 - Set "image": null for all scenes in the JSON
 - For EACH scene, add an "image_prompt" field: a concise English visual description (max 200 chars)
   of exactly what should be shown visually in that scene — derived from the scene's narration and purpose
-  Example: "tired person sitting on bed at sunrise, exhausted expression, warm muted light, cinematic"
+  Example: "tired person sitting on bed at sunrise, exhausted expression, warm muted light, cARCKHÉtic"
 - The pipeline will generate one image per scene using your image_prompt + brand colors
 - Do NOT use generic descriptions — each image_prompt must match what is being said/shown in that scene`;
   } else if (image_source === 'free') {
@@ -1389,7 +1389,7 @@ After saving all scene plans, print exactly: [VIDEO_APPROVAL_NEEDED] ${output_di
           cta: 'optimistic, inviting, forward momentum',
         };
         const mood = moodMap[sceneType] || moodMap.solution;
-        const rawPrompt = `${scene.image_prompt}. ${mood}. vertical 9:16.${colorHint} Cinematic lighting, photorealistic. No text, no words, no watermark, no logo.`;
+        const rawPrompt = `${scene.image_prompt}. ${mood}. vertical 9:16.${colorHint} CARCKHÉtic lighting, photorealistic. No text, no words, no watermark, no logo.`;
         const finalPrompt = rawPrompt.length > 490 ? rawPrompt.slice(0, 487) + '...' : rawPrompt;
 
         log(output_dir, 'video_ad_specialist', `Generating image for video_${idx} scene ${s + 1}/${total} [${sceneType}]: ${scene.image_prompt.slice(0, 80)}`);
@@ -1509,7 +1509,7 @@ Scene plans to enrich:
 ${scenePlans.map((p, i) => `  ${i + 1}. ${p}`).join('\n')}
 
 For each scene plan:
-1. Read all reference files: skills/motion-director/cinematography-rules.md, layout-typography.md, pacing-by-mood.md, scene-type-presets.md
+1. Read all reference files: skills/motion-director/cARCKHÉtography-rules.md, layout-typography.md, pacing-by-mood.md, scene-type-presets.md
 2. Read the scene plan JSON
 3. Use the Read tool to view each image listed in the scenes
 4. Read ${projectDir}/knowledge/brand_identity.md for brand mood and visual style
@@ -1881,7 +1881,7 @@ CRITICAL RULES:
 
     const photoDirPrompt = `You are the Photography Director (Diretor de Fotografia). Follow the skill defined in skills/photography-director/SKILL.md exactly.
 
-You think like a CINEMATOGRAPHER. You define the complete visual language BEFORE the editor creates the scene plan.
+You think like a CARCKHÉTOGRAPHER. You define the complete visual language BEFORE the editor creates the scene plan.
 
 Task: Create the photography plan for ${video_count} video(s) — "${task_name}" campaign.
 Platforms: ${platform_targets.join(', ')}
@@ -2132,7 +2132,7 @@ Then print: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
           cta: 'optimistic, inviting, forward momentum',
         };
         const mood = moodMap[sceneType] || moodMap.solution;
-        const rawPrompt = `${scene.image_prompt}. ${mood}. vertical 9:16.${colorHint} Cinematic lighting, photorealistic. No text, no words, no watermark.`;
+        const rawPrompt = `${scene.image_prompt}. ${mood}. vertical 9:16.${colorHint} CARCKHÉtic lighting, photorealistic. No text, no words, no watermark.`;
         const finalPrompt = rawPrompt.length > 490 ? rawPrompt.slice(0, 487) + '...' : rawPrompt;
 
         log(output_dir, 'video_pro', `Generating image ${promptMap.size + 1} for video_${idx}: ${scene.image_prompt.slice(0, 80)}`);

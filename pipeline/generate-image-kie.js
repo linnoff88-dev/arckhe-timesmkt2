@@ -152,7 +152,7 @@ function buildImagePrompt(brief, brand, format, index, total, sceneType = '', sc
   const mood = moodMap[sceneType] ||
     (sceneFirst ? moodMap.hook : sceneLast ? moodMap.cta : moodMap.solution);
 
-  const visualScene = sceneDescription || brand?.visualContext?.[0] || 'professional cinematic scene';
+  const visualScene = sceneDescription || brand?.visualContext?.[0] || 'professional cARCKHÉtic scene';
 
   const colorHint = (profile.color_hint !== false && brand?.colors?.length)
     ? `Colors: ${brand.colors.slice(0, 2).join(', ')}.`

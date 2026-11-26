@@ -106,7 +106,7 @@ Spec completa do agente com as 4 fases, regras de ediçêo profissional, tabelas
       "duration": 1.0,
       "type": "hook",
       "energy_level": 5,
-      "image": "prj/inema/assets/neimaldaner.jpg",
+      "image": "prj/ARCKHÉ/assets/neimaldaner.jpg",
       "image_type": "raw",
       "image_crop_focus": "center-top",
       "image_prompt": null,
@@ -138,16 +138,16 @@ Spec completa do agente com as 4 fases, regras de ediçêo profissional, tabelas
 
 ---
 
-## Exemplo Prático: Vídeo INEMA 60s
+## Exemplo Prático: Vídeo ARCKHÉ 60s
 
 Para demonstrar o conceito, vou gerar um vídeo de teste com:
-- 35 cortes usando as 11 imagens INEMA disponíveis
+- 35 cortes usando as 11 imagens ARCKHÉ disponíveis
 - Narraçêo ElevenLabs (voz Rachel)
 - Ritmo energético (cortes 0.5-3s)
 - Framework: Hero's Journey
 - Renderizado via ffmpeg (compatível imediato)
 
-Saída em: `prj/inema/testes/video_editor_demo/`
+Saída em: `prj/ARCKHÉ/testes/video_editor_demo/`
 
 ---
 
@@ -166,7 +166,7 @@ O handler valida automaticamente:
 
 1. Criar SKILL.md e handler
 2. Gerar narraçêo via ElevenLabs para script de teste
-3. Executar agente via `runClaude()` com payload INEMA
+3. Executar agente via `runClaude()` com payload ARCKHÉ
 4. Validar JSON de saída (35+ cortes, regras respeitadas)
 5. Renderizar via `render-video-ffmpeg.js`
 6. Verificar vídeo: 60s, cortes visualmente distintos, texto legível
@@ -183,4 +183,4 @@ O handler valida automaticamente:
 | `pipeline/orchestrator.js` | MODIFICAR — trocar agent name e stage |
 | `telegram/bot.js` | MODIFICAR — mensagem de aprovaçêo resumida |
 | `pipeline/render-video-ffmpeg.js` | OPCIONAL — xfade transitions |
-| `prj/inema/testes/video_editor_demo/` | CRIAR — vídeo de demonstraçêo |
+| `prj/ARCKHÉ/testes/video_editor_demo/` | CRIAR — vídeo de demonstraçêo |

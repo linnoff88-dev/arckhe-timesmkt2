@@ -1,6 +1,6 @@
 ## Project Overview
 
-**ITAGMKT v4.2.6** — INEMA Time de Agentes de Marketing. AI-powered Social Media Content Automation System built with Claude Code inside the Antigravity IDE.
+**ITAGMKT v4.2.6** — ARCKHÉ Time de Agentes de Marketing. AI-powered Social Media Content Automation System built with Claude Code inside the Antigravity IDE.
 
 ---
 
@@ -237,7 +237,7 @@ Typical Output: `<project_dir>/outputs/<task_name>_<date>/video/ad_pro.mp4`
 
 Skill: `skills/video-art-direction/SKILL.md`
 
-Provides 12 visual style presets (cinematic, editorial, bold, minimal, etc.) defining color palettes, typography, transitions, and mood. Applied by both Video Quick and Video Pro agents.
+Provides 12 visual style presets (cARCKHÉtic, editorial, bold, minimal, etc.) defining color palettes, typography, transitions, and mood. Applied by both Video Quick and Video Pro agents.
 
 ---
 

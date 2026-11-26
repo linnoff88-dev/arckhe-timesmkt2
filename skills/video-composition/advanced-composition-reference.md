@@ -105,7 +105,7 @@
 
 ### 1.20 Layers of Depth (Camadas de Profundidade)
 - Foreground + midground + background distintos
-- Dimensêo cinematográfica, world-building
+- Dimensêo cARCKHÉtográfica, world-building
 - **Uso:** Cena de lifestyle, ambiente completo, narrativa de mundo
 
 ---
@@ -120,7 +120,7 @@
 | **Tilt Vertical** | Rotaçêo vertical | 1–2s | Revelar escala (baixo→cima) | Produto grande, pessoa heroica |
 | **Ken Burns** | Pan+Zoom em imagem estática | 3–6s | Vida em foto, nostalgia, épico | Imagens geradas por IA, fotos |
 | **Handheld (Câmera na Mêo)** | Leve tremor orgânico | — | Autenticidade, urgência, documentário | Testemunho, bastidores |
-| **Smooth Slider** | Movimento horizontal trilho | 2–4s | Premium, cinema, fluidez | Produto hero, showcase |
+| **Smooth Slider** | Movimento horizontal trilho | 2–4s | Premium, cARCKHÉ, fluidez | Produto hero, showcase |
 | **Orbit (Arc Shot)** | Câmera gira ao redor do sujeito | 3–8s | Destaque 360°, importância | Produto central, hero reveal |
 | **Speed Ramp** | Slow-mo → normal → fast | 1–3s | Impacto dramático, destaque de momento | Açêo chave, product reveal |
 | **Whip Pan** | Pan ultra rápido (motion blur) | 0.3–0.5s | Energia, transiçêo dinâmica | Entre cenas, mudança de ritmo |
@@ -160,7 +160,7 @@ CAPTION/LEGAL       → Light, 22–26px, cor secundária, máx 1 linha
 | **Slide From Bottom** | Keyframe Y animation | 300ms | Moderno, dinâmico | Headline principal |
 | **Scale In (Pop)** | `\t(\fscx0\fscy0,\fscx100\fscy100)` | 200ms | Impacto, urgência | CTA, números |
 | **Typewriter** | Caractere por caractere | 50ms/char | Engagement, curiosidade | Hook texto |
-| **Reveal (Wipe)** | Clip-path horizontal | 400ms | Premium, cinema | Brand name, headline |
+| **Reveal (Wipe)** | Clip-path horizontal | 400ms | Premium, cARCKHÉ | Brand name, headline |
 | **Word by Word** | Stagger por palavra | 100ms/word | Ritmo, ênfase | Copy emocional |
 | **Bounce** | Spring animation Y | 300ms | Energia, informal | Apps, produtos jovens |
 
@@ -312,7 +312,7 @@ MÚSICA (BPM alinha com ritmo de corte)
   "duration": 8,
   "narrative_purpose": "hook — apresentar o problema/dor do audience",
   "narration": "Você acorda todo dia sem energia pra encarar o dia?",
-  "image_prompt": "tired person sitting on bed at sunrise, looking exhausted, cinematic morning light, muted warm tones, emotional, photorealistic, no text",
+  "image_prompt": "tired person sitting on bed at sunrise, looking exhausted, cARCKHÉtic morning light, muted warm tones, emotional, photorealistic, no text",
   "text_overlay": "Cansado desde cedo?",
   "text_position": "bottom",
   "composition_model": "close-up, center frame",

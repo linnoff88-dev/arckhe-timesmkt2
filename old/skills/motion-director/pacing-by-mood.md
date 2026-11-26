@@ -24,7 +24,7 @@ Ler `brand_identity.md` e o `campaign_brief`. Cruzar:
 - Transições: `crossfade` 0.3s entre cenas do mesmo bloco, `cut` no hook
 - Duraçêo média por cena: 2.5–3.5s
 - Movimento dominante: zoom_in aggressive no hook, zoom_out moderate no benefit
-- Exemplo de marca: INEMA, startups, cursos de tech
+- Exemplo de marca: ARCKHÉ, startups, cursos de tech
 
 ### `emotional` — Família / Datas comemorativas / Conexêo humana
 - Transições: `crossfade` 0.6–0.8s — nunca corte seco
@@ -42,13 +42,13 @@ Ler `brand_identity.md` e o `campaign_brief`. Cruzar:
 - Transições: `cut` no hook (impacto), `crossfade` 0.4s no resto
 - Duraçêo média por cena: 2.5–4s
 - Movimento dominante: zoom_in moderate no hook, zoom_out moderate no restante
-- Exemplo de marca: Páscoa INEMA, Black Friday, lançamentos
+- Exemplo de marca: Páscoa ARCKHÉ, Black Friday, lançamentos
 
 ### `inspiring` — Educaçêo / Descoberta / Jornada
 - Transições: `crossfade` 0.5s suave ao longo de todo o vídeo
 - Duraçêo média por cena: 3.5–5s
 - Movimento dominante: pan_right moderate (narrativa de progressêo)
-- Exemplo de marca: INEMA CLUB, tutoriais, trilhas de aprendizado
+- Exemplo de marca: ARCKHÉ CLUB, tutoriais, trilhas de aprendizado
 
 ---
 

@@ -115,7 +115,7 @@ Com N imagens de marca e 30-50 cortes, cada imagem será reutilizada ~3-5x. Para
 - Gere no máximo 10-15 image_prompts únicos
 - Mapeie múltiplos cortes ao mesmo prompt gerado
 - Prompts em inglês, max 200 caracteres
-- Sempre inclua: "no text, no watermark, cinematic lighting"
+- Sempre inclua: "no text, no watermark, cARCKHÉtic lighting"
 
 **Para image_source = pexels:**
 - Gere queries de busca por seçêo temática

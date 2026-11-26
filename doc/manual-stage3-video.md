@@ -136,7 +136,7 @@ O worker emite sinais de progresso:
 | Neon Futurista | Tech, inovacao | SaaS, apps |
 | Premium Minimal | Elegancia, luxo | Moda, joias |
 | Energetico | Energia, acao | Fitness, esporte |
-| Cinematico | Narrativo, emocional | Storytelling |
+| CARCKHÉtico | Narrativo, emocional | Storytelling |
 | Editorial | Sofisticacao | Revistas, moda |
 | Bold | Impacto, contraste | Lancamentos |
 | Organico | Natural, suave | Saude, bem-estar |

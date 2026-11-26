@@ -14,7 +14,7 @@ interface LensTransitionProps {
 
 /**
  * LensTransition — Simulates physical camera lens movements between scenes.
- * Replaces plain cuts/crossfades with cinematic blur transitions.
+ * Replaces plain cuts/crossfades with cARCKHÉtic blur transitions.
  *
  * Types:
  * - rack-focus: blur→sharp (entering scene)

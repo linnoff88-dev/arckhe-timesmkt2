@@ -1,6 +1,6 @@
 # ITAGMKT v4.2.6
 
-**INEMA Time de Agentes de Marketing** â€” sistema de automacao de conteudo para marketing digital usando agentes de IA coordenados por um bot Telegram.
+**ARCKHÉ Time de Agentes de Marketing** â€” sistema de automacao de conteudo para marketing digital usando agentes de IA coordenados por um bot Telegram.
 
 O sistema pesquisa, cria narrativa, gera imagens, produz videos, adapta copy para cada plataforma e publica â€” tudo automatizado com aprovacoes humanas em cada etapa.
 
@@ -398,10 +398,10 @@ node pipeline/orchestrator.js --file pipeline/payloads/coldbrew_demo.json
 
 ```bash
 # Dry run (sem publicar de verdade)
-node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20 --dry-run
+node pipeline/publish_now.js prj/ARCKHÉ/outputs/pascoa_2026-04-20 --dry-run
 
 # Publicar
-node pipeline/publish_now.js prj/inema/outputs/pascoa_2026-04-20
+node pipeline/publish_now.js prj/ARCKHÉ/outputs/pascoa_2026-04-20
 ```
 
 ### 7. Ver providers ativos

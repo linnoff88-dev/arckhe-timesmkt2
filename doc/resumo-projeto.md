@@ -1,6 +1,6 @@
 # ITAGMKT v4.2.8 — Resumo do Projeto
 
-> INEMA Time de Agentes de Marketing
+> ARCKHÉ Time de Agentes de Marketing
 
 Sistema de automacao de conteudo para marketing digital, alimentado por IA. Usa **13+ agentes especializados** coordenados por um bot Telegram em um pipeline de 5 etapas com aprovacoes.
 

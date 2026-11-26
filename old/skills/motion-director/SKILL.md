@@ -10,7 +10,7 @@ Roda **após** o Video Ad Specialist e **antes** do renderer.
 
 | Arquivo | O que ensina |
 |---|---|
-| `skills/motion-director/cinematography-rules.md` | Tipos de movimento, intensidade por tipo de cena, regras de enquadramento |
+| `skills/motion-director/cARCKHÉtography-rules.md` | Tipos de movimento, intensidade por tipo de cena, regras de enquadramento |
 | `skills/motion-director/layout-typography.md` | Posicionamento de texto, safe areas, legibilidade, tipografia |
 | `skills/motion-director/pacing-by-mood.md` | Como definir ritmo e transições baseado no tom da campanha |
 | `skills/motion-director/scene-type-presets.md` | Presets de movimento e layout por tipo de cena (hook, benefit, cta...) |
@@ -49,7 +49,7 @@ Para cada imagem no plano, usar a ferramenta Read para visualizá-la e identific
 
 ### Passo 3: Determinar movimento por cena
 
-Consultar `cinematography-rules.md` e `scene-type-presets.md`. Para cada cena definir:
+Consultar `cARCKHÉtography-rules.md` e `scene-type-presets.md`. Para cada cena definir:
 - `motion.type`: `zoom_in` / `zoom_out` / `pan_right` / `pan_left` / `static`
 - `motion.intensity`: `aggressive` (zoom 1.0→1.20) / `moderate` (1.0→1.12) / `subtle` (1.0→1.06) / `static` (sem zoom)
 - Regra: hook → aggressive, benefit → moderate, cta → static ou subtle

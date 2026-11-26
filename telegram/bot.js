@@ -49,7 +49,7 @@ const { enqueueStage: _enqueueStage, STAGES } = require('../pipeline/orchestrato
 
 const bot = new Bot(config.botToken);
 
-const BOT_ACK = 'inemamkt >';
+const BOT_ACK = 'ARCKHÉmkt >';
 
 // ── Auth middleware ──────────────────────────────────────────────────────────
 
@@ -1188,7 +1188,7 @@ bot.command('continue', async (ctx) => {
       'Exemplos:\n' +
       '<code>/continue c16</code>\n' +
       '<code>/continue c16 screenshot</code>\n' +
-      '<code>/continue c16 inema.club</code>',
+      '<code>/continue c16 ARCKHÉ AI</code>',
       { parse_mode: 'HTML' }
     );
   }
@@ -1374,7 +1374,7 @@ bot.command('rerun', async (ctx) => {
       '<code>/rerun c13 video quick</code>\n' +
       '<code>/rerun c13 video pro</code>\n' +
       '<code>/rerun c13 video pro screenshot</code>\n' +
-      '<code>/rerun c13 video pro inema.club</code>\n' +
+      '<code>/rerun c13 video pro ARCKHÉ AI</code>\n' +
       '<code>/rerun c13 imagens api</code>\n' +
       '<code>/rerun c13 2,3</code>\n' +
       '<code>/rerun c13 video pro cleanplan</code>\n' +
@@ -2181,7 +2181,7 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
   if (vPro) {
     lines.push(`  <i>Narraçêo:</i> ${payload.narrator || 'rachel'}`);
     lines.push(`  <i>Duraçêo:</i> ${payload.video_duration || 60}s`);
-    lines.push(`  <i>Style:</i> ${payload.style_preset || 'inema_hightech'}`);
+    lines.push(`  <i>Style:</i> ${payload.style_preset || 'ARCKHÉ_hightech'}`);
   }
   lines.push(`<b>Idioma:</b> ${payload.language}`);
 
@@ -2221,7 +2221,7 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
   lines.push(`• <code>pular pesquisa</code> / <code>pular imagens</code>`);
   lines.push(`• <code>idioma pt-BR</code> / <code>idioma en</code>`);
   lines.push(`• <code>narrador rachel</code> / <code>narrador bella</code>`);
-  lines.push(`• <code>estilo inema_hightech</code> / <code>estilo 01_hero_film</code>`);
+  lines.push(`• <code>estilo ARCKHÉ_hightech</code> / <code>estilo 01_hero_film</code>`);
   lines.push(`• <code>duraçêo 30</code> / <code>duraçêo 60</code> — duraçêo do pro (s)`);
   lines.push(`• <code>fonte brand</code> / <code>fonte api</code> / <code>fonte free</code>`);
   lines.push(`• <code>provider kie</code> / <code>provider pollinations</code>`);
@@ -2241,7 +2241,7 @@ async function showCampaignConfirmation(ctx, chatId, payload) {
 function parseCampaignFromText(text, projectDir, callback) {
   const today = new Date().toISOString().slice(0, 10);
 
-  // Detect project mentioned in text (e.g. "no projeto inema", "projeto coldbrew")
+  // Detect project mentioned in text (e.g. "no projeto ARCKHÉ", "projeto coldbrew")
   const projectMatch = text.match(/projeto\s+([\w-]+)/i);
   if (projectMatch) {
     const mentioned = projectMatch[1].toLowerCase();

@@ -79,7 +79,7 @@ Stage 5: Distribution (guardar + agendar + publicar)
 
 ### Video Art Direction
 - Skill dedicada: `skills/video-art-direction/SKILL.md`
-- 12 presets de estilo visual (cinematic, editorial, bold, minimal, etc.)
+- 12 presets de estilo visual (cARCKHÉtic, editorial, bold, minimal, etc.)
 - Define paleta de cores, tipografia, transicoes e mood por preset
 - Aplicavel tanto ao Quick quanto ao Pro
 

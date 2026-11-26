@@ -3,7 +3,7 @@ import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, us
 
 /**
  * Camera motion effects applied to background images.
- * Simulates cinematic camera movements over still photos.
+ * Simulates cARCKHÉtic camera movements over still photos.
  */
 
 export type CameraEffect =
@@ -230,7 +230,7 @@ export const CameraMotion: React.FC<CameraMotionProps> = ({
             objectFit: 'contain',
             objectPosition: 'center center',
           } : {
-            // Normal images: fill and crop for cinematic motion
+            // Normal images: fill and crop for cARCKHÉtic motion
             minWidth: '100%',
             minHeight: '100%',
             width: 'auto',

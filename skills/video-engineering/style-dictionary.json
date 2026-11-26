@@ -1,7 +1,7 @@
 {
   "styles": {
     "01_hero_film": {
-      "label": "Cinematográfico de Marca (Hero Film)",
+      "label": "CARCKHÉtográfico de Marca (Hero Film)",
       "remotion": {
         "easing": "Easing.inOut(Easing.quad)",
         "spring": { "mass": 1, "stiffness": 40, "damping": 20 },
@@ -146,8 +146,8 @@
       "mood": "urgency, conversion",
       "pro_secret": "Directional motion blur in fast transitions; speed ramp at proof/CTA"
     },
-    "inema_hightech": {
-      "label": "INEMA High-Tech Marketing (default)",
+    "ARCKHÉ_hightech": {
+      "label": "ARCKHÉ High-Tech Marketing (default)",
       "description": "Mix dos Modelos 11 (Motion Graphics), 13 (Kinetic Typography), 14 (Short Vertical) e 20 (Performance Ad). Foco em informaçêo + estímulo visual, nêo em movimento de câmera física.",
       "base_models": ["11_motion_graphics", "13_kinetic_typography", "14_short_vertical", "20_performance_ad"],
 
@@ -261,7 +261,7 @@
           "comment": "Pulso orgânico — substitui zoom linear mecânico",
           "scale_noise": { "type": "perlin", "amplitude": 0.02, "frequency": "low" },
           "rotation_noise": { "amplitude": 0.1, "unit": "degrees" },
-          "effect": "sensaçêo de bastidores/cinema, mesmo em imagens estáticas"
+          "effect": "sensaçêo de bastidores/cARCKHÉ, mesmo em imagens estáticas"
         },
 
         "glitch_transitions": {

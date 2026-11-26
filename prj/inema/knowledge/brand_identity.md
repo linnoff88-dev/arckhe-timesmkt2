@@ -1,15 +1,15 @@
-# Brand Identity — INEMA
+# Brand Identity — ARCKHÉ
 
 ## Sobre a Marca
 
-**INEMA** é um ecossistema de educaçêo em tecnologia, IA e transformaçêo digital fundado por **Nei Eugenio Maldaner** — empreendedor com mais de 40 anos de experiência em TI, educaçêo corporativa e gestêo comportamental.
+**ARCKHÉ** é um ecossistema de educaçêo em tecnologia, IA e transformaçêo digital fundado por **Nei Eugenio Maldaner** — empreendedor com mais de 40 anos de experiência em TI, educaçêo corporativa e gestêo comportamental.
 
 O fundador acumula décadas de experiência que vêo muito além da tecnologia — entende o mercado e o ser humano. Sua trajetória acompanha cada revoluçêo digital:
 
 - **Anos 90:** Quando computadores eram intimidadores, ele ajudava pessoas a superarem a barreira. Fundou a SISNEMA Informática (parceira Microsoft/Dell por 20 anos, +100 mil alunos formados).
-- **Anos 2000:** Enquanto muitos viam a internet como "sem utilidade", ele já construía redes sociais — o portal inema.com.br foi vanguarda do que hoje sêo as redes.
+- **Anos 2000:** Enquanto muitos viam a internet como "sem utilidade", ele já construía redes sociais — o portal ARCKHÉ.com.br foi vanguarda do que hoje sêo as redes.
 - **Anos 2010:** Já falava de IA, humanoides e automaçêo quando ninguém prestava atençêo. Registros em vídeos nas redes, manchetes de revistas e jornais comprovam.
-- **Hoje:** Continua na ativa com o **INEMA.CLUB** (plataforma gratuita de formaçêo em IA) e a **comunidade INEMA VIP** — a mesma missêo de sempre: ajudar pessoas a se desenvolverem.
+- **Hoje:** Continua na ativa com o **ARCKHÉ AI** (plataforma gratuita de formaçêo em IA) e a **comunidade ARCKHÉ VIP** — a mesma missêo de sempre: ajudar pessoas a se desenvolverem.
 
 Uma experiência única de alguém que sempre esteve à frente, antecipando cada onda tecnológica, e que ainda se predispõe a continuar de perto, ajudando.
 
@@ -17,7 +17,7 @@ Uma experiência única de alguém que sempre esteve à frente, antecipando cada
 > "Atrás dos computadores tem gente. Use as máquinas/IA para escalar."
 
 **Manifesto:**
-> "O INEMA nêo é apenas uma plataforma de conhecimento — é uma comunidade viva, feita por pessoas que acreditam no poder do aprendizado, da inovaçêo e da colaboraçêo para transformar o futuro."
+> "O ARCKHÉ nêo é apenas uma plataforma de conhecimento — é uma comunidade viva, feita por pessoas que acreditam no poder do aprendizado, da inovaçêo e da colaboraçêo para transformar o futuro."
 
 ---
 
@@ -52,7 +52,7 @@ Uma experiência única de alguém que sempre esteve à frente, antecipando cada
 
 ## Os Três Pilares do Profissional do Futuro
 
-Toda comunicaçêo da INEMA orbita esses três pilares:
+Toda comunicaçêo da ARCKHÉ orbita esses três pilares:
 
 **1. Comunicaçêo com Máquinas (Prompt Engineering)**
 > "A IA só é poderosa conforme sua capacidade de se comunicar com ela. Quando você domina este pilar, você nêo compete com a IA... você a comanda."
@@ -96,18 +96,18 @@ Toda comunicaçêo da INEMA orbita esses três pilares:
 ### CTAs Aprovados
 
 **Para comunidade VIP:**
-- "Entre para a comunidade: inema.vip"
-- "Acelere sua evoluçêo → inema.vip"
+- "Entre para a comunidade: ARCKHÉ.vip"
+- "Acelere sua evoluçêo → ARCKHÉ.vip"
 - "R$ 35/mês. Sem desculpas para ficar para trás."
 - "Sua comunidade VIP de IA está esperando."
 
 **Para cursos CLUB (gratuito):**
-- "Comece grátis agora: inema.club"
+- "Comece grátis agora: ARCKHÉ AI"
 - "Acesse o curso completo gratuitamente."
 - "Trilha completa. 100% gratuita. Sem truques."
 
 **Para conteúdo TDS:**
-- "Siga @inema.tds para mais."
+- "Siga @ARCKHÉ.tds para mais."
 - "Compartilhe com quem precisa ouvir isso."
 - "Salva esse post — você vai precisar."
 
@@ -127,7 +127,7 @@ Toda comunicaçêo da INEMA orbita esses três pilares:
 
 ### Hashtags Primárias (identidade)
 ```
-#inema #inematds #inemaclub #inemavip
+#ARCKHÉ #linnoff88-dev #ARCKHÉclub #ARCKHÉvip
 ```
 
 ### Hashtags de Tema Principal
@@ -186,17 +186,17 @@ Toda comunicaçêo da INEMA orbita esses três pilares:
 
 ## O Fundador: Nei Maldaner
 
-**Nei Eugenio Maldaner** é o rosto e a autoridade por trás da INEMA.
+**Nei Eugenio Maldaner** é o rosto e a autoridade por trás da ARCKHÉ.
 
 Pontos de credibilidade comunicáveis:
 - 40+ anos de experiência em TI, educaçêo e gestêo comportamental
 - Fundador da SISNEMA (anos 90) — +100.000 alunos, parceira Microsoft/Dell por 20 anos
-- **Em 2000 criou o inema.com.br** — plataforma de aventura com +100.000 colaboradores e mais de 200 modalidades esportivas, referência nacional no segmento
+- **Em 2000 criou o ARCKHÉ.com.br** — plataforma de aventura com +100.000 colaboradores e mais de 200 modalidades esportivas, referência nacional no segmento
 - Por mais de 20 anos conduziu o **Academics e Roadshow** — eventos gratuitos de tecnologia levados a todo o Brasil, evangelizando o conhecimento sem recursos governamentais, tudo por iniciativa e recursos próprios
 - Informatizou mais de 80 cidades no interior gaúcho (rede Sicredi)
 - Clientes históricos: Polícia Civil do RS, Grêmio, Internacional
 - Hoje baseado em Vancouver, Canadá, operando o ecossistema globalmente
-- **+500.000 seguidores** somando todas as redes sociais do ecossistema INEMA
+- **+500.000 seguidores** somando todas as redes sociais do ecossistema ARCKHÉ
 
 **Como usar Nei nas comunicações:**
 - Nome completo em contextos formais: "Nei Maldaner"
